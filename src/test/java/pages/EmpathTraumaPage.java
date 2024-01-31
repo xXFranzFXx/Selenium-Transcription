@@ -1,0 +1,102 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WindowType;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import static io.restassured.RestAssured.get;
+import static io.restassured.RestAssured.given;
+public class EmpathTraumaPage extends BasePage {
+    @FindBy(css = "#transcript-list.TranscriptList_lazy_module_list__d5b2f860")
+    private WebElement transcriptList;
+    @FindBy(xpath = "//div[@id='custom-code-ecQYSk353l']/div/iframe")
+    private WebElement iframe;
+    @FindBy(xpath = "//button[@id='transcript-control-bar-button']")
+    private WebElement transcriptButton;
+    @FindBy(xpath = "//ul[@id='transcript-list']/li/span[1]")
+    private List<WebElement> transcriptTexts;
+    @FindBy(xpath = "//ul[@id='transcript-list']/li[1]")
+    private WebElement firstTranscript;
+    public EmpathTraumaPage(WebDriver givenDriver) {
+        super(givenDriver);
+    }
+    public EmpathTraumaPage switchToIframe() {
+        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(iframe));
+        return this;
+    }
+    public EmpathTraumaPage clickTranscript() {
+        WebElement button = driver.findElement(By.id("transcript-control-bar-button"));
+        button.click();
+        return this;
+    }
+    public EmpathTraumaPage findTranscripts() {
+        int count = 0;
+        while (count <=1) {
+            for (WebElement l : transcriptTexts) {
+                System.out.println(l.getText());
+
+            }
+            count++;
+            List<String> transcripts = transcriptTexts.stream().map(WebElement::getText).toList();
+            System.out.println(count);
+            scrollIntoView(count);
+            count--;
+        }
+
+        return findTranscripts();
+    }
+    public EmpathTraumaPage scrollIntoView(int count) {
+        int group = transcriptTexts.size()-count;
+        System.out.println(count);
+        javascriptExecutor.executeScript("arguments[0].scrollIntoView(true);", transcriptTexts.get(group));
+        return this;
+    }
+    public String getTranscriptListInnerText() {
+        String transcriptInnerText = findElement(transcriptList).getAttribute("innerText");
+        System.out.println(transcriptInnerText);
+        return transcriptInnerText;
+    }
+    public void scrollScreen() {
+        List<String> text = new ArrayList<>();
+        long initialLength = (long) javascriptExecutor.executeScript("return document.body.scrollHeight");
+        actions.moveToElement(firstTranscript).click().perform();
+        System.out.println(initialLength);
+        while (true) {
+
+            javascriptExecutor.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+            try {
+//                wait.until(ExpectedConditions.visibilityOfNestedElementsLocatedBy(transcriptList, transcriptChild));
+                text.add(getTranscriptListInnerText());
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            long currentLength = (long) javascriptExecutor.executeScript("return document.body.scrollHeight");
+            if (initialLength == currentLength) {
+                break;
+            }
+            initialLength = currentLength;
+        }
+        System.out.println("text" + text);
+    }
+    public void scrollPixels(int pixels) {
+        javascriptExecutor.executeScript("window.scrollBy(0, "+pixels+")");
+    }
+    public void keyScroll() {
+        wait.until(ExpectedConditions.visibilityOf(transcriptList));
+        actions.moveToElement(transcriptList).scrollByAmount(0, 624).perform();
+    }
+
+     public EmpathTraumaPage visitIframeSource() {
+        String iframeSrc = getAttribute(iframe, "src");
+        driver.switchTo().newWindow(WindowType.WINDOW);
+        driver.get(iframeSrc);
+        return this;
+    }
+}

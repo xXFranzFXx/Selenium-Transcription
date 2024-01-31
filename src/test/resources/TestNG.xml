@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG" parallel="methods" thread-count="3">
+
+    <test name="transcript tests" preserve-order="false">
+        <parameter name="empathTraumaURL" value="https://www.empathtrauma.com/trauma-release-training-yt3?cdt=UVFlVG80Mk5HQnJMclViN3lPUzM1QT09&amp;vdt=UVFYSW85S1ZSZ1REK0F1eHhlUzM2U1h3aFlRakxCRFlBNGFZQk8wclpnMD0"/>
+<!--        <parameter name="baseURL" value="https://podcasts.helloaudio.fm/playlistPlayer?feedId=6f110cf9-9e21-4271-994c-75535add506c&amp;code=wb75n5fX1v"/>-->
+        <parameter name="easyYesURL" value="https://easyyesleads.com/audio-ads/?vgo_ee=Oeioew3VRrnfbVD4OxGGHAovD7n%2FmfW9d%2BLZRu6EagkJVOvokzT3%3Al6sWzmw5Jts60y%2Bzh1rSfo%2FB4z%2BNo0dr"/>
+        <classes>
+            <class name="tests.EmpathTraumaTests">
+        </class>
+            <class name="tests.RestAPITests"/>
+            <class name="tests.EasyYesLeadsTests"/>
+        </classes>
+    </test>
+</suite>

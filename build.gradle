@@ -1,0 +1,36 @@
+plugins {
+    id 'groovy'
+}
+
+group = 'app.koel.qa'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'io.rest-assured:rest-assured:5.4.0'
+    implementation 'org.apache.groovy:groovy:4.0.14'
+    implementation 'org.testng:testng:7.6.1'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.17.0'
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.4.1'
+    implementation 'org.apache.poi:poi-ooxml:5.2.3'
+    testImplementation 'com.aventstack:extentreports:5.0.9'
+    implementation 'org.apache.logging.log4j:log4j-api:2.22.0'
+    implementation 'org.apache.logging.log4j:log4j-core:2.22.0'
+    implementation 'org.json:json:20151123'
+    implementation 'io.github.cdimascio:dotenv-java:3.0.0'
+    implementation 'com.assemblyai:assemblyai-java:1.0.2'
+    implementation 'org.seleniumhq.selenium:selenium-devtools-v121:4.17.0'
+
+}
+
+test {
+    useTestNG(){
+        suites "src/test/resources/TestNG.xml"
+
+        systemProperty "browser", System.getProperty("browser")
+
+    }
+}
