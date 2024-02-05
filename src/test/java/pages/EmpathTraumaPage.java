@@ -1,9 +1,6 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.WindowType;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
@@ -35,26 +32,39 @@ public class EmpathTraumaPage extends BasePage {
         button.click();
         return this;
     }
-    public EmpathTraumaPage findTranscripts() {
+    public WebElement lazyLoadElement(int i) {
+        String locator = String.format("#transcript-cue-%s span:nth-child(1)", i);
+        WebElement transcriptPortion = find(By.cssSelector(locator));
+        return transcriptPortion;
+    }
+    public List<String> findTranscripts() {
         int count = 0;
-        while (count <=1) {
-            for (WebElement l : transcriptTexts) {
-                System.out.println(l.getText());
-
-            }
+        int limit = 14;
+        int scrollLimit = 29;
+        int newLimit;
+        int maxSections = 868;
+        List<String> allText = new ArrayList<>();
+        while (count <= maxSections) {
+            try {
+            String text = lazyLoadElement(count).getText();
+            allText.add(text);
             count++;
-            List<String> transcripts = transcriptTexts.stream().map(WebElement::getText).toList();
-            System.out.println(count);
-            scrollIntoView(count);
-            count--;
+            } catch(TimeoutException e){
+          for (int j = count; j <= maxSections; j ++) {
+              scrollIntoView(j);
+              String transcriptText = lazyLoadElement(j).getText();
+              allText.add(transcriptText);
+              count++;
+          }
+            }
+            System.out.println(allText);
         }
-
-        return findTranscripts();
+        return allText;
     }
     public EmpathTraumaPage scrollIntoView(int count) {
-        int group = transcriptTexts.size()-count;
+        WebElement textPortion = lazyLoadElement(count);
         System.out.println(count);
-        javascriptExecutor.executeScript("arguments[0].scrollIntoView(true);", transcriptTexts.get(group));
+        javascriptExecutor.executeScript("arguments[0].scrollIntoView(true);", textPortion);
         return this;
     }
     public String getTranscriptListInnerText() {
@@ -62,35 +72,13 @@ public class EmpathTraumaPage extends BasePage {
         System.out.println(transcriptInnerText);
         return transcriptInnerText;
     }
-    public void scrollScreen() {
-        List<String> text = new ArrayList<>();
-        long initialLength = (long) javascriptExecutor.executeScript("return document.body.scrollHeight");
-        actions.moveToElement(firstTranscript).click().perform();
-        System.out.println(initialLength);
-        while (true) {
-
-            javascriptExecutor.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-            try {
-//                wait.until(ExpectedConditions.visibilityOfNestedElementsLocatedBy(transcriptList, transcriptChild));
-                text.add(getTranscriptListInnerText());
-
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            long currentLength = (long) javascriptExecutor.executeScript("return document.body.scrollHeight");
-            if (initialLength == currentLength) {
-                break;
-            }
-            initialLength = currentLength;
-        }
-        System.out.println("text" + text);
-    }
     public void scrollPixels(int pixels) {
         javascriptExecutor.executeScript("window.scrollBy(0, "+pixels+")");
     }
     public void keyScroll() {
+        long initialLength = (long) javascriptExecutor.executeScript("return document.body.scrollHeight");
         wait.until(ExpectedConditions.visibilityOf(transcriptList));
-        actions.moveToElement(transcriptList).scrollByAmount(0, 624).perform();
+        actions.moveToElement(transcriptList).scrollByAmount(0, (int) initialLength).pause(3000).perform();
     }
 
      public EmpathTraumaPage visitIframeSource() {

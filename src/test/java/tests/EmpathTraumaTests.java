@@ -1,12 +1,14 @@
 package tests;
 
 import base.BaseTest;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pages.EmpathTraumaPage;
 
 import java.io.IOException;
+import java.util.List;
 
 public class EmpathTraumaTests extends BaseTest {
     EmpathTraumaPage empathTraumaPage;
@@ -18,9 +20,8 @@ public class EmpathTraumaTests extends BaseTest {
     @Test
     public void clickTranscriptButton() throws InterruptedException, IOException {
         empathTraumaPage = new EmpathTraumaPage(getDriver());
-        empathTraumaPage.visitIframeSource().clickTranscript().findTranscripts();
-        Thread.sleep(20000L);
-
+        List<String> transcript =  empathTraumaPage.visitIframeSource().clickTranscript().findTranscripts();
+        Assert.assertEquals(transcript.size(), 868);
     }
 
 }
