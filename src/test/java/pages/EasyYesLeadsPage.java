@@ -46,5 +46,9 @@ public class EasyYesLeadsPage extends BasePage{
         driver.get(iframeSrc);
         return this;
     }
+    public EasyYesLeadsPage pause(int seconds) {
+        actions.pause(seconds).perform();
+        return this;
+    }
 
 }

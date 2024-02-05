@@ -29,7 +29,7 @@ public class RestAPITests {
         TranscriptUtil.convertTranscriptToFileWithTimestamps(getTranscript());
     }
     @Test
-    public void transcribeFromLink(String link) throws IOException {
-      TranscriptUtil.convertTranscriptToFileFromLink(link);
+    public void transcribeFromLink(String link, String fileName) throws IOException {
+      TranscriptUtil.convertTranscriptToFileFromLink(link, fileName);
     }
 }

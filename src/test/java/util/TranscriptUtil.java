@@ -2,6 +2,7 @@ package util;
 
 import com.assemblyai.api.resources.transcripts.types.Transcript;
 import io.restassured.response.Response;
+import org.testng.Reporter;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -13,6 +14,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class TranscriptUtil {
     public static List<String> extractTranscriptText(Response response) {
@@ -42,12 +45,22 @@ public class TranscriptUtil {
         Files.createFile(filePath);
         Files.writeString(filePath, response.asString(), StandardOpenOption.APPEND);
     }
-    public static void convertTranscriptToFileFromLink(String link) throws IOException {
-        Path filePath = Paths.get("src/test/resources/assemblyAI.txt");
+    public static void convertTranscriptToFileFromLink(String link, String fileName) throws IOException {
+        Path filePath = Paths.get("src/test/resources/"+fileName+".txt");
         Transcript transcript = AssemblyAITranscriber.transcribeAudio(link);
         String transcriptString = String.valueOf(transcript.getText());
         Files.deleteIfExists(filePath);
         Files.createFile(filePath);
         Files.writeString(filePath, transcriptString, StandardOpenOption.APPEND);
+        Reporter.log("Successfully transcribed link: " + link, true);
+        Reporter.log("All links for the current test will be transcribed to "+fileName+".txt", true);
+    }
+    public static List<String> readFileToList(String fileName) throws IOException {
+        Path filePath = Paths.get("src/test/resources/"+fileName+".txt");
+        List<String> result;
+        try (Stream<String> lines = Files.lines(filePath)) {
+            result = lines.toList();
+        }
+        return result;
     }
 }

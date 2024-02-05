@@ -10,7 +10,7 @@ import java.io.File;
 public class ExtentManager {
     private static ExtentReports extent;
     private static Platform platform;
-    private static String reportFileName = "Koel-Test-Automation-Extent-Report.html";
+    private static String reportFileName = "Test-automation-report.html";
     private static String macPath = System.getProperty("user.dir") + "/reports/extent-reports";
     private static String windowsPath = System.getProperty("user.dir") + "\\reports\\extent-reports";
     private static String macReportFileLoc = macPath + "/" + reportFileName;

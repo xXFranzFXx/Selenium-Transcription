@@ -18,13 +18,17 @@ import util.TranscriptUtil;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.net.SocketTimeoutException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
 public class EasyYesLeadsTests extends BaseTest {
     EasyYesLeadsPage easyYesLeadsPage;
-    @Test
+    private final String fileName = "audioLinks";
+    private final int pause = 10000;
+    private final int expectedListSize = 6;
+    @Test(description = "Use selenium devtools to capture network request from click event, then write the captured request data to a txt file")
     @Parameters({"easyYesURL"})
     public void defaultTest(String easyYesURL) throws InterruptedException {
         List<String> audioLinks = new ArrayList<>();
@@ -40,7 +44,7 @@ public class EasyYesLeadsTests extends BaseTest {
             }
             try {
                 for(String l: audioLinks) {
-                    TranscriptUtil.convertTranscriptToFile(audioLinks, "audioLinks");
+                    TranscriptUtil.convertTranscriptToFile(audioLinks, fileName);
                 }
                 Assert.assertFalse(audioLinks.isEmpty());
             } catch (IOException e) {
@@ -50,5 +54,20 @@ public class EasyYesLeadsTests extends BaseTest {
         easyYesLeadsPage = new EasyYesLeadsPage(getDriver());
         easyYesLeadsPage.visitIframeSource().getNetworkRequest();
         devTools.close();
+        Assert.assertEquals(audioLinks.size(), expectedListSize);
+    }
+    @Test(description = "Read file of links created from previous test to a list, then transcribe each link from that list to a new file")
+    public void transcribeLinksFromFile() throws IOException {
+        easyYesLeadsPage = new EasyYesLeadsPage(getDriver());
+        List<String> audioLinks = (TranscriptUtil.readFileToList(fileName));
+        for (String link: audioLinks) {
+            try {
+                TranscriptUtil.convertTranscriptToFileFromLink(link, "transcribedLinksFromFile");
+                easyYesLeadsPage.pause(pause);
+            }catch (SocketTimeoutException e) {
+                e.printStackTrace();
+            }
+        }
+        Assert.assertEquals(audioLinks.size(), expectedListSize);
     }
 }

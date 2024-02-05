@@ -12,6 +12,7 @@ import java.util.List;
 
 public class EmpathTraumaTests extends BaseTest {
     EmpathTraumaPage empathTraumaPage;
+    private final int maxExcerpts = 869;
     @BeforeMethod
     @Parameters({"empathTraumaURL"})
     public void setupBrowser(String empathTraumaURL) {
@@ -21,6 +22,6 @@ public class EmpathTraumaTests extends BaseTest {
     public void clickTranscriptButton() throws InterruptedException, IOException {
         empathTraumaPage = new EmpathTraumaPage(getDriver());
         List<String> transcript = empathTraumaPage.visitIframeSource().clickTranscript().findTranscripts();
-        Assert.assertEquals(transcript.size(), 869);
+        Assert.assertEquals(transcript.size(), maxExcerpts);
     }
 }

@@ -42,26 +42,27 @@ public class EmpathTraumaPage extends BasePage {
         int limit = 14;
         int maxSections = 868;
         List<String> allText = new ArrayList<>();
-        while (count <= maxSections) {
-            try {
+        try{
+            while (count < limit) {
                 String text = lazyLoadElement(count).getText();
                 allText.add(text);
                 count++;
+                }
             } catch(TimeoutException e){
+               e.printStackTrace();
+            } finally {
                 for (int j = count; j <= maxSections; j ++) {
                     scrollIntoView(j-1);
                     String transcriptText = lazyLoadElement(j).getText();
                     allText.add(transcriptText);
                     count++;
                 }
-            }
             System.out.println(allText);
-        }
+         }
         return allText;
     }
     public EmpathTraumaPage scrollIntoView(int count) {
         WebElement textPortion = lazyLoadElement(count);
-        System.out.println(count);
         javascriptExecutor.executeScript("arguments[0].scrollIntoView(true);", textPortion);
         return this;
     }
