@@ -83,3 +83,107 @@
 [FATAL] 2024-02-04 18:51:50.373 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
 [FATAL] 2024-02-04 18:51:50.375 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
 [FATAL] 2024-02-04 18:52:10.425 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[INFO ] 2024-02-04 19:05:47.996 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 19:05:50.496 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 19:06:01.965 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[FATAL] 2024-02-04 19:06:11.978 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[ERROR] 2024-02-04 19:06:11.980 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
+[INFO ] 2024-02-04 19:06:12.420 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
+[INFO ] 2024-02-04 19:06:12.530 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 19:07:42.150 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 19:07:44.957 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 19:07:56.557 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[FATAL] 2024-02-04 19:08:06.614 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[ERROR] 2024-02-04 19:08:06.617 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
+[INFO ] 2024-02-04 19:08:07.096 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
+[INFO ] 2024-02-04 19:08:07.220 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 19:08:38.718 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 19:08:41.115 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 19:08:52.675 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[INFO ] 2024-02-04 19:09:24.357 [TestNG-test=transcript tests-1] Log - clickTranscriptButton passed!
+[INFO ] 2024-02-04 19:09:24.454 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 19:11:57.570 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 19:12:00.089 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 19:12:11.856 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[FATAL] 2024-02-04 19:12:52.569 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[ERROR] 2024-02-04 19:12:52.573 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
+[INFO ] 2024-02-04 19:12:53.057 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
+[INFO ] 2024-02-04 19:12:53.163 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 19:43:09.685 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 19:43:13.081 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 19:43:24.955 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[FATAL] 2024-02-04 19:43:35.017 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[ERROR] 2024-02-04 19:43:35.021 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
+[INFO ] 2024-02-04 19:43:35.469 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
+[INFO ] 2024-02-04 19:43:35.581 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 19:44:37.992 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 19:44:40.476 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 19:44:52.230 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[FATAL] 2024-02-04 19:45:33.417 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[ERROR] 2024-02-04 19:45:33.420 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
+[INFO ] 2024-02-04 19:45:33.891 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
+[INFO ] 2024-02-04 19:45:33.993 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 19:48:38.688 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 19:48:41.068 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 19:48:52.659 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[FATAL] 2024-02-04 19:49:02.702 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[ERROR] 2024-02-04 19:49:02.704 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
+[INFO ] 2024-02-04 19:49:03.157 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
+[INFO ] 2024-02-04 19:49:03.265 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 19:49:19.867 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 19:49:22.269 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 19:49:33.807 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[FATAL] 2024-02-04 19:50:15.439 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[ERROR] 2024-02-04 19:50:15.442 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
+[INFO ] 2024-02-04 19:50:15.914 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
+[INFO ] 2024-02-04 19:50:16.017 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 19:51:11.215 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 19:51:13.639 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 19:51:25.392 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[FATAL] 2024-02-04 19:51:35.425 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[ERROR] 2024-02-04 19:51:35.428 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
+[INFO ] 2024-02-04 19:51:35.878 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
+[INFO ] 2024-02-04 19:51:35.979 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 19:51:49.067 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 19:51:51.567 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 19:52:03.365 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[INFO ] 2024-02-04 19:52:33.538 [TestNG-test=transcript tests-1] Log - clickTranscriptButton passed!
+[INFO ] 2024-02-04 19:52:33.635 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 19:53:25.881 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 19:53:28.279 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 19:53:39.841 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[FATAL] 2024-02-04 19:53:49.888 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[ERROR] 2024-02-04 19:53:49.892 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
+[INFO ] 2024-02-04 19:53:50.338 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
+[INFO ] 2024-02-04 19:53:50.453 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 19:54:09.489 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 19:54:11.970 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 19:54:23.879 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[FATAL] 2024-02-04 19:54:33.900 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[ERROR] 2024-02-04 19:54:33.902 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
+[INFO ] 2024-02-04 19:54:34.353 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
+[INFO ] 2024-02-04 19:54:34.459 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 19:55:02.960 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 19:55:05.431 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 19:55:17.088 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[INFO ] 2024-02-04 19:55:48.136 [TestNG-test=transcript tests-1] Log - clickTranscriptButton passed!
+[INFO ] 2024-02-04 19:55:48.235 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 20:01:05.215 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 20:01:07.751 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 20:01:19.345 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[INFO ] 2024-02-04 20:02:05.281 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 20:02:07.862 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 20:02:19.413 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[INFO ] 2024-02-04 20:02:50.487 [TestNG-test=transcript tests-1] Log - clickTranscriptButton passed!
+[INFO ] 2024-02-04 20:02:50.587 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 20:06:54.854 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 20:06:57.394 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 20:07:09.075 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[ERROR] 2024-02-04 20:07:40.091 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
+[INFO ] 2024-02-04 20:07:40.566 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
+[INFO ] 2024-02-04 20:07:40.679 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-02-04 20:08:11.806 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-02-04 20:08:14.231 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[FATAL] 2024-02-04 20:08:25.856 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
+[INFO ] 2024-02-04 20:08:57.066 [TestNG-test=transcript tests-1] Log - clickTranscriptButton passed!
+[INFO ] 2024-02-04 20:08:57.185 [Test worker] Log - Extent Reports ending!

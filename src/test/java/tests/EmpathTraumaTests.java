@@ -17,11 +17,10 @@ public class EmpathTraumaTests extends BaseTest {
     public void setupBrowser(String empathTraumaURL) {
         getDriver().get(empathTraumaURL);
     }
-    @Test
+    @Test(description = "Get transcript text from every audio excerpt and store it in a List")
     public void clickTranscriptButton() throws InterruptedException, IOException {
         empathTraumaPage = new EmpathTraumaPage(getDriver());
-        List<String> transcript =  empathTraumaPage.visitIframeSource().clickTranscript().findTranscripts();
-        Assert.assertEquals(transcript.size(), 868);
+        List<String> transcript = empathTraumaPage.visitIframeSource().clickTranscript().findTranscripts();
+        Assert.assertEquals(transcript.size(), 869);
     }
-
 }

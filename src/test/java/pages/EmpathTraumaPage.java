@@ -40,22 +40,20 @@ public class EmpathTraumaPage extends BasePage {
     public List<String> findTranscripts() {
         int count = 0;
         int limit = 14;
-        int scrollLimit = 29;
-        int newLimit;
         int maxSections = 868;
         List<String> allText = new ArrayList<>();
         while (count <= maxSections) {
             try {
-            String text = lazyLoadElement(count).getText();
-            allText.add(text);
-            count++;
+                String text = lazyLoadElement(count).getText();
+                allText.add(text);
+                count++;
             } catch(TimeoutException e){
-          for (int j = count; j <= maxSections; j ++) {
-              scrollIntoView(j);
-              String transcriptText = lazyLoadElement(j).getText();
-              allText.add(transcriptText);
-              count++;
-          }
+                for (int j = count; j <= maxSections; j ++) {
+                    scrollIntoView(j-1);
+                    String transcriptText = lazyLoadElement(j).getText();
+                    allText.add(transcriptText);
+                    count++;
+                }
             }
             System.out.println(allText);
         }
@@ -71,6 +69,29 @@ public class EmpathTraumaPage extends BasePage {
         String transcriptInnerText = findElement(transcriptList).getAttribute("innerText");
         System.out.println(transcriptInnerText);
         return transcriptInnerText;
+    }
+    public void scrollScreen() {
+        List<String> text = new ArrayList<>();
+        long initialLength = (long) javascriptExecutor.executeScript("return document.body.scrollHeight");
+        actions.moveToElement(firstTranscript).click().perform();
+        System.out.println(initialLength);
+        while (true) {
+
+            javascriptExecutor.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+            try {
+//                wait.until(ExpectedConditions.visibilityOfNestedElementsLocatedBy(transcriptList, transcriptChild));
+                text.add(getTranscriptListInnerText());
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            long currentLength = (long) javascriptExecutor.executeScript("return document.body.scrollHeight");
+            if (initialLength == currentLength) {
+                break;
+            }
+            initialLength = currentLength;
+        }
+        System.out.println("text" + text);
     }
     public void scrollPixels(int pixels) {
         javascriptExecutor.executeScript("window.scrollBy(0, "+pixels+")");
