@@ -55,6 +55,10 @@ public class TranscriptUtil {
         Reporter.log("Successfully transcribed link: " + link, true);
         Reporter.log("All links for the current test will be transcribed to "+fileName+".txt", true);
     }
+
+    /*
+    use this helper method to construct a list of audio file links from audioLinks.txt file. the links in that list can be transcribed
+     */
     public static List<String> readFileToList(String fileName) throws IOException {
         Path filePath = Paths.get("src/test/resources/"+fileName+".txt");
         List<String> result;
