@@ -25,6 +25,6 @@ A third method that is used is by sending a request with rest-assured and then w
 Follow these steps to get started with the Koel Test Automation Framework:<br><br>
 1.) Clone this repository to your local machine. <br>
 2.) cd selenium-automation-testing <br>
-3.) Rename "sample.env" to ".env" in src/test/resources <br>
+3.) Rename "sample.env" to ".env" in src/test/resources, you will also need an assemblyAI API key<br>
 4.) Fill in all the appropriate property values in the .env file<br>
 5.) gradle clean test<br>
