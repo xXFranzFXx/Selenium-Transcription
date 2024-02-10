@@ -24,7 +24,7 @@ public class EmpathTraumaPage extends BasePage {
         super(givenDriver);
     }
     public EmpathTraumaPage switchToIframe() {
-        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(iframe));
+        switchToIframe(iframe);
         return this;
     }
     public EmpathTraumaPage clickTranscript() {
@@ -34,8 +34,7 @@ public class EmpathTraumaPage extends BasePage {
     }
     public WebElement lazyLoadElement(int i) {
         String locator = String.format("#transcript-cue-%s span:nth-child(1)", i);
-        WebElement transcriptPortion = find(By.cssSelector(locator));
-        return transcriptPortion;
+        return find(By.cssSelector(locator));
     }
     public List<String> findTranscripts() {
         int count = 0;

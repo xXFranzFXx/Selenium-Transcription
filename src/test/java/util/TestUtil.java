@@ -11,7 +11,7 @@ import java.util.Date;
 
 public class TestUtil extends BaseTest {
     public static long sysTime = System.currentTimeMillis();;
-    public static void takeScreenshotAtEndOfTest(String fileName) throws IOException {
+    public static void takeScreenshotAtEndOfTest(String fileName, WebDriver driver) throws IOException {
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         String currentDir = System.getProperty("user.dir");
         FileUtils.copyFile(scrFile, new File(currentDir +"/reports/extent-reports/screenshots/" + fileName + ".png"));

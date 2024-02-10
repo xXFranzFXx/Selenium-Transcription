@@ -60,4 +60,7 @@ public class BasePage {
     protected String getAttribute(WebElement element, String attribute) {
         return findElement(element).getAttribute(attribute);
     }
+    protected void switchToIframe(WebElement element) {
+        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(element));
+    }
 }

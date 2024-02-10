@@ -23,7 +23,7 @@ public class EasyYesLeadsPage extends BasePage{
     }
 
     public EasyYesLeadsPage switchToIframe() {
-        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(iframe));
+       switchToIframe(iframe);
         return this;
     }
     public EasyYesLeadsPage closePopup() {
@@ -41,7 +41,7 @@ public class EasyYesLeadsPage extends BasePage{
         return getAttribute(iframe, "src");
     }
     public EasyYesLeadsPage visitIframeSource() {
-        String iframeSrc = getAttribute(iframe, "src");
+        String iframeSrc = getIframeSrc();
         driver.switchTo().newWindow(WindowType.WINDOW);
         driver.get(iframeSrc);
         return this;

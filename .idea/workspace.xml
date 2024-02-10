@@ -6,6 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="13764810-1cb2-47ee-a611-b661c7e40646" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log4j2-sample-2024-01-30.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log4j2-sample-2024-02-04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log4j2/log4j2-test-automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/log4j2/log4j2-test-automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EasyYesLeadsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/EasyYesLeadsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EmpathTraumaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/EmpathTraumaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/EasyYesLeadsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/EasyYesLeadsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/EmpathTraumaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/EmpathTraumaTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RestAPITests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RestAPITests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/listeners/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/transcribedLinksFromFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/transcribedLinksFromFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/transcriptAndTimestamps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/transcriptAndTimestamps.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +34,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -46,9 +63,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.EasyYesLeadsTests.defaultTest.executor": "Run",
+    "Gradle.EasyYesLeadsTests.executor": "Run",
     "Gradle.EasyYesLeadsTests.readFileToList.executor": "Run",
     "Gradle.EasyYesLeadsTests.transcribeLinksFromFile.executor": "Run",
     "Gradle.EmpathTraumaTests.clickTranscriptButton.executor": "Run",
+    "Gradle.EmpathTraumaTests.executor": "Run",
+    "Gradle.EmpathTraumaTests.getNewToken.executor": "Run",
+    "Gradle.EmpathTraumaTests.writeFileTextOnly.executor": "Run",
+    "Gradle.RestAPITests.executor": "Run",
+    "Gradle.RestAPITests.writeFileTextOnly.executor": "Run",
+    "Gradle.RestAPITests.writeFileTextWitTimeStamps.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -59,8 +84,8 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.EasyYesLeadsTests.transcribeLinksFromFile">
-    <configuration name="EasyYesLeadsTests.readFileToList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.EmpathTraumaTests.getNewToken">
+    <configuration name="EasyYesLeadsTests.defaultTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -73,31 +98,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.EasyYesLeadsTests.readFileToList&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="EasyYesLeadsTests.transcribeLinksFromFile" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.EasyYesLeadsTests.transcribeLinksFromFile&quot;" />
+            <option value="&quot;tests.EasyYesLeadsTests.defaultTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -132,11 +133,85 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="EmpathTraumaTests.getNewToken" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.EmpathTraumaTests.getNewToken&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="EmpathTraumaTests.writeFileTextOnly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.EmpathTraumaTests.writeFileTextOnly&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RestAPITests.writeFileTextOnly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.RestAPITests.writeFileTextOnly&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.EasyYesLeadsTests.transcribeLinksFromFile" />
-        <item itemvalue="Gradle.EasyYesLeadsTests.readFileToList" />
+        <item itemvalue="Gradle.EmpathTraumaTests.getNewToken" />
         <item itemvalue="Gradle.EmpathTraumaTests.clickTranscriptButton" />
+        <item itemvalue="Gradle.RestAPITests.writeFileTextOnly" />
+        <item itemvalue="Gradle.EmpathTraumaTests.writeFileTextOnly" />
+        <item itemvalue="Gradle.EasyYesLeadsTests.defaultTest" />
       </list>
     </recent_temporary>
   </component>

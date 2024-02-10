@@ -26,7 +26,7 @@ import java.util.Optional;
 public class EasyYesLeadsTests extends BaseTest {
     EasyYesLeadsPage easyYesLeadsPage;
     private final String fileName = "audioLinks";
-    private final int pause = 10000;
+    private final int pause = 12000;
     private final int expectedListSize = 6;
     @Test(description = "Use selenium devtools to capture network request from click event, then write the captured request data to a txt file")
     @Parameters({"easyYesURL"})
@@ -53,8 +53,9 @@ public class EasyYesLeadsTests extends BaseTest {
         });
         easyYesLeadsPage = new EasyYesLeadsPage(getDriver());
         easyYesLeadsPage.visitIframeSource().getNetworkRequest();
-        devTools.close();
         Assert.assertEquals(audioLinks.size(), expectedListSize);
+        devTools.close();
+
     }
     @Test(description = "Read file of links created from previous test to a list, then transcribe each link from that list to a new file")
     public void transcribeLinksFromFile() throws IOException {

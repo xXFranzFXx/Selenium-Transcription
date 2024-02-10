@@ -1,5 +1,6 @@
 package util.listeners;
 
+import base.BaseTest;
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
@@ -48,7 +49,7 @@ public class TestListener  implements ITestListener, WebDriverListener {
     public synchronized void onTestFailure(ITestResult result) {
         Log.error(result.getMethod().getMethodName() + " failed!");
         try {
-            TestUtil.takeScreenshotAtEndOfTest(result.getMethod().getMethodName());
+            TestUtil.takeScreenshotAtEndOfTest(result.getMethod().getMethodName(), BaseTest.getDriver());
             test.get().log(Status.FAIL, "fail ❌").addScreenCaptureFromPath("/reports/extent-reports/screenshots/" + result.getMethod().getMethodName() + ".png");
             Log.info("screen shot taken for failed test " + result.getMethod().getMethodName());
         } catch (IOException e) {
