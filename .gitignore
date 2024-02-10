@@ -11,6 +11,7 @@ gradle*
 # Cache of project
 .gradletasknamecache
 /bin/
+.log
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 
