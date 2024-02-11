@@ -32,7 +32,7 @@ public class EmpathTraumaPage extends BasePage {
         button.click();
         return this;
     }
-    public WebElement lazyLoadElement(int i) {
+    private WebElement lazyLoadElement(int i) {
         String locator = String.format("#transcript-cue-%s span:nth-child(1)", i);
         return find(By.cssSelector(locator));
     }
@@ -60,17 +60,16 @@ public class EmpathTraumaPage extends BasePage {
          }
         return allText;
     }
-    public EmpathTraumaPage scrollIntoView(int count) {
+    private void scrollIntoView(int count) {
         WebElement textPortion = lazyLoadElement(count);
         javascriptExecutor.executeScript("arguments[0].scrollIntoView(true);", textPortion);
-        return this;
     }
-    public String getTranscriptListInnerText() {
+    private String getTranscriptListInnerText() {
         String transcriptInnerText = findElement(transcriptList).getAttribute("innerText");
         System.out.println(transcriptInnerText);
         return transcriptInnerText;
     }
-    public void scrollScreen() {
+    private void scrollScreen() {
         List<String> text = new ArrayList<>();
         long initialLength = (long) javascriptExecutor.executeScript("return document.body.scrollHeight");
         actions.moveToElement(firstTranscript).click().perform();
@@ -93,10 +92,10 @@ public class EmpathTraumaPage extends BasePage {
         }
         System.out.println("text" + text);
     }
-    public void scrollPixels(int pixels) {
+    private void scrollPixels(int pixels) {
         javascriptExecutor.executeScript("window.scrollBy(0, "+pixels+")");
     }
-    public void keyScroll() {
+    private void keyScroll() {
         long initialLength = (long) javascriptExecutor.executeScript("return document.body.scrollHeight");
         wait.until(ExpectedConditions.visibilityOf(transcriptList));
         actions.moveToElement(transcriptList).scrollByAmount(0, (int) initialLength).pause(3000).perform();

@@ -37,10 +37,10 @@ public class EasyYesLeadsTests extends BaseTest {
         devTools.createSession();
         devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
         devTools.addListener(Network.requestWillBeSent(), requestConsumer -> {
-            Request res = requestConsumer.getRequest();
-            if(res.getUrl().endsWith(".mp3")){
-                System.out.println(res.getUrl());
-                audioLinks.add(res.getUrl());
+            Request req = requestConsumer.getRequest();
+            if(req.getUrl().endsWith(".mp3")){
+                System.out.println(req.getUrl());
+                audioLinks.add(req.getUrl());
             }
             try {
                 for(String l: audioLinks) {
