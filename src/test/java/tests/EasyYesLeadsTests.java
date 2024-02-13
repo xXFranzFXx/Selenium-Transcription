@@ -16,18 +16,29 @@ import pages.EasyYesLeadsPage;
 import util.TestUtil;
 import util.TranscriptUtil;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.SocketTimeoutException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
+import java.util.stream.Collectors;
+
+import static util.TranscriptUtil.convertTranscriptToFileFromLink;
 
 public class EasyYesLeadsTests extends BaseTest {
     EasyYesLeadsPage easyYesLeadsPage;
     private final String fileName = "audioLinks";
     private final int pause = 12000;
     private final int expectedListSize = 6;
+
+
     @Test(description = "Use selenium devtools to capture network request from click event, then write the captured request data to a txt file")
     @Parameters({"easyYesURL"})
     public void defaultTest(String easyYesURL) throws InterruptedException {
@@ -38,12 +49,12 @@ public class EasyYesLeadsTests extends BaseTest {
         devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
         devTools.addListener(Network.requestWillBeSent(), requestConsumer -> {
             Request req = requestConsumer.getRequest();
-            if(req.getUrl().endsWith(".mp3")){
+            if (req.getUrl().endsWith(".mp3")) {
                 System.out.println(req.getUrl());
                 audioLinks.add(req.getUrl());
             }
             try {
-                for(String l: audioLinks) {
+                for (String l : audioLinks) {
                     TranscriptUtil.convertTranscriptToFile(audioLinks, fileName);
                 }
                 Assert.assertFalse(audioLinks.isEmpty());
@@ -61,14 +72,22 @@ public class EasyYesLeadsTests extends BaseTest {
     public void transcribeLinksFromFile() throws IOException {
         easyYesLeadsPage = new EasyYesLeadsPage(getDriver());
         List<String> audioLinks = (TranscriptUtil.readFileToList(fileName));
-        for (String link: audioLinks) {
+        for (String link : audioLinks) {
             try {
-                TranscriptUtil.convertTranscriptToFileFromLink(link, "transcribedLinksFromFile");
+                convertTranscriptToFileFromLink(link, "transcribedLinksFromFile");
                 easyYesLeadsPage.pause(pause);
-            }catch (SocketTimeoutException e) {
+            } catch (SocketTimeoutException e) {
                 e.printStackTrace();
             }
         }
         Assert.assertEquals(audioLinks.size(), expectedListSize);
+    }
+    @Test(description = "Asynchronously read links from file into a list, then transcribe the links to a new file using CompletableFuture")
+    public void transcribe() throws ExecutionException, InterruptedException {
+        easyYesLeadsPage = new EasyYesLeadsPage(getDriver());
+        TranscriptUtil.asyncTranscribeLinks();
+        Path filePath = Path.of("src/test/resources/asyncTranscribeFromLinks.txt");
+        boolean exists = Files.exists(filePath);
+        Assert.assertTrue(exists);
     }
 }
