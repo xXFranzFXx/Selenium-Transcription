@@ -1,6 +1,8 @@
 package util;
 import com.assemblyai.api.AssemblyAI;
 import com.assemblyai.api.resources.transcripts.types.*;
+import util.listeners.TestListener;
+import util.logs.Log;
 
 
 public class AssemblyAITranscriber {
@@ -12,7 +14,13 @@ public class AssemblyAITranscriber {
         Transcript transcript = client.transcripts().transcribe(url);
         if (transcript.getStatus().equals("error")) {
             System.err.println(transcript.getError());
+            Log.error("Error transcribing audio url: " + transcript.getAudioUrl());
+            Log.error("Error message: " + transcript.getError());
         }
-       return transcript;
+        Log.info("Audio url: " + transcript.getAudioUrl());
+        Log.info("Audio transcription id: " + transcript.getId());
+        Log.info("Audio duration: " + transcript.getAudioDuration());
+        Log.info("Audio transcription summary: " + transcript.getSummary());
+        return transcript;
     }
 }
