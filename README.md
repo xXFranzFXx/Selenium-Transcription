@@ -14,13 +14,14 @@ Java <br>
 <h3>Libraries/Tools Used</h3> 
 * Selenium - Web automation<br>
 * Selenium devtools - capturing network requests<br>
+* CompletableFutures to handle async queries<br>
+* assemblyAI - transcribing audio files<br>
 * TestNG - Test execution<br>
 * REST Assured - Validation of REST web services<br>
 * log4j - Capturing logs<br>
 * Extent Reports - reporting<br>
 * Gradle - Build and package management<br>
-* assemblyAI - transcribing audio files<br>
-* CompletableFutures to handle async queries<br>
+
 <h3>Overview</h3>
 This project demonstrates test automation with iframes containing lazy-loaded elements. The aim is to locate audio data that can be used to create transcripts. Selenium devtools is used to capture network requests, associated with click events in order to get audio file links from the request.  The links are then passed to the assemblyAI API to produce transcriptions of the audio files.  If the target provides text or transcription data already, then that data is simply located and written to a text file (.txt).
 <h3>Getting Started</h3>
