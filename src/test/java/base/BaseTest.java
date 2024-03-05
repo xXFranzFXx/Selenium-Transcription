@@ -95,7 +95,7 @@ public class BaseTest {
             case "cloud":
                 return lambdaTest();
           default:
-                WebDriverManager.chromedriver().setup();
+                WebDriverManager.chromedriver().driverVersion("122").setup();
                 ChromeDriverService service = new ChromeDriverService.Builder().usingAnyFreePort().build();
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--remote-allow-origins=*", "--disable-notifications", "--start-maximized", "--incognito");
