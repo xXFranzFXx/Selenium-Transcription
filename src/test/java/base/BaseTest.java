@@ -38,20 +38,14 @@ import java.util.HashMap;
 import java.util.logging.Level;
 
 public class BaseTest {
-
     public static WebDriver driver;
     private static final ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
-
     public static WebDriver getDriver() {
         return threadDriver.get();
     }
-
-
-
     public static void navigateToLogin(String baseURL) {
         getDriver().get(baseURL);
     }
-
 
     @BeforeMethod
     public static void setupBrowser() throws MalformedURLException {
@@ -86,12 +80,9 @@ public class BaseTest {
             case "grid-chrome":
                 ChromeOptions options1 = new ChromeOptions();
                 options1.addArguments("--remote-allow-origins=*", "--disable-notifications", "--start-maximized", "--incognito");
-
                 caps.setCapability("browserName", "chrome");
                 caps.setCapability(ChromeOptions.CAPABILITY, options1);
-
                 return driver = new RemoteWebDriver(URI.create(gridURL).toURL(),caps);
-
             case "cloud":
                 return lambdaTest();
           default:
@@ -106,14 +97,6 @@ public class BaseTest {
                 caps.setCapability(ChromeOptions.CAPABILITY, options);
                 EventFiringDecorator<WebDriver> decorator = new EventFiringDecorator<>(eventListener);
                 return decorator.decorate(driver);
-
-//            default:
-//                WebDriverManager.chromedriver().setup();
-//                ChromeOptions options = new ChromeOptions();
-//                options.addArguments("--remote-allow-origins=*", "--disable-notifications", "--start-maximized", "--incognito");
-//
-//                return driver = new ChromeDriver(options);
-
         }
     }
     public static WebDriver lambdaTest() throws MalformedURLException {
@@ -149,8 +132,5 @@ public class BaseTest {
             threadDriver.remove();
         }
         threadDriver.get().quit();
-
     }
-
-
 }
