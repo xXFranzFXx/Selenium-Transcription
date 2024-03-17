@@ -66,7 +66,7 @@ public class BaseTest {
             case "MicrosoftEdge":
                 WebDriverManager.edgedriver().setup();
                 EdgeOptions edgeOptions = new EdgeOptions();
-//                edgeOptions.addArguments(new String[]{"--remote-allow-origins=*", "--disable-notifications", "--start-maximized"});
+               // edgeOptions.addArguments(new String[]{"--remote-allow-origins=*", "--disable-notifications", "--start-maximized"});
                 return driver = new EdgeDriver();
             //gradle clean test -Dbrowser=grid-edge
             case "grid-edge":
@@ -123,7 +123,6 @@ public class BaseTest {
     public static void loadEnv() {
         Dotenv dotenv = Dotenv.configure().directory("./src/test/resources").load();
         dotenv.entries().forEach(e -> System.setProperty(e.getKey(), e.getValue()));
-
     }
     @AfterMethod
     public static void closeBrowser() {
