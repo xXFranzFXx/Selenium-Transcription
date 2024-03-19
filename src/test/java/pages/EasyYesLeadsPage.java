@@ -31,7 +31,7 @@ public class EasyYesLeadsPage extends BasePage{
         actions.moveToElement(closeButton).click().perform();
         return this;
     }
-    public EasyYesLeadsPage getNetworkRequest() throws InterruptedException {
+    public EasyYesLeadsPage getNetworkRequest() {
         for(WebElement t: tracks) {
             actions.moveToElement(t).click().perform();
         }
