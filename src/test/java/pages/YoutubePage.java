@@ -13,7 +13,6 @@ import java.time.Duration;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class YoutubePage extends BasePage{
     @CacheLookup
@@ -34,6 +33,7 @@ public class YoutubePage extends BasePage{
     @FindBy(css="#subscribe-button-shape .yt-spec-touch-feedback-shape__fill")
     private WebElement subscribeButton;
     private By subscribeBtn = By.cssSelector("#subscribe-button-shape button");
+    public static String durationRe = "([1-9][0-99]+|[01]?[0-9])(?=:)";
     public YoutubePage(WebDriver givenDriver) {
         super(givenDriver);
     }
@@ -68,16 +68,17 @@ public class YoutubePage extends BasePage{
                 .collect(Collectors.toMap(
                         getTimeStamps()::get, getSegmentText()::get));
     }
-    public List<String> mapToList() {
-        Map<String, String> newMap = new HashMap<>(createMap());
-        Set<Map.Entry<String, String>> entries = newMap.entrySet();
-        List<String> transcriptList = new ArrayList<>(entries.stream().map(entry -> entry.getKey() + " " + entry.getValue()).sorted().toList());
-        transcriptList.addFirst(getTranscriptLanguage());
-        transcriptList.addFirst("video url: " + driver.getCurrentUrl());
-        transcriptList.addFirst(getTitle());
-        return transcriptList;
+    public List<String> createTranscriptList() {
+        List<String> timeStamps = getTimeStamps();
+        List<String> segmentTexts = getSegmentText();
+        List<String> transcript = new ArrayList<>(IntStream.range(0, Math.min(timeStamps.size(), segmentTexts.size()))
+               .mapToObj(i ->timeStamps.get(i) + " : " + segmentTexts.get(i))
+               .toList());
+        transcript.addFirst("language: " + getTranscriptLanguage());
+        transcript.addFirst("video url: " + driver.getCurrentUrl());
+        transcript.addFirst("title: " + getTitle());
+        return transcript;
     }
-
     public String getTitle() {
         return findElement(title).getText();
     }

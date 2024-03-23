@@ -29,7 +29,7 @@ public class YoutubePageTests extends BaseTest {
     public void clickTranscriptButton() throws IOException {
         youtubePage = new YoutubePage(getDriver());
         youtubePage.clickMore().clickTranscript();
-        List<String> transcriptList =  youtubePage.mapToList();
+        List<String> transcriptList =  youtubePage.createTranscriptList();
         TranscriptUtil.convertTranscriptToFile(transcriptList, "youtubeTranscript");
         Assert.assertEquals(youtubePage.createMap().keySet().size(), youtubePage.getTimeStamps().size());
     }
