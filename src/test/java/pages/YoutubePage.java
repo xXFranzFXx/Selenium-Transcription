@@ -33,12 +33,11 @@ public class YoutubePage extends BasePage{
     @FindBy(css="#subscribe-button-shape .yt-spec-touch-feedback-shape__fill")
     private WebElement subscribeButton;
     private By subscribeBtn = By.cssSelector("#subscribe-button-shape button");
-    public static String durationRe = "([1-9][0-99]+|[01]?[0-9])(?=:)";
     public YoutubePage(WebDriver givenDriver) {
         super(givenDriver);
     }
 
-    public boolean isSubscribeBtnVisible() {
+    private boolean isSubscribeBtnVisible() {
         WebElement elementWait = new WebDriverWait(driver, Duration.ofSeconds(35)).until(ExpectedConditions.presenceOfElementLocated(subscribeBtn));
         return find(subscribeBtn).isDisplayed();
     }
@@ -54,22 +53,24 @@ public class YoutubePage extends BasePage{
         clickElement(transcriptButton);
         return this;
     }
-
-    public List<String> getTimeStamps() {
+    public int getTimeStamps() {
+        return getTimeStampsList().size();
+    }
+    private List<String> getTimeStampsList() {
         List<WebElement> timeStamps = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("ytd-transcript-segment-renderer[rounded-container] .segment-timestamp.ytd-transcript-segment-renderer")));
         return timeStamps.stream().map(WebElement::getText).toList();
     }
-    public List<String> getSegmentText() {
+    private List<String> getSegmentText() {
      return transcrSegText.stream().map(WebElement::getText).toList();
     }
     public Map<String, String> createMap() {
-        return IntStream.range(0, getTimeStamps().size())
+        return IntStream.range(0, getTimeStamps())
                 .boxed()
                 .collect(Collectors.toMap(
-                        getTimeStamps()::get, getSegmentText()::get));
+                        getTimeStampsList()::get, getSegmentText()::get));
     }
     public List<String> createTranscriptList() {
-        List<String> timeStamps = getTimeStamps();
+        List<String> timeStamps = getTimeStampsList();
         List<String> segmentTexts = getSegmentText();
         List<String> transcript = new ArrayList<>(IntStream.range(0, Math.min(timeStamps.size(), segmentTexts.size()))
                .mapToObj(i ->timeStamps.get(i) + " : " + segmentTexts.get(i))
@@ -79,10 +80,10 @@ public class YoutubePage extends BasePage{
         transcript.addFirst("title: " + getTitle());
         return transcript;
     }
-    public String getTitle() {
+    private String getTitle() {
         return findElement(title).getText();
     }
-    public String getTranscriptLanguage() {
+    private String getTranscriptLanguage() {
         return findElement(transcriptLang).getText();
     }
 }

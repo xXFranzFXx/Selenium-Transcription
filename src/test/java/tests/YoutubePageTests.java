@@ -31,6 +31,6 @@ public class YoutubePageTests extends BaseTest {
         youtubePage.clickMore().clickTranscript();
         List<String> transcriptList =  youtubePage.createTranscriptList();
         TranscriptUtil.convertTranscriptToFile(transcriptList, "youtubeTranscript");
-        Assert.assertEquals(youtubePage.createMap().keySet().size(), youtubePage.getTimeStamps().size());
+        Assert.assertEquals(youtubePage.createMap().keySet().size(), youtubePage.getTimeStamps());
     }
 }
