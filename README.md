@@ -5,6 +5,7 @@
 <h3>Test Subject</h3>
 https://empathtrauma.com<br>
 https://easyyesleads.com<br>
+https://www.youtube.com<br>
 <img src="assets/empath.png" width="225" height="175"/>
 <img src="assets/easyYesLeads.png" width="225" height="175"/>
 
@@ -30,4 +31,5 @@ Follow these steps to get started with the Koel Test Automation Framework:<br><b
 2.) cd selenium-transcription <br>
 3.) Rename "sample.env" to ".env" in src/test/resources, you will also need an assemblyAI API key<br>
 4.) Fill in all the appropriate property values in the .env file<br>
-5.) gradle clean test<br>
+5.) Add the url for any youtube video as a TestNG parameter in the TextNG.xml file
+6.) gradle clean test<br>
