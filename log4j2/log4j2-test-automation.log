@@ -1,44 +1,30 @@
-[INFO ] 2024-03-22 10:46:32.137 [Test worker] Log - Extent Reports started!
-[INFO ] 2024-03-22 10:47:22.647 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
-[ERROR] 2024-03-22 10:47:35.976 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
-[INFO ] 2024-03-22 10:47:37.096 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
-[INFO ] 2024-03-22 10:47:37.288 [Test worker] Log - Extent Reports ending!
-[INFO ] 2024-03-22 10:49:18.208 [Test worker] Log - Extent Reports started!
-[INFO ] 2024-03-22 10:50:04.353 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
-[INFO ] 2024-03-22 10:56:27.023 [Test worker] Log - Extent Reports started!
-[INFO ] 2024-03-22 10:56:47.740 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
-[FATAL] 2024-03-22 10:57:07.625 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
-[FATAL] 2024-03-22 10:57:17.673 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
-[INFO ] 2024-03-22 10:58:45.732 [Test worker] Log - Extent Reports started!
-[INFO ] 2024-03-22 10:59:19.453 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
-[FATAL] 2024-03-22 10:59:31.244 [TestNG-test=transcript tests-1] Log - Error while calling method: findElement - null
-[ERROR] 2024-03-22 10:59:35.184 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
-[INFO ] 2024-03-22 10:59:35.713 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
-[INFO ] 2024-03-22 10:59:35.890 [Test worker] Log - Extent Reports ending!
-[INFO ] 2024-03-22 11:02:45.929 [Test worker] Log - Extent Reports started!
-[INFO ] 2024-03-22 11:03:03.788 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
-[INFO ] 2024-03-22 11:03:24.045 [TestNG-test=transcript tests-1] Log - clickTranscriptButton passed!
-[INFO ] 2024-03-22 11:03:24.192 [Test worker] Log - Extent Reports ending!
-[INFO ] 2024-03-22 11:25:31.528 [Test worker] Log - Extent Reports started!
-[INFO ] 2024-03-22 11:25:56.246 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
-[INFO ] 2024-03-22 11:26:18.495 [TestNG-test=transcript tests-1] Log - clickTranscriptButton passed!
-[INFO ] 2024-03-22 11:26:18.688 [Test worker] Log - Extent Reports ending!
-[INFO ] 2024-03-22 12:01:13.015 [Test worker] Log - Extent Reports started!
-[FATAL] 2024-03-22 12:01:32.872 [TestNG-test=transcript tests-1] Log - Error while calling method: get - null
-[INFO ] 2024-03-22 12:01:32.877 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
-[WARN ] 2024-03-22 12:01:32.884 [TestNG-test=transcript tests-1] Log - clickTranscriptButton skipped
-[INFO ] 2024-03-22 12:01:32.892 [Test worker] Log - Extent Reports ending!
-[INFO ] 2024-03-22 12:02:06.171 [Test worker] Log - Extent Reports started!
-[INFO ] 2024-03-22 12:02:26.226 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
-[ERROR] 2024-03-22 12:02:52.783 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
-[INFO ] 2024-03-22 12:02:53.426 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
-[INFO ] 2024-03-22 12:02:53.600 [Test worker] Log - Extent Reports ending!
-[INFO ] 2024-03-22 12:05:16.583 [Test worker] Log - Extent Reports started!
-[INFO ] 2024-03-22 12:05:31.627 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
-[ERROR] 2024-03-22 12:05:58.755 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
-[INFO ] 2024-03-22 12:05:59.319 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
-[INFO ] 2024-03-22 12:05:59.482 [Test worker] Log - Extent Reports ending!
-[INFO ] 2024-03-22 13:42:03.228 [Test worker] Log - Extent Reports started!
-[INFO ] 2024-03-22 13:42:21.469 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
-[INFO ] 2024-03-22 13:42:47.200 [TestNG-test=transcript tests-1] Log - clickTranscriptButton passed!
-[INFO ] 2024-03-22 13:42:47.353 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-03-23 09:41:26.437 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-03-23 09:41:48.749 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[INFO ] 2024-03-23 09:42:26.643 [TestNG-test=transcript tests-1] Log - clickTranscriptButton passed!
+[INFO ] 2024-03-23 09:42:26.799 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-03-23 09:58:05.424 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-03-23 09:58:22.334 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[INFO ] 2024-03-23 09:58:59.763 [TestNG-test=transcript tests-1] Log - clickTranscriptButton passed!
+[INFO ] 2024-03-23 09:58:59.863 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-03-23 10:00:19.408 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-03-23 10:00:40.151 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[INFO ] 2024-03-23 10:01:12.535 [TestNG-test=transcript tests-1] Log - clickTranscriptButton passed!
+[INFO ] 2024-03-23 10:01:12.663 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-03-23 10:11:39.902 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-03-23 10:12:05.159 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[ERROR] 2024-03-23 10:12:27.483 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
+[INFO ] 2024-03-23 10:12:28.030 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
+[INFO ] 2024-03-23 10:12:28.189 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-03-23 10:13:37.593 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-03-23 10:13:56.022 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[ERROR] 2024-03-23 10:14:18.279 [TestNG-test=transcript tests-1] Log - clickTranscriptButton failed!
+[INFO ] 2024-03-23 10:14:18.806 [TestNG-test=transcript tests-1] Log - screen shot taken for failed test clickTranscriptButton
+[INFO ] 2024-03-23 10:14:18.962 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-03-23 10:16:52.645 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-03-23 10:17:10.703 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[INFO ] 2024-03-23 10:17:45.886 [TestNG-test=transcript tests-1] Log - clickTranscriptButton passed!
+[INFO ] 2024-03-23 10:17:45.997 [Test worker] Log - Extent Reports ending!
+[INFO ] 2024-03-23 10:24:16.488 [Test worker] Log - Extent Reports started!
+[INFO ] 2024-03-23 10:24:31.811 [TestNG-test=transcript tests-1] Log - clickTranscriptButton started!
+[INFO ] 2024-03-23 10:25:07.866 [TestNG-test=transcript tests-1] Log - clickTranscriptButton passed!
+[INFO ] 2024-03-23 10:25:07.989 [Test worker] Log - Extent Reports ending!
