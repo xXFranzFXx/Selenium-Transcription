@@ -38,7 +38,9 @@ public class YoutubePage extends BasePage{
     }
 
     private boolean isSubscribeBtnVisible() {
-        WebElement elementWait = new WebDriverWait(driver, Duration.ofSeconds(35)).until(ExpectedConditions.presenceOfElementLocated(subscribeBtn));
+        WebElement elementWait = new WebDriverWait(
+                driver, Duration.ofSeconds(35))
+                .until(ExpectedConditions.presenceOfElementLocated(subscribeBtn));
         return find(subscribeBtn).isDisplayed();
     }
     public YoutubePage clickMore() {
@@ -57,11 +59,17 @@ public class YoutubePage extends BasePage{
         return getTimeStampsList().size();
     }
     private List<String> getTimeStampsList() {
-        List<WebElement> timeStamps = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("ytd-transcript-segment-renderer[rounded-container] .segment-timestamp.ytd-transcript-segment-renderer")));
-        return timeStamps.stream().map(WebElement::getText).toList();
+        List<WebElement> timeStamps = wait.until(
+                ExpectedConditions.visibilityOfAllElementsLocatedBy(
+                        By.cssSelector("ytd-transcript-segment-renderer[rounded-container] .segment-timestamp.ytd-transcript-segment-renderer")));
+        return timeStamps.stream()
+                .map(WebElement::getText)
+                .toList();
     }
     private List<String> getSegmentText() {
-     return transcrSegText.stream().map(WebElement::getText).toList();
+     return transcrSegText.stream()
+             .map(WebElement::getText)
+             .toList();
     }
     public Map<String, String> createMap() {
         return IntStream.range(0, getTimeStamps())
