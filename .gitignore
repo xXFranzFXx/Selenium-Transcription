@@ -16,3 +16,4 @@ gradle*
 # gradle/wrapper/gradle-wrapper.properties
 .iml
 /out/
+/log4j2/log4j2-test-automation.log
