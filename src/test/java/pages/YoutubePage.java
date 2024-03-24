@@ -72,7 +72,8 @@ public class YoutubePage extends BasePage{
     public List<String> createTranscriptList() {
         List<String> timeStamps = getTimeStampsList();
         List<String> segmentTexts = getSegmentText();
-        List<String> transcript = new ArrayList<>(IntStream.range(0, Math.min(timeStamps.size(), segmentTexts.size()))
+        List<String> transcript = new ArrayList<>(
+                IntStream.range(0, Math.min(timeStamps.size(), segmentTexts.size()))
                .mapToObj(i ->timeStamps.get(i) + " : " + segmentTexts.get(i))
                .toList());
         transcript.addFirst("language: " + getTranscriptLanguage());
