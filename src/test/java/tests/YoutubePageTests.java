@@ -23,7 +23,7 @@ public class YoutubePageTests extends BaseTest {
         getDriver().get(youtubeURL);
     }
 
-    @Test(description = "Get transcript text from every audio excerpt and store it in a List")
+    @Test(description = "Get transcript text from every audio excerpt and write to a file")
     public void clickTranscriptButton() throws IOException {
         youtubePage = new YoutubePage(getDriver());
         youtubePage.clickMore().clickTranscript();
