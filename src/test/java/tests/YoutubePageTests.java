@@ -2,7 +2,7 @@ package tests;
 
 import base.BaseTest;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
+
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -11,10 +11,8 @@ import pages.YoutubePage;
 import util.TranscriptUtil;
 
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 
 public class YoutubePageTests extends BaseTest {
     YoutubePage youtubePage;
