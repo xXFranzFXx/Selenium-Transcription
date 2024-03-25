@@ -23,8 +23,8 @@ import java.util.Set;
 
 public class TestListener  implements ITestListener, WebDriverListener {
     //Extent Report Declarations
-    ExtentReports extent = ExtentManager.getInstance();
-    ThreadLocal<ExtentTest> test = new ThreadLocal<>();
+    static ExtentReports extent = ExtentManager.getInstance();
+    static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
     @Override
     public synchronized void onStart(ITestContext context) {
        Log.info("Extent Reports started!");
