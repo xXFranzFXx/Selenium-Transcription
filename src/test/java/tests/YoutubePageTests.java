@@ -4,22 +4,17 @@ import base.BaseTest;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.HasDevTools;
 import org.openqa.selenium.devtools.v121.network.Network;
-import org.openqa.selenium.devtools.v121.network.model.DataReceived;
 import org.openqa.selenium.devtools.v121.network.model.Request;
 import org.openqa.selenium.devtools.v121.network.model.RequestId;
-import org.openqa.selenium.devtools.v121.network.model.Response;
 import org.testng.Assert;
 
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import pages.EasyYesLeadsPage;
 import pages.YoutubePage;
 import util.TranscriptUtil;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
@@ -28,13 +23,6 @@ import java.util.concurrent.ExecutionException;
 
 public class YoutubePageTests extends BaseTest {
     YoutubePage youtubePage;
-
-//    @BeforeMethod
-//    @Parameters({"youtubeURL"})
-//    public void setupBrowser(String youtubeURL) {
-//        getDriver().get(youtubeURL);
-//    }
-
     @Test(description = "Get transcript text from every audio excerpt and write to a file")
     public void clickTranscriptButton() throws IOException {
         youtubePage = new YoutubePage(getDriver());
@@ -44,9 +32,9 @@ public class YoutubePageTests extends BaseTest {
         Assert.assertEquals(youtubePage.createMap().keySet().size(), youtubePage.getTimeStamps());
     }
 
-    @Test(description = "Use selenium devtools to capture network request from click event, then write the captured request data to a txt file")
+    @Test(description = "Get the closed captions from network response and write to file")
     @Parameters({"youtubeURL"})
-    public void defaultTest(String youtubeURL) {
+    public void writeClosedCaptionsToFile(String youtubeURL) {
         final CompletableFuture<RequestId> requestId = new CompletableFuture<>();
         final CompletableFuture<String> resBody = new CompletableFuture<>();
 
