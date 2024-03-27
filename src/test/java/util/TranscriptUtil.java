@@ -42,6 +42,14 @@ public class TranscriptUtil {
                     StandardOpenOption.APPEND);
         }
     }
+    public static void convertTranscriptToFile(String transcript, String name) throws IOException {
+        Path filePath = Path.of("src/test/resources/"+name+".txt");
+        Files.deleteIfExists(filePath);
+        Files.createFile(filePath);
+        Files.writeString(filePath, transcript,
+                    StandardOpenOption.CREATE_NEW);
+
+    }
     public static void convertTranscriptToFileWithTimestamps(Response response) throws IOException {
         Path filePath = Path.of("src/test/resources/transcriptAndTimestamps.txt");
         Files.deleteIfExists(filePath);

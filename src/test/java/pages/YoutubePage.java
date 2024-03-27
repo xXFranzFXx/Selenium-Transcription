@@ -18,6 +18,8 @@ public class YoutubePage extends BasePage{
     @CacheLookup
     @FindBy(css = "#expand")
     private WebElement moreLocator;
+    @FindBy(css =".ytp-chrome-bottom button.ytp-subtitles-button.ytp-button")
+    private WebElement closedCaptionButtons;
     @FindBy(css = "#label-text")
     private WebElement transcriptLang;
     @FindBy(css = "#title > h1 > yt-formatted-string")
@@ -94,5 +96,12 @@ public class YoutubePage extends BasePage{
     }
     private String getTranscriptLanguage() {
         return findElement(transcriptLang).getText();
+    }
+    public YoutubePage clickCCBtn(){
+        if (isSubscribeBtnVisible()) {
+            actions.sendKeys(Keys.SPACE).perform();
+            findElement(closedCaptionButtons).click();
+        }
+        return this;
     }
 }
