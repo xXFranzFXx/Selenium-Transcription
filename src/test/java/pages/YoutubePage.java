@@ -18,6 +18,8 @@ public class YoutubePage extends BasePage{
     @CacheLookup
     @FindBy(css = "#expand")
     private WebElement moreLocator;
+    @FindBy(css = ".ytp-ad-skip-button-modern")
+    private WebElement skipButton;
     @FindBy(css =".ytp-chrome-bottom button.ytp-subtitles-button.ytp-button")
     private WebElement closedCaptionButtons;
     @FindBy(css = "#label-text")
@@ -99,7 +101,9 @@ public class YoutubePage extends BasePage{
     }
     public YoutubePage clickCCBtn(){
         if (isSubscribeBtnVisible()) {
+            WebElement skipBtn = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".ytp-ad-skip-button-modern")));
             actions.sendKeys(Keys.SPACE).perform();
+            findElement(skipBtn).click();
             findElement(closedCaptionButtons).click();
         }
         return this;
