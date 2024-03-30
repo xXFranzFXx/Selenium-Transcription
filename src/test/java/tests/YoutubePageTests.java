@@ -34,7 +34,7 @@ public class YoutubePageTests extends BaseTest {
 
     @Test(description = "Get the closed captions from network response and write to file")
     @Parameters({"youtubeURL"})
-    public void writeClosedCaptionsToFile(String youtubeURL) {
+    public void writeClosedCaptionsToFile(String youtubeURL) throws ExecutionException, InterruptedException, IOException {
         final CompletableFuture<RequestId> requestId = new CompletableFuture<>();
         final CompletableFuture<String> resBody = new CompletableFuture<>();
 
@@ -47,20 +47,23 @@ public class YoutubePageTests extends BaseTest {
             Request req = requestConsumer.getRequest();
             if(req.getUrl().contains("timedtext")) {
                 requestId.complete(requestConsumer.getRequestId());
+                System.out.println("request " + req.getUrl() + " " + requestConsumer.getRequestId());
                 }
             });
 
         devTools.addListener(Network.responseReceived(), responseReceived -> {
             try {
-                if (requestId.get() != null) {
+
+                    System.out.println("RequestId " + requestId.get());
                     resBody.complete(devTools.send(Network.getResponseBody(requestId.get())).getBody());
-                    TranscriptUtil.convertTranscriptToFile(resBody.get(), "youtubeTranscript");
-                }
+
                 System.out.println("responsebody: " + resBody.get());
-            } catch (InterruptedException | ExecutionException | IOException e) {
+            } catch (InterruptedException | ExecutionException e) {
                 resBody.completeExceptionally(e);
             }
         });
+        TranscriptUtil.convertTranscriptToFile(resBody.get(), "youtubeClosedCaptions");
+
         youtubePage = new YoutubePage(getDriver());
         youtubePage.clickCCBtn();
         devTools.close();

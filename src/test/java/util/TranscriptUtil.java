@@ -47,7 +47,7 @@ public class TranscriptUtil {
         Files.deleteIfExists(filePath);
         Files.createFile(filePath);
         Files.writeString(filePath, transcript,
-                    StandardOpenOption.CREATE_NEW);
+                    StandardOpenOption.APPEND);
 
     }
     public static void convertTranscriptToFileWithTimestamps(Response response) throws IOException {
