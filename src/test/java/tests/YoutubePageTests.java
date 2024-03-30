@@ -33,7 +33,9 @@ public class YoutubePageTests extends BaseTest {
         }
         }
     @Test(description = "Get transcript text from every audio excerpt and write to a file")
-    public void clickTranscriptButton() throws IOException {
+    @Parameters({"youtubeURL"})
+    public void clickTranscriptButton(String youtubeURL) throws IOException {
+        getDriver().get(youtubeURL);
         youtubePage = new YoutubePage(getDriver());
         youtubePage.clickMore().clickTranscript();
         List<String> transcriptList =  youtubePage.createTranscriptList();
@@ -43,37 +45,39 @@ public class YoutubePageTests extends BaseTest {
 
     @Test(description = "Get the closed captions from network response and write to file")
     @Parameters({"youtubeURL"})
-    public void writeClosedCaptionsToFile(String youtubeURL) throws ExecutionException, InterruptedException {
+    public void writeClosedCaptionsToFile(String youtubeURL) throws ExecutionException, InterruptedException, IOException {
         getDriver().get(youtubeURL);
+
+        final CompletableFuture<RequestId> requestId = new CompletableFuture<>();
+        final CompletableFuture<String> resBody = new CompletableFuture<>();
+
         DevTools devTools = ((HasDevTools) getDriver()).getDevTools();
         devTools.createSession();
         devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
-        final RequestId[] rID = new RequestId[1];
-        CompletableFuture<RequestId> reqID = CompletableFuture.supplyAsync(() -> {
-            devTools.addListener(Network.requestWillBeSent(), requestConsumer -> {
-                Request req = requestConsumer.getRequest();
-                if (req.getUrl().contains("timedtext")) {
-                 rID[0] = requestConsumer.getRequestId();
-                }
-            });
-            return rID[0];
+
+        devTools.addListener(Network.requestWillBeSent(), requestConsumer -> {
+            Request req = requestConsumer.getRequest();
+            if(req.getUrl().contains("timedtext")) {
+                requestId.complete(requestConsumer.getRequestId());
+                System.out.println("request " + req.getUrl() + " " + requestConsumer.getRequestId());
+            }
         });
 
-        CompletableFuture<Void> resBody = reqID.thenApplyAsync( id -> {
-                devTools.addListener(Network.responseReceived(), responseReceived -> {
-                        String body = devTools.send(Network.getResponseBody(id)).getBody();
-                    try {
-                        writeFile(body);
-                    } catch (IOException e) {
-                        throw new RuntimeException(e);
-                    }
-                });
-                return null;
-            });
-        resBody.get();
+        devTools.addListener(Network.responseReceived(), responseReceived -> {
+            try {
 
+                System.out.println("RequestId " + requestId.get());
+                resBody.complete(devTools.send(Network.getResponseBody(requestId.get())).getBody());
+
+                System.out.println("responsebody: " + resBody.get());
+            } catch (InterruptedException | ExecutionException e) {
+                resBody.completeExceptionally(e);
+            }
+        });
+        TranscriptUtil.convertTranscriptToFile(resBody.get(), "youtubeClosedCaptions");
         youtubePage = new YoutubePage(getDriver());
         youtubePage.clickCCBtn();
         devTools.close();
     }
+
 }
