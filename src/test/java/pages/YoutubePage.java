@@ -1,5 +1,6 @@
 package pages;
 
+import org.checkerframework.checker.signature.qual.FqBinaryName;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -20,6 +21,8 @@ public class YoutubePage extends BasePage{
     private WebElement moreLocator;
     @FindBy(css =".ytp-chrome-bottom button.ytp-subtitles-button.ytp-button")
     private WebElement closedCaptionButtons;
+    @FindBy(css = "//div[@id='ytp-id-56']//div[@class='ytp-menuitem-content']")
+    private WebElement ccGeneratedLanguage;
     @FindBy(css = "#label-text")
     private WebElement transcriptLang;
     @FindBy(css = "#title > h1 > yt-formatted-string")
@@ -36,6 +39,8 @@ public class YoutubePage extends BasePage{
     @CacheLookup
     @FindBy(css="#subscribe-button-shape .yt-spec-touch-feedback-shape__fill")
     private WebElement subscribeButton;
+    @FindBy(xpath = "//h1//yt-formatted-string[@class='style-scope ytd-watch-metadata']")
+    private WebElement videoTitle;
     private final By subscribeBtn = By.cssSelector("#subscribe-button-shape button");
     public YoutubePage(WebDriver givenDriver) {
         super(givenDriver);
@@ -75,6 +80,13 @@ public class YoutubePage extends BasePage{
              .map(WebElement::getText)
              .toList();
     }
+    public String videoTitle() {
+        return findElement(videoTitle).getText();
+    }
+    private String ccSubtitleLanguage() {
+        return findElement(ccGeneratedLanguage).getText();
+    }
+
     public Map<String, String> createMap() {
         return IntStream.range(0, getTimeStamps())
                 .boxed()
@@ -106,6 +118,7 @@ public class YoutubePage extends BasePage{
                     .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".ytp-ad-skip-button-modern.ytp-button")));
             actions.moveToElement(skp).click().perform();
         }
+
         findElement(closedCaptionButtons).click();
         return this;
     }

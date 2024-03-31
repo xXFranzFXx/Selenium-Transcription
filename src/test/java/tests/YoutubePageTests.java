@@ -15,6 +15,7 @@ import pages.YoutubePage;
 import util.TranscriptUtil;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
@@ -59,8 +60,12 @@ public class YoutubePageTests extends BaseTest {
 
         devTools.addListener(Network.responseReceived(), responseReceived -> {
                     try {
+                        List<String> ccContent = new ArrayList<>();
                         resBody.complete(devTools.send(Network.getResponseBody(requestId.get())).getBody());
-                        TranscriptUtil.convertTranscriptToFile(resBody.get(), "youtubeClosedCaptions");
+                        ccContent.add("Title: " + youtubePage.videoTitle());
+                        ccContent.add("Video url: " + getDriver().getCurrentUrl());
+                        ccContent.add(resBody.get());
+                        TranscriptUtil.convertTranscriptToFile(ccContent, "youtubeClosedCaptions");
 
                     } catch (InterruptedException | ExecutionException | IOException e) {
                         resBody.completeExceptionally(e);
