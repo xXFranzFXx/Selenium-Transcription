@@ -31,10 +31,12 @@ public class YoutubePage extends BasePage{
     @CacheLookup
     @FindBy(css = "#primary #primary-button .yt-spec-touch-feedback-shape")
     private WebElement transcriptButton;
+    @FindBy(css = ".ytp-ad-skip-button-modern.ytp-button")
+    private WebElement skipButton;
     @CacheLookup
     @FindBy(css="#subscribe-button-shape .yt-spec-touch-feedback-shape__fill")
     private WebElement subscribeButton;
-    private By subscribeBtn = By.cssSelector("#subscribe-button-shape button");
+    private final By subscribeBtn = By.cssSelector("#subscribe-button-shape button");
     public YoutubePage(WebDriver givenDriver) {
         super(givenDriver);
     }
