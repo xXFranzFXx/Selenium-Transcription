@@ -23,13 +23,7 @@ import java.util.concurrent.ExecutionException;
 
 public class YoutubePageTests extends BaseTest {
     YoutubePage youtubePage;
-    public void writeFile(String transcript) throws IOException {
-        try {
-            TranscriptUtil.convertTranscriptToFile(transcript, "youtubeClosedCaptions");
-        } catch (IOException e) {
-           e.printStackTrace();
-        }
-        }
+
     @Test(description = "Get transcript text from every audio excerpt and write to a file")
     @Parameters({"youtubeURL"})
 
@@ -54,7 +48,6 @@ public class YoutubePageTests extends BaseTest {
         DevTools devTools = ((HasDevTools) getDriver()).getDevTools();
         devTools.createSession();
         devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
-
 
         devTools.addListener(Network.requestWillBeSent(), requestConsumer -> {
             Request req = requestConsumer.getRequest();
