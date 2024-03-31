@@ -30,7 +30,6 @@ public class YoutubePageTests extends BaseTest {
 
     public void clickTranscriptButton(String youtubeURL) throws IOException {
         getDriver().get(youtubeURL);
-
         youtubePage = new YoutubePage(getDriver());
         youtubePage.clickMore().clickTranscript();
         List<String> transcriptList =  youtubePage.createTranscriptList();
@@ -43,8 +42,6 @@ public class YoutubePageTests extends BaseTest {
     public void writeClosedCaptionsToFile(String youtubeURL){
         final CompletableFuture<RequestId> requestId = new CompletableFuture<>();
         final CompletableFuture<String> resBody = new CompletableFuture<>();
-
-
         getDriver().get(youtubeURL);
         DevTools devTools = ((HasDevTools) getDriver()).getDevTools();
         devTools.createSession();
@@ -54,7 +51,6 @@ public class YoutubePageTests extends BaseTest {
             Request req = requestConsumer.getRequest();
             if(req.getUrl().contains("timedtext")) {
                 requestId.complete(requestConsumer.getRequestId());
-                System.out.println("request " + req.getUrl() + " " + requestConsumer.getRequestId());
                 }
             });
 
@@ -63,10 +59,8 @@ public class YoutubePageTests extends BaseTest {
                         List<String> ccContent = new ArrayList<>();
                         resBody.complete(devTools.send(Network.getResponseBody(requestId.get())).getBody());
                         ccContent.add("Title: " + youtubePage.videoTitle());
-                        ccContent.add("Video url: " + getDriver().getCurrentUrl());
                         ccContent.add(resBody.get());
                         TranscriptUtil.convertTranscriptToFile(ccContent, "youtubeClosedCaptions");
-
                     } catch (InterruptedException | ExecutionException | IOException e) {
                         resBody.completeExceptionally(e);
                     }
