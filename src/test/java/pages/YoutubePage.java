@@ -8,6 +8,7 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import tests.YoutubePageTests;
 
 import java.time.Duration;
 import java.util.*;
@@ -45,7 +46,7 @@ public class YoutubePage extends BasePage{
         WebElement elementWait = new WebDriverWait(
                 driver, Duration.ofSeconds(35))
                 .until(ExpectedConditions.presenceOfElementLocated(subscribeBtn));
-        return find(subscribeBtn).isDisplayed();
+        return elementWait.isDisplayed();
     }
     public YoutubePage clickMore() {
         if (isSubscribeBtnVisible()) {
@@ -101,9 +102,12 @@ public class YoutubePage extends BasePage{
     }
     public YoutubePage clickCCBtn(){
         if (isSubscribeBtnVisible()) {
-            actions.sendKeys(Keys.SPACE).perform();
-            findElement(closedCaptionButtons).click();
+            actions.sendKeys(Keys.SPACE).pause(Duration.ofSeconds(7)).perform();
+            WebElement skp = wait.pollingEvery(Duration.ofSeconds(15))
+                    .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".ytp-ad-skip-button-modern.ytp-button")));
+            actions.moveToElement(skp).click().perform();
         }
+        findElement(closedCaptionButtons).click();
         return this;
     }
 }

@@ -1,787 +1,184 @@
-{
-  "wireMagic": "pb3",
-  "pens": [ {
-  
-  } ],
-  "wsWinStyles": [ {
-  
-  }, {
-    "mhModeHint": 2,
-    "juJustifCode": 0,
-    "sdScrollDir": 3
-  } ],
-  "wpWinPositions": [ {
-  
-  }, {
-    "apPoint": 6,
-    "ahHorPos": 20,
-    "avVerPos": 100,
-    "rcRows": 2,
-    "ccCols": 40
-  } ],
-  "events": [ {
-    "tStartMs": 0,
-    "dDurationMs": 67439,
-    "id": 1,
-    "wpWinPosId": 1,
-    "wsWinStyleId": 1
-  }, {
-    "tStartMs": 640,
-    "dDurationMs": 5440,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "step",
-      "acAsrConf": 0
-    }, {
-      "utf8": " into",
-      "tOffsetMs": 360,
-      "acAsrConf": 0
-    }, {
-      "utf8": " Wick",
-      "tOffsetMs": 640,
-      "acAsrConf": 0
-    }, {
-      "utf8": " Studio",
-      "tOffsetMs": 999,
-      "acAsrConf": 0
-    }, {
-      "utf8": " the",
-      "tOffsetMs": 1999,
-      "acAsrConf": 0
-    }, {
-      "utf8": " web",
-      "tOffsetMs": 2160,
-      "acAsrConf": 0
-    }, {
-      "utf8": " platform",
-      "tOffsetMs": 2440,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 3590,
-    "dDurationMs": 2490,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 3600,
-    "dDurationMs": 5320,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "for",
-      "acAsrConf": 0
-    }, {
-      "utf8": " agencies",
-      "tOffsetMs": 279,
-      "acAsrConf": 0
-    }, {
-      "utf8": " and",
-      "tOffsetMs": 800,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 6070,
-    "dDurationMs": 2850,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 6080,
-    "dDurationMs": 5639,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "Enterprises",
-      "acAsrConf": 0
-    }, {
-      "utf8": " where",
-      "tOffsetMs": 1000,
-      "acAsrConf": 0
-    }, {
-      "utf8": " creative",
-      "tOffsetMs": 1279,
-      "acAsrConf": 0
-    }, {
-      "utf8": " freedom",
-      "tOffsetMs": 1640,
-      "acAsrConf": 0
-    }, {
-      "utf8": " meets",
-      "tOffsetMs": 2280,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 8910,
-    "dDurationMs": 2809,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 8920,
-    "dDurationMs": 5240,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "absolute",
-      "acAsrConf": 0
-    }, {
-      "utf8": " efficiency",
-      "tOffsetMs": 639,
-      "acAsrConf": 0
-    }, {
-      "utf8": " elements",
-      "tOffsetMs": 1639,
-      "acAsrConf": 0
-    }, {
-      "utf8": " scale",
-      "tOffsetMs": 2080,
-      "acAsrConf": 0
-    }, {
-      "utf8": " by",
-      "tOffsetMs": 2560,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 11709,
-    "dDurationMs": 2451,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 11719,
-    "dDurationMs": 4801,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "default",
-      "acAsrConf": 0
-    }, {
-      "utf8": " in",
-      "tOffsetMs": 521,
-      "acAsrConf": 0
-    }, {
-      "utf8": " Perfect",
-      "tOffsetMs": 800,
-      "acAsrConf": 0
-    }, {
-      "utf8": " Harmony",
-      "tOffsetMs": 1241,
-      "acAsrConf": 0
-    }, {
-      "utf8": " and",
-      "tOffsetMs": 1920,
-      "acAsrConf": 0
-    }, {
-      "utf8": " even",
-      "tOffsetMs": 2080,
-      "acAsrConf": 0
-    }, {
-      "utf8": " the",
-      "tOffsetMs": 2281,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 14150,
-    "dDurationMs": 2370,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 14160,
-    "dDurationMs": 5640,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "most",
-      "acAsrConf": 0
-    }, {
-      "utf8": " advanced",
-      "tOffsetMs": 280,
-      "acAsrConf": 0
-    }, {
-      "utf8": " layouts",
-      "tOffsetMs": 800,
-      "acAsrConf": 0
-    }, {
-      "utf8": " adapt",
-      "tOffsetMs": 1439,
-      "acAsrConf": 0
-    }, {
-      "utf8": " with",
-      "tOffsetMs": 2080,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 16510,
-    "dDurationMs": 3290,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 16520,
-    "dDurationMs": 5480,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "responsive",
-      "acAsrConf": 0
-    }, {
-      "utf8": " AI",
-      "tOffsetMs": 720,
-      "acAsrConf": 0
-    }, {
-      "utf8": " in",
-      "tOffsetMs": 1720,
-      "acAsrConf": 0
-    }, {
-      "utf8": " studio",
-      "tOffsetMs": 1919,
-      "acAsrConf": 0
-    }, {
-      "utf8": " immersive",
-      "tOffsetMs": 2679,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 19790,
-    "dDurationMs": 2210,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 19800,
-    "dDurationMs": 5600,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "experiences",
-      "acAsrConf": 0
-    }, {
-      "utf8": " take",
-      "tOffsetMs": 840,
-      "acAsrConf": 0
-    }, {
-      "utf8": " shape",
-      "tOffsetMs": 1080,
-      "acAsrConf": 0
-    }, {
-      "utf8": " with",
-      "tOffsetMs": 1520,
-      "acAsrConf": 0
-    }, {
-      "utf8": " no",
-      "tOffsetMs": 1680,
-      "acAsrConf": 0
-    }, {
-      "utf8": " code",
-      "tOffsetMs": 1960,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 21990,
-    "dDurationMs": 3410,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 22000,
-    "dDurationMs": 3400,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "interactions",
-      "acAsrConf": 0
-    }, {
-      "utf8": " and",
-      "tOffsetMs": 760,
-      "acAsrConf": 0
-    }, {
-      "utf8": " custom",
-      "tOffsetMs": 1000,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 26070,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 26080,
-    "dDurationMs": 5560,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "CSS",
-      "acAsrConf": 0
-    }, {
-      "utf8": " components",
-      "tOffsetMs": 1000,
-      "acAsrConf": 0
-    }, {
-      "utf8": " are",
-      "tOffsetMs": 1480,
-      "acAsrConf": 0
-    }, {
-      "utf8": " developed",
-      "tOffsetMs": 1720,
-      "acAsrConf": 0
-    }, {
-      "utf8": " once",
-      "tOffsetMs": 2240,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 29189,
-    "dDurationMs": 2451,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 29199,
-    "dDurationMs": 3601,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "deployed",
-      "acAsrConf": 0
-    }, {
-      "utf8": " across",
-      "tOffsetMs": 441,
-      "acAsrConf": 0
-    }, {
-      "utf8": " sites",
-      "tOffsetMs": 961,
-      "acAsrConf": 0
-    }, {
-      "utf8": " and",
-      "tOffsetMs": 1560,
-      "acAsrConf": 0
-    }, {
-      "utf8": " sold",
-      "tOffsetMs": 1721,
-      "acAsrConf": 0
-    }, {
-      "utf8": " on",
-      "tOffsetMs": 2160,
-      "acAsrConf": 0
-    }, {
-      "utf8": " the",
-      "tOffsetMs": 2281,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 31630,
-    "dDurationMs": 1170,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 31640,
-    "dDurationMs": 4000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "App",
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 32790,
-    "dDurationMs": 2850,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 32800,
-    "dDurationMs": 5040,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "Market",
-      "acAsrConf": 0
-    }, {
-      "utf8": " complex",
-      "tOffsetMs": 1000,
-      "acAsrConf": 0
-    }, {
-      "utf8": " projects",
-      "tOffsetMs": 1599,
-      "acAsrConf": 0
-    }, {
-      "utf8": " come",
-      "tOffsetMs": 2040,
-      "acAsrConf": 0
-    }, {
-      "utf8": " to",
-      "tOffsetMs": 2200,
-      "acAsrConf": 0
-    }, {
-      "utf8": " life",
-      "tOffsetMs": 2439,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 35630,
-    "dDurationMs": 2210,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 35640,
-    "dDurationMs": 5640,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "with",
-      "acAsrConf": 0
-    }, {
-      "utf8": " Native",
-      "tOffsetMs": 200,
-      "acAsrConf": 0
-    }, {
-      "utf8": " Business",
-      "tOffsetMs": 599,
-      "acAsrConf": 0
-    }, {
-      "utf8": " Solutions",
-      "tOffsetMs": 960,
-      "acAsrConf": 0
-    }, {
-      "utf8": " then",
-      "tOffsetMs": 1960,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 37830,
-    "dDurationMs": 3450,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 37840,
-    "dDurationMs": 6320,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "extend",
-      "acAsrConf": 0
-    }, {
-      "utf8": " with",
-      "tOffsetMs": 640,
-      "acAsrConf": 0
-    }, {
-      "utf8": " hundreds",
-      "tOffsetMs": 879,
-      "acAsrConf": 0
-    }, {
-      "utf8": " of",
-      "tOffsetMs": 1280,
-      "acAsrConf": 0
-    }, {
-      "utf8": " apis",
-      "tOffsetMs": 1480,
-      "acAsrConf": 0
-    }, {
-      "utf8": " and",
-      "tOffsetMs": 2039,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 41270,
-    "dDurationMs": 2890,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 41280,
-    "dDurationMs": 6919,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "Integrations",
-      "acAsrConf": 0
-    }, {
-      "utf8": " teams",
-      "tOffsetMs": 1000,
-      "acAsrConf": 0
-    }, {
-      "utf8": " work",
-      "tOffsetMs": 1400,
-      "acAsrConf": 0
-    }, {
-      "utf8": " in",
-      "tOffsetMs": 1599,
-      "acAsrConf": 0
-    }, {
-      "utf8": " sync",
-      "tOffsetMs": 1840,
-      "acAsrConf": 0
-    }, {
-      "utf8": " right",
-      "tOffsetMs": 2599,
-      "acAsrConf": 0
-    }, {
-      "utf8": " on",
-      "tOffsetMs": 2720,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 44150,
-    "dDurationMs": 4049,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 44160,
-    "dDurationMs": 6840,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "the",
-      "acAsrConf": 0
-    }, {
-      "utf8": " canvas",
-      "tOffsetMs": 160,
-      "acAsrConf": 0
-    }, {
-      "utf8": " to",
-      "tOffsetMs": 1040,
-      "acAsrConf": 0
-    }, {
-      "utf8": " make",
-      "tOffsetMs": 1200,
-      "acAsrConf": 0
-    }, {
-      "utf8": " every",
-      "tOffsetMs": 1520,
-      "acAsrConf": 0
-    }, {
-      "utf8": " detail",
-      "tOffsetMs": 2039,
-      "acAsrConf": 0
-    }, {
-      "utf8": " click",
-      "tOffsetMs": 3039,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 48189,
-    "dDurationMs": 2811,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 48199,
-    "dDurationMs": 5481,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "and",
-      "acAsrConf": 0
-    }, {
-      "utf8": " a",
-      "tOffsetMs": 161,
-      "acAsrConf": 0
-    }, {
-      "utf8": " codefree",
-      "tOffsetMs": 321,
-      "acAsrConf": 0
-    }, {
-      "utf8": " CMS",
-      "tOffsetMs": 921,
-      "acAsrConf": 0
-    }, {
-      "utf8": " enables",
-      "tOffsetMs": 1721,
-      "acAsrConf": 0
-    }, {
-      "utf8": " updates",
-      "tOffsetMs": 2200,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 50990,
-    "dDurationMs": 2690,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 51000,
-    "dDurationMs": 5879,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "without",
-      "acAsrConf": 0
-    }, {
-      "utf8": " breaking",
-      "tOffsetMs": 280,
-      "acAsrConf": 0
-    }, {
-      "utf8": " any",
-      "tOffsetMs": 840,
-      "acAsrConf": 0
-    }, {
-      "utf8": " design",
-      "tOffsetMs": 1199,
-      "acAsrConf": 0
-    }, {
-      "utf8": " all",
-      "tOffsetMs": 2160,
-      "acAsrConf": 0
-    }, {
-      "utf8": " on",
-      "tOffsetMs": 2359,
-      "acAsrConf": 0
-    }, {
-      "utf8": " a",
-      "tOffsetMs": 2480,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 53670,
-    "dDurationMs": 3209,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 53680,
-    "dDurationMs": 6800,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "platform",
-      "acAsrConf": 0
-    }, {
-      "utf8": " engineered",
-      "tOffsetMs": 679,
-      "acAsrConf": 0
-    }, {
-      "utf8": " to",
-      "tOffsetMs": 1280,
-      "acAsrConf": 0
-    }, {
-      "utf8": " scale",
-      "tOffsetMs": 1480,
-      "acAsrConf": 0
-    }, {
-      "utf8": " step",
-      "tOffsetMs": 2399,
-      "acAsrConf": 0
-    }, {
-      "utf8": " into",
-      "tOffsetMs": 2760,
-      "acAsrConf": 0
-    }, {
-      "utf8": " a",
-      "tOffsetMs": 3039,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 56869,
-    "dDurationMs": 3611,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 56879,
-    "dDurationMs": 5561,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "world",
-      "acAsrConf": 0
-    }, {
-      "utf8": " of",
-      "tOffsetMs": 441,
-      "acAsrConf": 0
-    }, {
-      "utf8": " complete",
-      "tOffsetMs": 641,
-      "acAsrConf": 0
-    }, {
-      "utf8": " web",
-      "tOffsetMs": 1160,
-      "acAsrConf": 0
-    }, {
-      "utf8": " creation",
-      "tOffsetMs": 1640,
-      "acAsrConf": 0
-    }, {
-      "utf8": " step",
-      "tOffsetMs": 2640,
-      "acAsrConf": 0
-    }, {
-      "utf8": " into",
-      "tOffsetMs": 3281,
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 60470,
-    "dDurationMs": 1970,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 60480,
-    "dDurationMs": 3959,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "your",
-      "acAsrConf": 0
-    } ]
-  }, {
-    "tStartMs": 62430,
-    "dDurationMs": 2009,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 62440,
-    "dDurationMs": 4999,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "[Music]"
-    } ]
-  }, {
-    "tStartMs": 64429,
-    "dDurationMs": 3010,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 64439,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "studio",
-      "acAsrConf": 0
-    } ]
-  } ]
-}
+title: What Is Selenium? | Selenium Webdriver Basics | Selenium Tutorial For Beginners | Simplilearn
+video url: https://www.youtube.com/watch?v=TdwwPP9oW4c
+language: Hindi (auto-generated)
+0:00 : हुआ है
+0:08 : कि हे भगवान मैं एनिमेशन एंड वेलकम टू द
+0:11 : क्वेश्चन
+0:12 : सेशन विल लर्न व्हाट इस चैनल को
+0:19 : सब्सक्राइब
+0:21 : करे कृपया इस
+0:28 : चैनल को
+0:37 : सब्सक्राइब टो
+0:39 : कि अ तो भी वे कैन मेक और subscribe our
+0:43 : YouTube चैनल लाइक
+0:46 : के
+0:48 : बटन पर क्लिक करके
+0:54 : सब्सक्राइब
+0:58 : पुर्ज़े
+1:03 : इंजीनियर
+1:07 : Video को
+1:12 : like
+1:17 : और
+1:23 : सब्सक्राइब टो कि आपके ही रियल लाइफ
+1:27 : स्टेटस Idea अब ऑटोमेटिंग वेब एप्लीकेशंस
+1:30 : हल लौट पोटेंशियल फॉर एमेट जावास्क्रिप्ट
+1:33 : टो ओपन सोर्स एंड लेटर इन इंडिया
+1:37 : को
+1:42 : सब्सक्राइब
+1:46 : कर लें कलेक्शन डिफरेंट
+1:50 : डिफरेंट टो
+1:52 : डिवेलप
+1:56 : इनटू थे
+2:04 : का सफर स्टूल इन विच थे लिंगम रिमोट
+2:07 : कंट्रोल और इसलिए नेम आरसी पोस्टेड बाय
+2:11 : पौल मिनट
+2:13 : तो बैंक कम्स पेलेनियम ग्रेट डाल डेवलप्ड
+2:16 : बाय बैटरी लाइव्ड थ्रू
+2:22 : लिक्विड
+2:28 : क्रीटेड फॉर
+2:32 : ऑल आफ
+2:34 : यू फॉर
+2:39 : थे रिस्पांस
+2:42 : टो
+2:46 : कैरी ओं
+2:59 : ए बीटा टेस्टिंग बैकुंठ
+3:02 : 2002
+3:04 : टेस्टिंग
+3:07 : टेस्टिंग
+3:11 : कंप्यूटर और मोबाइल एप्लिकेशन
+3:20 : सब्सक्राइब टो
+3:24 : थे मूवमेंट फॉर प्ले था वहां कबीर
+3:29 : वास इन थे वाइडएस्प्रेड पापुलैरिटी
+3:34 : सेट ऑफ टीचर्स डे
+3:37 : है इसलिए हम इधर ओपन सोर्स एंड पोर्टेबल
+3:40 : प्रेम व टैप ले बैक रिकॉर्ड सीट शबनम
+3:45 : बेस्ट बेस्ट प्लेटफॉर्म सपोच वैरीयस
+3:48 : इवेंट्स एंड
+3:52 : विड
+3:54 : स्पोर्ट्स शूज एंड
+4:10 : ओपन सोर्स एंड
+4:12 : टेस्टिंग
+4:14 : इन
+4:18 : टर्म्स आफ डिफरेंट
+4:21 : विड ऊ
+4:24 : ब्लूटूथ सेटिंग फीचर्स प्ले बैक रिकॉर्ड
+4:27 : टीचर टीचर स्टूडेंट्स एडमिटेड इन थे आइज
+4:32 : विदाउट नोइंग ठाट थिस लैंग्वेज विद हेर
+4:35 : डॉटर्स
+4:38 : के वृक्ष विच एक्सप्लेंस हम इधर क्लाउड
+4:41 : बेस्ड सेटिंग क्लॉक को
+4:43 : है इसलिए नियम इधर लीडिंग क्लाउड बेस्ड एक
+4:46 : प्लेटफॉर्म लैटर लव स्टेटस टू रिकॉर्ड
+4:49 : इरेक्शन एक्सपोर्ट Video सब्स्क्राइब
+4:53 : सिंपल
+4:55 : यूजर इंटरफेस
+4:58 : ए मूवी फॉर विन एक्सपी चेस्ट स्लिम सपोच
+5:02 : वैरीयस ऑपरेटिंग सिस्टम्स ब्राउजर्स एंड
+5:05 : प्रोग्रामिंग लैंग्वेज इज द टू सपोर्ट्स
+5:08 : प्रोग्रामिंग लैंग्वेजेस सतिश आप जा व
+5:11 : पार्थ इन पीएचपी रूबी पल जावत
+5:18 : सपोच ऑपरेटिंग सिस्टम एंड्रॉयड
+5:21 : विंडो
+5:23 : एंड
+5:28 : सब्सक्राइब टो
+5:34 : कि सफारी एक बच्चा
+5:36 : के दिन एक टीचर बिहार
+5:38 : इंटीग्रेशन विद टेस्टिंग बॉस
+5:41 : कि फिल्म हिम कैन वेल इंटीग्रेटिड
+5:44 : टेस्टिंग चैंबर ग्लूटेन जी फॉर एप्लीकेशन
+5:47 : टेस्टिंग इन जेनरेटिंग रिपोर्ट्स एंड अलसो
+5:50 : ए फैलियर कैन बे इंटीग्रेटेड विद प्रेम
+5:53 : कुछ लाइक एंड अनविन अधिकतम पहले इलास्टिक
+5:58 : डालें
+6:00 : 5310
+6:07 : विड ऊ
+6:09 : है इसलिए रिक्वायर्ड यह रिसोर्सेज़
+6:11 : कांटेक्ट अदर ऑटोमेशन टेस्टिंग टू नो द
+6:17 : डिफरेंट
+6:21 : फॉर डिफरेंट टू डू
+6:24 : द फोटोस रिमोट कंट्रोल
+6:34 : [संगीत]
+6:38 : रिमोट कंट्रोल
+6:41 : रिमोट कंट्रोल राइटिंग टो
+6:53 : सब्सक्राइब टो
+6:59 : है इसलिए मार्कशीट प्रोडक्ट्स अनेबल
+7:02 : प्रोजेक्ट फॉर वेरी लोंग टाइम बिफोर एंड
+7:04 : वेब ड्राइवर केम इनटू एक्जिस्टेंस इन हैंड
+7:08 : सैलेरी मार्कशीट इस हार दिल्ली न्यूज़
+7:10 : टुडे
+7:12 : मोर थन
+7:15 : टू व्हिच इज द नेम ऑफ द
+7:26 : मैं विस्मित पॉसिबल मेहंदी कमाना रूटेड टो
+7:30 : थे रिमोट वेब ब्राउजर्स इंस्टेंसस इन व्वे
+7:34 : इज रिस्पॉन्सिबल फॉर कंडक्टिंग टेस्ट
+7:38 : मल्टीपल मशीन लर्निंग फ्रॉम ब्राउजर
+7:43 : टेस्टिंग
+7:45 : एंड जेरी मल्टीपल मशीन
+7:50 : Video Channel
+7:58 : and
+8:03 : subscribe
+8:24 : This is पीली mi2 वांट टो बेगिन विद
+8:29 : सेलेनियम इड
+8:31 : नो एडीशनल सेट अप एक्सेप्ट इंस्टॉलिंग
+8:34 : एक्सटेंशन आफ ब्राउज़र
+8:38 : प्रोवाइड यू टू
+8:44 : रिकॉर्ड मल्टीपल लोकेटर एलिमेंट की
+8:57 : टेस्ट
+9:00 : लेग ब्रेक प्वाइंट
+9:11 : लेने की
+9:17 : टो इंटीग्रेट थर्ड पार्टी है अ क्लास 10th
+9:22 : पोत टूल इंडस्ट्री नेम सूट विद सेलेनियम
+9:25 : वेवर स्लैम ड्राइवर इज द मोस्ट क्रिटिकल
+9:31 : सब्सक्राइब
+9:33 : ब्राउज़र कंप्यूटर
+9:39 : ऑपरेटिंग सिस्टम्स
+9:41 : इन यूनिसन
+9:45 : प्रोवाइड स्टेबिलिटी एंड
+9:51 : विड्रॉ सपोर्ट
+9:56 : subscribe and
+10:03 : subscribe the Channel
+10:09 : ड्राइवर
+10:11 : ड्राइवर
+10:15 : टू
+10:17 : टू टू टू
+10:19 : कल स्विमिंग नेक्स्ट टॉपिक 85 डिफरेंट
+10:22 : फैक्टर्स बेसिस आफ विच विल डिसाइड विच विल
+10:26 : गिव सूटेबल फॉर
+10:35 : रिमोट कंट्रोल रिमोट कंट्रोल और
+10:43 : लैंग्वेज
+10:49 : यूज्ड
+10:56 : अगेंस्ट डिफरेंट डिफरेंट ऑपरेटिंग सिस्टम
+11:00 : यूजिंग
+11:06 : सेलेनियम
+11:08 : टेस्टिंग सब्सक्राइब
+11:18 : कि नाव जस्टिन टूल फॉर विच विशेस इन
+11:22 : ऑस्ट्रेलियन ग्रैंड स्लैम ग्रेड
+11:27 : वीरवती यूजर नेम और सब्सक्राइब ब्राउजर इन
+11:33 : ऑपरेटिंग सिस्टम
+11:36 : रिड्यूस ट्यूसडे
+11:39 : कंप्लीटेड अट थे अर्लीस्ट पॉसिबल टाइम
+11:43 : थर्ड थर्ड
+11:47 : मीडिया ने
+11:49 : [संगीत]
+11:51 : कौन-कौन
+11:53 : टेस्टिंग एंड
+11:57 : सब्सक्राइब ओपन लिक्विड पसंद है
+12:03 : मैंने कौन से टिप्स फॉर वाचिंग और लोकेटर
+12:06 : सटल आईडी नेम एक्सपायर
+12:10 : सीरवी सीरवी
+12:15 : कस्टमर्स
+12:20 : विल
+12:23 : लीड यू टो क्रिएट ए लिमिटेड नॉलेज एंड
+12:34 : फाइनली Bigg Boss
+12:38 : last.fm वेब
+12:43 : प्रोग्रामिंग लैंग्वेज
+12:47 : यूज पेज
+12:51 : सब्सक्राइब करें
+12:58 : सब्सक्राइब टो
+13:04 : अपने नेम टू
+13:05 : योजना विदेश वेलकम टू द
+13:08 : होम विकास पांडे इन्हें thanks for
+13:12 : watching this
+13:19 : Video subscribe our YouTube Channel and
+13:25 : tap on
+13:29 : कर दो

@@ -24,7 +24,11 @@ import java.util.concurrent.ExecutionException;
 public class YoutubePageTests extends BaseTest {
     YoutubePage youtubePage;
     @Test(description = "Get transcript text from every audio excerpt and write to a file")
-    public void clickTranscriptButton() throws IOException {
+    @Parameters({"youtubeURL"})
+
+    public void clickTranscriptButton(String youtubeURL) throws IOException {
+        getDriver().get(youtubeURL);
+
         youtubePage = new YoutubePage(getDriver());
         youtubePage.clickMore().clickTranscript();
         List<String> transcriptList =  youtubePage.createTranscriptList();
@@ -54,11 +58,13 @@ public class YoutubePageTests extends BaseTest {
         devTools.addListener(Network.responseReceived(), responseReceived -> {
             try {
                 resBody.complete(devTools.send(Network.getResponseBody(requestId.get())).getBody());
-            } catch (InterruptedException | ExecutionException e) {
+                TranscriptUtil.convertTranscriptToFile(resBody.get(), "youtubeClosedCaptions");
+
+            } catch (InterruptedException | ExecutionException | IOException e) {
                 resBody.completeExceptionally(e);
             }
+
         });
-        TranscriptUtil.convertTranscriptToFile(resBody.get(), "youtubeClosedCaptions");
         youtubePage = new YoutubePage(getDriver());
         youtubePage.clickCCBtn();
         devTools.clearListeners();
