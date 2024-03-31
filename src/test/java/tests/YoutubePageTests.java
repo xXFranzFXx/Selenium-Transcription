@@ -53,19 +53,15 @@ public class YoutubePageTests extends BaseTest {
 
         devTools.addListener(Network.responseReceived(), responseReceived -> {
             try {
-
-                    System.out.println("RequestId " + requestId.get());
-                    resBody.complete(devTools.send(Network.getResponseBody(requestId.get())).getBody());
-
-                System.out.println("responsebody: " + resBody.get());
+                resBody.complete(devTools.send(Network.getResponseBody(requestId.get())).getBody());
             } catch (InterruptedException | ExecutionException e) {
                 resBody.completeExceptionally(e);
             }
         });
         TranscriptUtil.convertTranscriptToFile(resBody.get(), "youtubeClosedCaptions");
-
         youtubePage = new YoutubePage(getDriver());
         youtubePage.clickCCBtn();
+        devTools.clearListeners();
         devTools.close();
     }
 }
