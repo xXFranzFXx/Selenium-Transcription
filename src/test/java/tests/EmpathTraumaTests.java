@@ -32,7 +32,7 @@ public class EmpathTraumaTests extends BaseTest {
         getDriver().get(empathTraumaURL);
     }
     @Test(description = "Get transcript text from every audio excerpt and store it in a List")
-    public void clickTranscriptButton() throws InterruptedException, IOException {
+    public void clickTranscriptButton(){
         empathTraumaPage = new EmpathTraumaPage(getDriver());
         List<String> transcript = empathTraumaPage.visitIframeSource().clickTranscript().findTranscripts();
         Assert.assertEquals(transcript.size(), maxExcerpts);

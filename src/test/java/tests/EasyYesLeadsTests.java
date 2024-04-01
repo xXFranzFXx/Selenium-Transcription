@@ -41,7 +41,7 @@ public class EasyYesLeadsTests extends BaseTest {
 
     @Test(description = "Use selenium devtools to capture network request from click event, then write the captured request data to a txt file")
     @Parameters({"easyYesURL"})
-    public void defaultTest(String easyYesURL) throws InterruptedException {
+    public void defaultTest(String easyYesURL)  {
         List<String> audioLinks = new ArrayList<>();
         getDriver().get(easyYesURL);
         DevTools devTools = ((HasDevTools) getDriver()).getDevTools();
@@ -65,6 +65,7 @@ public class EasyYesLeadsTests extends BaseTest {
         easyYesLeadsPage = new EasyYesLeadsPage(getDriver());
         easyYesLeadsPage.visitIframeSource().getNetworkRequest();
         Assert.assertEquals(audioLinks.size(), expectedListSize);
+        devTools.clearListeners();
         devTools.close();
 
     }
