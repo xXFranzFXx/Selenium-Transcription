@@ -116,6 +116,7 @@ public class YoutubePage extends BasePage{
         return findElement(transcriptLang).getText();
     }
     public YoutubePage clickCCBtn(){
+
         if (isSubscribeBtnVisible()) {
             actions.sendKeys(Keys.SPACE).pause(Duration.ofSeconds(7)).perform();
             WebElement skp = wait.pollingEvery(Duration.ofSeconds(15))
@@ -123,6 +124,15 @@ public class YoutubePage extends BasePage{
             actions.moveToElement(skp).click().perform();
         }
         findElement(closedCaptionButtons).click();
+        return this;
+    }
+    public YoutubePage clickCCBtnNoAds(){
+
+        if (isSubscribeBtnVisible()) {
+            actions.sendKeys(Keys.SPACE).perform();
+            findElement(closedCaptionButtons).click();
+        }
+
         return this;
     }
 }

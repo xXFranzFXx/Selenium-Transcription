@@ -12,6 +12,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import pages.YoutubePage;
+import util.DataProviderUtil;
 import util.TranscriptUtil;
 
 import java.io.IOException;
@@ -25,9 +26,7 @@ import java.util.concurrent.ExecutionException;
 public class YoutubePageTests extends BaseTest {
     YoutubePage youtubePage;
 
-    @Test(description = "Get transcript text from every audio excerpt and write to a file")
-    @Parameters({"youtubeURL"})
-
+    @Test(description = "Get transcript text from every audio excerpt and write to a file", dataProvider="YoutubeData", dataProviderClass = DataProviderUtil.class)
     public void clickTranscriptButton(String youtubeURL) throws IOException {
         getDriver().get(youtubeURL);
         youtubePage = new YoutubePage(getDriver());
@@ -37,8 +36,7 @@ public class YoutubePageTests extends BaseTest {
         Assert.assertEquals(youtubePage.createMap().keySet().size(), youtubePage.getTimeStamps());
     }
 
-    @Test(description = "Get the closed captions from network response and write to file")
-    @Parameters({"youtubeURL"})
+    @Test(description = "Get the closed captions from network response and write to file", dataProvider="YoutubeData", dataProviderClass = DataProviderUtil.class)
     public void writeClosedCaptionsToFile(String youtubeURL){
         getDriver().get(youtubeURL);
         DevTools devTools = ((HasDevTools) getDriver()).getDevTools();
@@ -53,22 +51,22 @@ public class YoutubePageTests extends BaseTest {
                         ccContent.add("Title: " + youtubePage.videoTitle());
                         ccContent.add("Video url: " + youtubeURL);
                         ccContent.add(resBody);
-                        TranscriptUtil.convertTranscriptToFile(ccContent, "youtubeClosedCaptions1");
+                        TranscriptUtil.convertTranscriptToFile(ccContent, "youtubeClosedCaptions");
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
             }
         });
         youtubePage = new YoutubePage(getDriver());
-        youtubePage.clickCCBtn();
+        youtubePage.clickCCBtnNoAds();
         devTools.clearListeners();
         devTools.close();
     }
-    @Test(description = "Get the closed captions from network response and write to file")
-    @Parameters({"youtubeURL"})
-    public void writeClosedCaptionsToFileAsync(String youtubeURL) {
+    @Test(description = "Get the closed captions from network response and write to file", dataProvider="YoutubeData", dataProviderClass = DataProviderUtil.class)
+    public void writeClosedCaptionsToFileAsync(String youtubeURL, String name) {
         final CompletableFuture<RequestId> requestId = new CompletableFuture<>();
         final CompletableFuture<String> resBody = new CompletableFuture<>();
+        final CompletableFuture<String> id = new CompletableFuture<>();
         getDriver().get(youtubeURL);
         DevTools devTools = ((HasDevTools) getDriver()).getDevTools();
         devTools.createSession();
@@ -89,7 +87,8 @@ public class YoutubePageTests extends BaseTest {
                     ccContent.add("Title: " + youtubePage.videoTitle());
                     ccContent.add("Video url: " + youtubeURL);
                     ccContent.add(resBody.get());
-                    TranscriptUtil.convertTranscriptToFile(ccContent, "youtubeClosedCaptions");
+                    TranscriptUtil.convertTranscriptToFile(ccContent, name);
+                    Assert.assertEquals(requestId.get(), responseReceived.getRequestId());
                 } catch (InterruptedException | ExecutionException | IOException e) {
                     resBody.completeExceptionally(e);
                 }

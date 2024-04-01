@@ -1,5 +1,5 @@
-Title: What Is Selenium? | Selenium Webdriver Basics | Selenium Tutorial For Beginners | Simplilearn
-Video url: https://www.youtube.com/watch?v=TdwwPP9oW4c
+Title: What is Selenium | Selenium Explained in 2-minutes | Introduction to Selenium | Intellipaat
+Video url: https://www.youtube.com/watch?v=cc26zFE8X1k
 {
   "wireMagic": "pb3",
   "pens": [ {
@@ -23,4228 +23,315 @@ Video url: https://www.youtube.com/watch?v=TdwwPP9oW4c
   } ],
   "events": [ {
     "tStartMs": 0,
-    "dDurationMs": 811879,
+    "dDurationMs": 104840,
     "id": 1,
     "wpWinPosId": 1,
     "wsWinStyleId": 1
   }, {
-    "tStartMs": 20,
-    "dDurationMs": 3060,
+    "tStartMs": 0,
+    "dDurationMs": 5279,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "हुआ",
-      "acAsrConf": 14
-    }, {
-      "utf8": " है",
-      "tOffsetMs": 60,
-      "acAsrConf": 54
+      "utf8": "[Music]"
     } ]
   }, {
-    "tStartMs": 8190,
+    "tStartMs": 2649,
+    "dDurationMs": 2630,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 8200,
-    "dDurationMs": 4550,
+    "tStartMs": 2659,
+    "dDurationMs": 4660,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "कि",
-      "acAsrConf": 156
-    }, {
-      "utf8": " हे",
-      "tOffsetMs": 30,
-      "acAsrConf": 221
-    }, {
-      "utf8": " भगवान",
-      "tOffsetMs": 569,
-      "acAsrConf": 177
-    }, {
-      "utf8": " मैं",
-      "tOffsetMs": 990,
-      "acAsrConf": 69
-    }, {
-      "utf8": " एनिमेशन",
-      "tOffsetMs": 1710,
-      "acAsrConf": 70
-    }, {
-      "utf8": " एंड",
-      "tOffsetMs": 2430,
-      "acAsrConf": 125
-    }, {
-      "utf8": " वेलकम",
-      "tOffsetMs": 2640,
-      "acAsrConf": 188
-    }, {
-      "utf8": " टू",
-      "tOffsetMs": 3120,
-      "acAsrConf": 170
-    }, {
-      "utf8": " द",
-      "tOffsetMs": 3210,
-      "acAsrConf": 50
-    } ]
-  }, {
-    "tStartMs": 11730,
-    "dDurationMs": 1020,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 11740,
-    "dDurationMs": 6650,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "क्वेश्चन",
-      "acAsrConf": 25
-    } ]
-  }, {
-    "tStartMs": 12740,
-    "dDurationMs": 5650,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 12750,
-    "dDurationMs": 5640,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सेशन",
-      "acAsrConf": 73
-    }, {
-      "utf8": " विल",
-      "tOffsetMs": 1000,
-      "acAsrConf": 116
-    }, {
-      "utf8": " लर्न",
-      "tOffsetMs": 1690,
-      "acAsrConf": 125
-    }, {
-      "utf8": " व्हाट",
-      "tOffsetMs": 1960,
-      "acAsrConf": 172
-    }, {
-      "utf8": " इस",
-      "tOffsetMs": 2349,
-      "acAsrConf": 144
-    }, {
-      "utf8": " चैनल",
-      "tOffsetMs": 2559,
-      "acAsrConf": 64
-    }, {
-      "utf8": " को",
-      "tOffsetMs": 2679,
-      "acAsrConf": 59
-    } ]
-  }, {
-    "tStartMs": 19160,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 19170,
-    "dDurationMs": 5880,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सब्सक्राइब",
-      "acAsrConf": 152
-    } ]
-  }, {
-    "tStartMs": 21050,
-    "dDurationMs": 4000,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 21060,
-    "dDurationMs": 3990,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "करे",
-      "acAsrConf": 21
-    }, {
-      "utf8": " कृपया",
-      "tOffsetMs": 1000,
-      "acAsrConf": 21
-    }, {
-      "utf8": " इस",
-      "tOffsetMs": 1030,
-      "acAsrConf": 20
-    } ]
-  }, {
-    "tStartMs": 28130,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 28140,
-    "dDurationMs": 3420,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "चैनल",
-      "acAsrConf": 22
-    }, {
-      "utf8": " को",
-      "tOffsetMs": 1000,
-      "acAsrConf": 25
-    } ]
-  }, {
-    "tStartMs": 37369,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 37379,
-    "dDurationMs": 6011,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सब्सक्राइब",
-      "acAsrConf": 89
-    }, {
-      "utf8": " टो",
-      "tOffsetMs": 1000,
-      "acAsrConf": 125
-    } ]
-  }, {
-    "tStartMs": 39720,
-    "dDurationMs": 3670,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 39730,
-    "dDurationMs": 6950,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "कि",
-      "acAsrConf": 98
-    }, {
-      "utf8": " अ",
-      "tOffsetMs": 30,
-      "acAsrConf": 226
-    }, {
-      "utf8": " तो",
-      "tOffsetMs": 330,
-      "acAsrConf": 131
-    }, {
-      "utf8": " भी",
-      "tOffsetMs": 810,
-      "acAsrConf": 188
-    }, {
-      "utf8": " वे",
-      "tOffsetMs": 960,
-      "acAsrConf": 186
-    }, {
-      "utf8": " कैन",
-      "tOffsetMs": 1110,
-      "acAsrConf": 221
-    }, {
-      "utf8": " मेक",
-      "tOffsetMs": 1290,
-      "acAsrConf": 220
-    }, {
-      "utf8": " और",
-      "tOffsetMs": 1919,
-      "acAsrConf": 190
-    }, {
-      "utf8": " subscribe",
-      "tOffsetMs": 2509,
-      "acAsrConf": 132
-    }, {
-      "utf8": " our",
-      "tOffsetMs": 3509,
-      "acAsrConf": 84
-    } ]
-  }, {
-    "tStartMs": 43380,
-    "dDurationMs": 3300,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 43390,
-    "dDurationMs": 4880,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "YouTube",
-      "acAsrConf": 151
-    }, {
-      "utf8": " चैनल",
-      "tOffsetMs": 120,
-      "acAsrConf": 135
-    }, {
-      "utf8": " लाइक",
-      "tOffsetMs": 990,
-      "acAsrConf": 173
-    } ]
-  }, {
-    "tStartMs": 46670,
-    "dDurationMs": 1600,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 46680,
-    "dDurationMs": 5879,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "के",
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 48260,
-    "dDurationMs": 4299,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 48270,
-    "dDurationMs": 4289,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "बटन",
-      "acAsrConf": 229
-    }, {
-      "utf8": " पर",
-      "tOffsetMs": 1000,
-      "acAsrConf": 229
-    }, {
-      "utf8": " क्लिक",
-      "tOffsetMs": 1240,
-      "acAsrConf": 229
-    }, {
-      "utf8": " करके",
-      "tOffsetMs": 1420,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 54530,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 54540,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सब्सक्राइब",
-      "acAsrConf": 185
-    } ]
-  }, {
-    "tStartMs": 58520,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 58530,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "पुर्ज़े",
-      "acAsrConf": 125
-    } ]
-  }, {
-    "tStartMs": 63350,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 63360,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "इंजीनियर",
-      "acAsrConf": 228
-    } ]
-  }, {
-    "tStartMs": 67820,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 67830,
-    "dDurationMs": 3270,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "Video",
-      "acAsrConf": 170
-    }, {
-      "utf8": " को",
-      "tOffsetMs": 1000,
-      "acAsrConf": 188
-    } ]
-  }, {
-    "tStartMs": 72320,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 72330,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "like",
-      "acAsrConf": 198
-    } ]
-  }, {
-    "tStartMs": 77539,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 77549,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "और",
-      "acAsrConf": 182
-    } ]
-  }, {
-    "tStartMs": 83690,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 83700,
-    "dDurationMs": 6620,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सब्सक्राइब",
-      "acAsrConf": 192
-    }, {
-      "utf8": " टो",
-      "tOffsetMs": 1000,
-      "acAsrConf": 170
-    }, {
-      "utf8": " कि",
-      "tOffsetMs": 1880,
-      "acAsrConf": 50
-    }, {
-      "utf8": " आपके",
-      "tOffsetMs": 1910,
-      "acAsrConf": 82
-    }, {
-      "utf8": " ही",
-      "tOffsetMs": 2600,
-      "acAsrConf": 175
-    }, {
-      "utf8": " रियल",
-      "tOffsetMs": 2750,
-      "acAsrConf": 177
-    }, {
-      "utf8": " लाइफ",
-      "tOffsetMs": 3050,
-      "acAsrConf": 135
-    } ]
-  }, {
-    "tStartMs": 87010,
-    "dDurationMs": 3310,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 87020,
-    "dDurationMs": 6300,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "स्टेटस",
-      "acAsrConf": 96
-    }, {
-      "utf8": " Idea",
-      "tOffsetMs": 420,
-      "acAsrConf": 125
-    }, {
-      "utf8": " अब",
-      "tOffsetMs": 1050,
-      "acAsrConf": 90
-    }, {
-      "utf8": " ऑटोमेटिंग",
-      "tOffsetMs": 1650,
-      "acAsrConf": 160
-    }, {
-      "utf8": " वेब",
-      "tOffsetMs": 2220,
-      "acAsrConf": 125
-    }, {
-      "utf8": " एप्लीकेशंस",
-      "tOffsetMs": 2550,
-      "acAsrConf": 211
-    } ]
-  }, {
-    "tStartMs": 90310,
-    "dDurationMs": 3010,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 90320,
-    "dDurationMs": 7310,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "हल",
-      "acAsrConf": 63
-    }, {
-      "utf8": " लौट",
-      "tOffsetMs": 420,
-      "acAsrConf": 149
-    }, {
-      "utf8": " पोटेंशियल",
-      "tOffsetMs": 690,
-      "acAsrConf": 229
-    }, {
-      "utf8": " फॉर",
-      "tOffsetMs": 1380,
-      "acAsrConf": 171
-    }, {
-      "utf8": " एमेट",
-      "tOffsetMs": 1800,
-      "acAsrConf": 171
-    }, {
-      "utf8": " जावास्क्रिप्ट",
-      "tOffsetMs": 2000,
-      "acAsrConf": 183
-    } ]
-  }, {
-    "tStartMs": 93310,
-    "dDurationMs": 4320,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 93320,
-    "dDurationMs": 7310,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टो",
-      "acAsrConf": 146
-    }, {
-      "utf8": " ओपन",
-      "tOffsetMs": 360,
-      "acAsrConf": 194
-    }, {
-      "utf8": " सोर्स",
-      "tOffsetMs": 1350,
-      "acAsrConf": 229
-    }, {
-      "utf8": " एंड",
-      "tOffsetMs": 1560,
-      "acAsrConf": 197
-    }, {
-      "utf8": " लेटर",
-      "tOffsetMs": 2310,
-      "acAsrConf": 189
-    }, {
-      "utf8": " इन",
-      "tOffsetMs": 3150,
-      "acAsrConf": 229
-    }, {
-      "utf8": " इंडिया",
-      "tOffsetMs": 3270,
-      "acAsrConf": 203
-    } ]
-  }, {
-    "tStartMs": 97620,
-    "dDurationMs": 3010,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 97630,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "को",
-      "acAsrConf": 187
-    } ]
-  }, {
-    "tStartMs": 102540,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 102550,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सब्सक्राइब",
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 106440,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 106450,
-    "dDurationMs": 6420,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "कर",
-      "acAsrConf": 203
-    }, {
-      "utf8": " लें",
-      "tOffsetMs": 1000,
-      "acAsrConf": 206
-    }, {
-      "utf8": " कलेक्शन",
-      "tOffsetMs": 1380,
-      "acAsrConf": 179
-    }, {
-      "utf8": " डिफरेंट",
-      "tOffsetMs": 2380,
-      "acAsrConf": 213
-    } ]
-  }, {
-    "tStartMs": 110520,
-    "dDurationMs": 2350,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 110530,
-    "dDurationMs": 5340,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "डिफरेंट",
-      "acAsrConf": 228
-    }, {
-      "utf8": " टो",
-      "tOffsetMs": 1000,
-      "acAsrConf": 93
-    } ]
-  }, {
-    "tStartMs": 112860,
-    "dDurationMs": 3010,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 112870,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "डिवेलप",
-      "acAsrConf": 170
-    } ]
-  }, {
-    "tStartMs": 116190,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 116200,
-    "dDurationMs": 4000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "इनटू",
-      "acAsrConf": 218
-    }, {
-      "utf8": " थे",
-      "tOffsetMs": 1000,
-      "acAsrConf": 15
-    } ]
-  }, {
-    "tStartMs": 124860,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 124870,
-    "dDurationMs": 6540,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "का",
-      "acAsrConf": 146
-    }, {
-      "utf8": " सफर",
-      "tOffsetMs": 30,
-      "acAsrConf": 135
-    }, {
-      "utf8": " स्टूल",
-      "tOffsetMs": 690,
-      "acAsrConf": 143
-    }, {
-      "utf8": " इन",
-      "tOffsetMs": 1050,
-      "acAsrConf": 158
-    }, {
-      "utf8": " विच",
-      "tOffsetMs": 1440,
-      "acAsrConf": 125
-    }, {
-      "utf8": " थे",
-      "tOffsetMs": 1710,
-      "acAsrConf": 146
-    }, {
-      "utf8": " लिंगम",
-      "tOffsetMs": 1830,
-      "acAsrConf": 80
-    }, {
-      "utf8": " रिमोट",
-      "tOffsetMs": 2220,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 127410,
-    "dDurationMs": 4000,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 127420,
-    "dDurationMs": 5720,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "कंट्रोल",
-      "acAsrConf": 229
-    }, {
-      "utf8": " और",
-      "tOffsetMs": 450,
-      "acAsrConf": 229
-    }, {
-      "utf8": " इसलिए",
-      "tOffsetMs": 1020,
-      "acAsrConf": 127
-    }, {
-      "utf8": " नेम",
-      "tOffsetMs": 1559,
-      "acAsrConf": 135
-    }, {
-      "utf8": " आरसी",
-      "tOffsetMs": 1800,
-      "acAsrConf": 119
-    }, {
-      "utf8": " पोस्टेड",
-      "tOffsetMs": 2750,
-      "acAsrConf": 152
-    }, {
-      "utf8": " बाय",
-      "tOffsetMs": 3750,
-      "acAsrConf": 195
-    } ]
-  }, {
-    "tStartMs": 131400,
-    "dDurationMs": 1740,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 131410,
-    "dDurationMs": 5240,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "पौल",
-      "acAsrConf": 130
-    }, {
-      "utf8": " मिनट",
-      "tOffsetMs": 420,
-      "acAsrConf": 39
-    } ]
-  }, {
-    "tStartMs": 133130,
-    "dDurationMs": 3520,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 133140,
-    "dDurationMs": 8540,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "तो",
-      "acAsrConf": 21
-    }, {
-      "utf8": " बैंक",
-      "tOffsetMs": 60,
-      "acAsrConf": 225
-    }, {
-      "utf8": " कम्स",
-      "tOffsetMs": 690,
-      "acAsrConf": 229
-    }, {
-      "utf8": " पेलेनियम",
-      "tOffsetMs": 1290,
-      "acAsrConf": 188
-    }, {
-      "utf8": " ग्रेट",
-      "tOffsetMs": 1740,
-      "acAsrConf": 150
-    }, {
-      "utf8": " डाल",
-      "tOffsetMs": 2250,
-      "acAsrConf": 61
-    }, {
-      "utf8": " डेवलप्ड",
-      "tOffsetMs": 3000,
-      "acAsrConf": 176
-    } ]
-  }, {
-    "tStartMs": 136640,
-    "dDurationMs": 5040,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 136650,
-    "dDurationMs": 5030,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "बाय",
-      "acAsrConf": 185
-    }, {
-      "utf8": " बैटरी",
-      "tOffsetMs": 180,
-      "acAsrConf": 34
-    }, {
-      "utf8": " लाइव्ड",
-      "tOffsetMs": 1080,
-      "acAsrConf": 215
-    }, {
-      "utf8": " थ्रू",
-      "tOffsetMs": 2030,
-      "acAsrConf": 153
-    } ]
-  }, {
-    "tStartMs": 142120,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 142130,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "लिक्विड",
-      "acAsrConf": 181
-    } ]
-  }, {
-    "tStartMs": 148030,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 148040,
-    "dDurationMs": 3810,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "क्रीटेड",
-      "acAsrConf": 195
-    }, {
-      "utf8": " फॉर",
-      "tOffsetMs": 1000,
-      "acAsrConf": 199
-    } ]
-  }, {
-    "tStartMs": 152380,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 152390,
-    "dDurationMs": 5670,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "ऑल",
-      "acAsrConf": 196
-    }, {
-      "utf8": " आफ",
-      "tOffsetMs": 1000,
-      "acAsrConf": 196
-    } ]
-  }, {
-    "tStartMs": 154630,
-    "dDurationMs": 3430,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 154640,
-    "dDurationMs": 3420,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "यू",
-      "acAsrConf": 196
-    }, {
-      "utf8": " फॉर",
-      "tOffsetMs": 1000,
-      "acAsrConf": 195
-    } ]
-  }, {
-    "tStartMs": 159220,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 159230,
-    "dDurationMs": 3120,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "थे",
-      "acAsrConf": 192
-    }, {
-      "utf8": " रिस्पांस",
-      "tOffsetMs": 1000,
-      "acAsrConf": 192
-    } ]
-  }, {
-    "tStartMs": 162490,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 162500,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टो",
-      "acAsrConf": 207
-    } ]
-  }, {
-    "tStartMs": 166750,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 166760,
-    "dDurationMs": 3540,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "कैरी",
-      "acAsrConf": 70
-    }, {
-      "utf8": " ओं",
-      "tOffsetMs": 1000,
-      "acAsrConf": 81
-    } ]
-  }, {
-    "tStartMs": 179770,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 179780,
-    "dDurationMs": 4490,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "ए",
-      "acAsrConf": 173
-    }, {
-      "utf8": " बीटा",
-      "acAsrConf": 229
-    }, {
-      "utf8": " टेस्टिंग",
-      "tOffsetMs": 630,
-      "acAsrConf": 229
-    }, {
-      "utf8": " बैकुंठ",
-      "tOffsetMs": 1020,
-      "acAsrConf": 125
-    } ]
-  }, {
-    "tStartMs": 182640,
-    "dDurationMs": 1630,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 182650,
-    "dDurationMs": 4620,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "2002",
-      "acAsrConf": 159
-    } ]
-  }, {
-    "tStartMs": 184260,
-    "dDurationMs": 3010,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 184270,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टेस्टिंग",
-      "acAsrConf": 194
-    } ]
-  }, {
-    "tStartMs": 187860,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 187870,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टेस्टिंग",
-      "acAsrConf": 209
-    } ]
-  }, {
-    "tStartMs": 191400,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 191410,
-    "dDurationMs": 5490,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "कंप्यूटर",
-      "acAsrConf": 179
-    }, {
-      "utf8": " और",
-      "tOffsetMs": 1200,
-      "acAsrConf": 125
-    }, {
-      "utf8": " मोबाइल",
-      "tOffsetMs": 2200,
-      "acAsrConf": 135
-    }, {
-      "utf8": " एप्लिकेशन",
-      "tOffsetMs": 2710,
-      "acAsrConf": 71
-    } ]
-  }, {
-    "tStartMs": 200430,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 200440,
-    "dDurationMs": 4000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सब्सक्राइब",
-      "acAsrConf": 228
-    }, {
-      "utf8": " टो",
-      "tOffsetMs": 1000,
-      "acAsrConf": 192
-    } ]
-  }, {
-    "tStartMs": 204950,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 204960,
-    "dDurationMs": 4310,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "थे",
-      "acAsrConf": 111
-    }, {
-      "utf8": " मूवमेंट",
-      "tOffsetMs": 30,
-      "acAsrConf": 191
-    }, {
-      "utf8": " फॉर",
-      "tOffsetMs": 630,
-      "acAsrConf": 229
-    }, {
-      "utf8": " प्ले",
-      "tOffsetMs": 810,
-      "acAsrConf": 132
-    }, {
-      "utf8": " था",
-      "tOffsetMs": 1440,
-      "acAsrConf": 189
-    }, {
-      "utf8": " वहां",
-      "tOffsetMs": 1710,
-      "acAsrConf": 229
-    }, {
-      "utf8": " कबीर",
-      "tOffsetMs": 1920,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 209800,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 209810,
-    "dDurationMs": 7890,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "वास",
-      "acAsrConf": 229
-    }, {
-      "utf8": " इन",
-      "tOffsetMs": 1000,
-      "acAsrConf": 229
-    }, {
-      "utf8": " थे",
-      "tOffsetMs": 1120,
-      "acAsrConf": 229
-    }, {
-      "utf8": " वाइडएस्प्रेड",
-      "tOffsetMs": 1990,
-      "acAsrConf": 229
-    }, {
-      "utf8": " पापुलैरिटी",
-      "tOffsetMs": 2500,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 214480,
-    "dDurationMs": 3220,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 214490,
-    "dDurationMs": 5999,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सेट",
-      "acAsrConf": 145
-    }, {
-      "utf8": " ऑफ",
-      "tOffsetMs": 1000,
-      "acAsrConf": 152
-    }, {
-      "utf8": " टीचर्स",
-      "tOffsetMs": 1150,
-      "acAsrConf": 224
-    }, {
-      "utf8": " डे",
-      "tOffsetMs": 1720,
-      "acAsrConf": 173
-    } ]
-  }, {
-    "tStartMs": 217690,
-    "dDurationMs": 2799,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 217700,
-    "dDurationMs": 7470,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "है",
-      "acAsrConf": 126
-    }, {
-      "utf8": " इसलिए",
-      "tOffsetMs": 30,
-      "acAsrConf": 229
-    }, {
-      "utf8": " हम",
-      "tOffsetMs": 630,
-      "acAsrConf": 140
-    }, {
-      "utf8": " इधर",
-      "tOffsetMs": 899,
-      "acAsrConf": 192
-    }, {
-      "utf8": " ओपन",
-      "tOffsetMs": 1350,
-      "acAsrConf": 188
-    }, {
-      "utf8": " सोर्स",
-      "tOffsetMs": 1800,
-      "acAsrConf": 229
-    }, {
-      "utf8": " एंड",
-      "tOffsetMs": 2100,
-      "acAsrConf": 229
-    }, {
-      "utf8": " पोर्टेबल",
-      "tOffsetMs": 2310,
-      "acAsrConf": 187
-    } ]
-  }, {
-    "tStartMs": 220479,
-    "dDurationMs": 4691,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 220489,
-    "dDurationMs": 8491,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "प्रेम",
-      "acAsrConf": 229
-    }, {
-      "utf8": " व",
-      "tOffsetMs": 360,
-      "acAsrConf": 187
-    }, {
-      "utf8": " टैप",
-      "tOffsetMs": 571,
-      "acAsrConf": 35
-    }, {
-      "utf8": " ले",
-      "tOffsetMs": 1561,
-      "acAsrConf": 25
-    }, {
-      "utf8": " बैक",
-      "tOffsetMs": 2220,
-      "acAsrConf": 183
-    }, {
-      "utf8": " रिकॉर्ड",
-      "tOffsetMs": 2610,
-      "acAsrConf": 229
-    }, {
-      "utf8": " सीट",
-      "tOffsetMs": 3061,
-      "acAsrConf": 218
-    }, {
-      "utf8": " शबनम",
-      "tOffsetMs": 3681,
-      "acAsrConf": 77
-    } ]
-  }, {
-    "tStartMs": 225160,
-    "dDurationMs": 3820,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 225170,
-    "dDurationMs": 6620,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "बेस्ट",
-      "acAsrConf": 211
-    }, {
-      "utf8": " बेस्ट",
-      "tOffsetMs": 600,
-      "acAsrConf": 209
-    }, {
-      "utf8": " प्लेटफॉर्म",
-      "tOffsetMs": 1170,
-      "acAsrConf": 187
-    }, {
-      "utf8": " सपोच",
-      "tOffsetMs": 2060,
-      "acAsrConf": 182
-    }, {
-      "utf8": " वैरीयस",
-      "tOffsetMs": 3060,
-      "acAsrConf": 218
-    } ]
-  }, {
-    "tStartMs": 228970,
-    "dDurationMs": 2820,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 228980,
-    "dDurationMs": 2810,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "इवेंट्स",
-      "acAsrConf": 41
-    }, {
-      "utf8": " एंड",
-      "tOffsetMs": 180,
-      "acAsrConf": 145
-    } ]
-  }, {
-    "tStartMs": 232559,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 232569,
-    "dDurationMs": 6481,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "विड",
-      "acAsrConf": 201
-    } ]
-  }, {
-    "tStartMs": 234119,
-    "dDurationMs": 4931,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 234129,
-    "dDurationMs": 4921,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "स्पोर्ट्स",
-      "acAsrConf": 215
-    }, {
-      "utf8": " शूज",
-      "tOffsetMs": 1000,
-      "acAsrConf": 215
-    }, {
-      "utf8": " एंड",
-      "tOffsetMs": 1921,
-      "acAsrConf": 217
-    } ]
-  }, {
-    "tStartMs": 250229,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 250239,
-    "dDurationMs": 4261,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "ओपन",
-      "acAsrConf": 220
-    }, {
-      "utf8": " सोर्स",
-      "tOffsetMs": 1000,
-      "acAsrConf": 229
-    }, {
-      "utf8": " एंड",
-      "tOffsetMs": 1121,
-      "acAsrConf": 186
-    } ]
-  }, {
-    "tStartMs": 252660,
-    "dDurationMs": 1840,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 252670,
-    "dDurationMs": 4830,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टेस्टिंग",
-      "acAsrConf": 125
-    } ]
-  }, {
-    "tStartMs": 254490,
-    "dDurationMs": 3010,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 254500,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "इन",
-      "acAsrConf": 179
-    } ]
-  }, {
-    "tStartMs": 258870,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 258880,
-    "dDurationMs": 5800,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टर्म्स",
-      "acAsrConf": 179
-    }, {
-      "utf8": " आफ",
-      "tOffsetMs": 1000,
-      "acAsrConf": 229
-    }, {
-      "utf8": " डिफरेंट",
-      "tOffsetMs": 1060,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 261300,
-    "dDurationMs": 3380,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 261310,
-    "dDurationMs": 6430,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "विड",
-      "acAsrConf": 164
-    }, {
-      "utf8": " ऊ",
-      "tOffsetMs": 1000,
-      "acAsrConf": 163
-    } ]
-  }, {
-    "tStartMs": 264670,
-    "dDurationMs": 3070,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 264680,
-    "dDurationMs": 7590,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "ब्लूटूथ",
-      "acAsrConf": 87
-    }, {
-      "utf8": " सेटिंग",
-      "tOffsetMs": 150,
-      "acAsrConf": 83
-    }, {
-      "utf8": " फीचर्स",
-      "tOffsetMs": 870,
-      "acAsrConf": 204
-    }, {
-      "utf8": " प्ले",
-      "tOffsetMs": 1250,
-      "acAsrConf": 70
-    }, {
-      "utf8": " बैक",
-      "tOffsetMs": 2250,
-      "acAsrConf": 199
-    }, {
-      "utf8": " रिकॉर्ड",
-      "tOffsetMs": 2549,
-      "acAsrConf": 189
-    } ]
-  }, {
-    "tStartMs": 267730,
-    "dDurationMs": 4540,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 267740,
-    "dDurationMs": 7500,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टीचर",
-      "acAsrConf": 213
-    }, {
-      "utf8": " टीचर",
-      "tOffsetMs": 739,
-      "acAsrConf": 140
-    }, {
-      "utf8": " स्टूडेंट्स",
-      "tOffsetMs": 1739,
-      "acAsrConf": 136
-    }, {
-      "utf8": " एडमिटेड",
-      "tOffsetMs": 2429,
-      "acAsrConf": 173
-    }, {
-      "utf8": " इन",
-      "tOffsetMs": 2790,
-      "acAsrConf": 82
-    }, {
-      "utf8": " थे",
-      "tOffsetMs": 3510,
-      "acAsrConf": 83
-    }, {
-      "utf8": " आइज",
-      "tOffsetMs": 3750,
-      "acAsrConf": 91
-    } ]
-  }, {
-    "tStartMs": 272260,
-    "dDurationMs": 2980,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 272270,
-    "dDurationMs": 5910,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "विदाउट",
-      "acAsrConf": 139
-    }, {
-      "utf8": " नोइंग",
-      "tOffsetMs": 330,
-      "acAsrConf": 51
-    }, {
-      "utf8": " ठाट",
-      "tOffsetMs": 690,
-      "acAsrConf": 25
-    }, {
-      "utf8": " थिस",
-      "tOffsetMs": 899,
-      "acAsrConf": 83
-    }, {
-      "utf8": " लैंग्वेज",
-      "tOffsetMs": 1200,
-      "acAsrConf": 153
-    }, {
-      "utf8": " विद",
-      "tOffsetMs": 1890,
-      "acAsrConf": 188
-    }, {
-      "utf8": " हेर",
-      "tOffsetMs": 2700,
-      "acAsrConf": 187
-    } ]
-  }, {
-    "tStartMs": 275230,
-    "dDurationMs": 2950,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 275240,
-    "dDurationMs": 6390,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "डॉटर्स",
-      "acAsrConf": 190
-    } ]
-  }, {
-    "tStartMs": 278170,
-    "dDurationMs": 3460,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 278180,
-    "dDurationMs": 5660,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "के",
-      "acAsrConf": 187
-    }, {
-      "utf8": " वृक्ष",
-      "tOffsetMs": 30,
-      "acAsrConf": 186
-    }, {
-      "utf8": " विच",
-      "tOffsetMs": 810,
-      "acAsrConf": 191
-    }, {
-      "utf8": " एक्सप्लेंस",
-      "tOffsetMs": 1250,
-      "acAsrConf": 148
-    }, {
-      "utf8": " हम",
-      "tOffsetMs": 2250,
-      "acAsrConf": 78
-    }, {
-      "utf8": " इधर",
-      "tOffsetMs": 2549,
-      "acAsrConf": 27
-    }, {
-      "utf8": " क्लाउड",
-      "tOffsetMs": 2940,
-      "acAsrConf": 167
-    } ]
-  }, {
-    "tStartMs": 281620,
-    "dDurationMs": 2220,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 281630,
-    "dDurationMs": 5060,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "बेस्ड",
-      "acAsrConf": 170
-    }, {
-      "utf8": " सेटिंग",
-      "tOffsetMs": 210,
-      "acAsrConf": 125
-    }, {
-      "utf8": " क्लॉक",
-      "tOffsetMs": 690,
-      "acAsrConf": 125
-    }, {
-      "utf8": " को",
-      "tOffsetMs": 870,
-      "acAsrConf": 164
-    } ]
-  }, {
-    "tStartMs": 283830,
-    "dDurationMs": 2860,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 283840,
-    "dDurationMs": 5850,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "है",
-      "acAsrConf": 87
-    }, {
-      "utf8": " इसलिए",
-      "tOffsetMs": 30,
-      "acAsrConf": 138
-    }, {
-      "utf8": " नियम",
-      "tOffsetMs": 630,
-      "acAsrConf": 40
-    }, {
-      "utf8": " इधर",
-      "tOffsetMs": 900,
-      "acAsrConf": 125
-    }, {
-      "utf8": " लीडिंग",
-      "tOffsetMs": 1410,
-      "acAsrConf": 172
-    }, {
-      "utf8": " क्लाउड",
-      "tOffsetMs": 1890,
-      "acAsrConf": 227
-    }, {
-      "utf8": " बेस्ड",
-      "tOffsetMs": 2310,
-      "acAsrConf": 229
-    }, {
-      "utf8": " एक",
-      "tOffsetMs": 2520,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 286680,
-    "dDurationMs": 3010,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 286690,
-    "dDurationMs": 6600,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "प्लेटफॉर्म",
-      "acAsrConf": 177
-    }, {
-      "utf8": " लैटर",
-      "tOffsetMs": 660,
-      "acAsrConf": 79
-    }, {
-      "utf8": " लव",
-      "tOffsetMs": 1290,
-      "acAsrConf": 45
-    }, {
-      "utf8": " स्टेटस",
-      "tOffsetMs": 1470,
-      "acAsrConf": 41
-    }, {
-      "utf8": " टू",
-      "tOffsetMs": 2130,
-      "acAsrConf": 197
-    }, {
-      "utf8": " रिकॉर्ड",
-      "tOffsetMs": 2580,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 289680,
-    "dDurationMs": 3610,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 289690,
-    "dDurationMs": 5360,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "इरेक्शन",
-      "acAsrConf": 184
-    }, {
-      "utf8": " एक्सपोर्ट",
-      "tOffsetMs": 690,
-      "acAsrConf": 43
-    }, {
-      "utf8": " Video",
-      "tOffsetMs": 1699,
-      "acAsrConf": 57
-    }, {
-      "utf8": " सब्स्क्राइब",
-      "tOffsetMs": 2699,
-      "acAsrConf": 47
-    } ]
-  }, {
-    "tStartMs": 293280,
-    "dDurationMs": 1770,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 293290,
-    "dDurationMs": 4750,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सिंपल",
-      "acAsrConf": 125
-    } ]
-  }, {
-    "tStartMs": 295040,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 295050,
-    "dDurationMs": 7280,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "यूजर",
-      "acAsrConf": 186
-    }, {
-      "utf8": " इंटरफेस",
-      "tOffsetMs": 1000,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 298030,
-    "dDurationMs": 4300,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 298040,
-    "dDurationMs": 7020,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "ए",
-      "acAsrConf": 161
-    }, {
-      "utf8": " मूवी",
-      "acAsrConf": 158
-    }, {
-      "utf8": " फॉर",
-      "tOffsetMs": 630,
-      "acAsrConf": 186
-    }, {
-      "utf8": " विन",
-      "tOffsetMs": 840,
-      "acAsrConf": 134
-    }, {
-      "utf8": " एक्सपी",
-      "tOffsetMs": 1530,
-      "acAsrConf": 134
-    }, {
-      "utf8": " चेस्ट",
-      "tOffsetMs": 1890,
-      "acAsrConf": 98
-    }, {
-      "utf8": " स्लिम",
-      "tOffsetMs": 2390,
-      "acAsrConf": 90
-    }, {
-      "utf8": " सपोच",
-      "tOffsetMs": 3390,
-      "acAsrConf": 146
-    } ]
-  }, {
-    "tStartMs": 302320,
-    "dDurationMs": 2740,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 302330,
-    "dDurationMs": 5940,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "वैरीयस",
-      "acAsrConf": 54
-    }, {
-      "utf8": " ऑपरेटिंग",
-      "tOffsetMs": 480,
-      "acAsrConf": 222
-    }, {
-      "utf8": " सिस्टम्स",
-      "tOffsetMs": 960,
-      "acAsrConf": 229
-    }, {
-      "utf8": " ब्राउजर्स",
-      "tOffsetMs": 1550,
-      "acAsrConf": 229
-    }, {
-      "utf8": " एंड",
-      "tOffsetMs": 2550,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 305050,
-    "dDurationMs": 3220,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 305060,
-    "dDurationMs": 6300,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "प्रोग्रामिंग",
-      "acAsrConf": 229
-    }, {
-      "utf8": " लैंग्वेज",
-      "tOffsetMs": 600,
-      "acAsrConf": 149
-    }, {
-      "utf8": " इज",
-      "tOffsetMs": 990,
-      "acAsrConf": 133
-    }, {
-      "utf8": " द",
-      "tOffsetMs": 1170,
-      "acAsrConf": 165
-    }, {
-      "utf8": " टू",
-      "tOffsetMs": 2130,
-      "acAsrConf": 66
-    }, {
-      "utf8": " सपोर्ट्स",
-      "tOffsetMs": 2370,
-      "acAsrConf": 82
-    } ]
-  }, {
-    "tStartMs": 308260,
-    "dDurationMs": 3100,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 308270,
-    "dDurationMs": 8900,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "प्रोग्रामिंग",
-      "acAsrConf": 229
-    }, {
-      "utf8": " लैंग्वेजेस",
-      "tOffsetMs": 630,
-      "acAsrConf": 181
-    }, {
-      "utf8": " सतिश",
-      "tOffsetMs": 1070,
-      "acAsrConf": 113
-    }, {
-      "utf8": " आप",
-      "tOffsetMs": 2070,
-      "acAsrConf": 147
-    }, {
-      "utf8": " जा",
-      "tOffsetMs": 2310,
-      "acAsrConf": 170
-    }, {
-      "utf8": " व",
-      "tOffsetMs": 2820,
-      "acAsrConf": 210
-    } ]
-  }, {
-    "tStartMs": 311350,
-    "dDurationMs": 5820,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 311360,
-    "dDurationMs": 5810,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "पार्थ",
-      "acAsrConf": 140
-    }, {
-      "utf8": " इन",
-      "tOffsetMs": 630,
-      "acAsrConf": 229
-    }, {
-      "utf8": " पीएचपी",
-      "tOffsetMs": 1100,
-      "acAsrConf": 229
-    }, {
-      "utf8": " रूबी",
-      "tOffsetMs": 2100,
-      "acAsrConf": 186
-    }, {
-      "utf8": " पल",
-      "tOffsetMs": 2580,
-      "acAsrConf": 125
-    }, {
-      "utf8": " जावत",
-      "tOffsetMs": 3240,
-      "acAsrConf": 142
-    } ]
-  }, {
-    "tStartMs": 318270,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 318280,
-    "dDurationMs": 5400,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सपोच",
-      "acAsrConf": 142
-    }, {
-      "utf8": " ऑपरेटिंग",
-      "tOffsetMs": 1000,
-      "acAsrConf": 229
-    }, {
-      "utf8": " सिस्टम",
-      "tOffsetMs": 1750,
-      "acAsrConf": 229
-    }, {
-      "utf8": " एंड्रॉयड",
-      "tOffsetMs": 2080,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 321690,
-    "dDurationMs": 1990,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 321700,
-    "dDurationMs": 4980,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "विंडो",
-      "acAsrConf": 161
-    } ]
-  }, {
-    "tStartMs": 323670,
-    "dDurationMs": 3010,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 323680,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "एंड",
-      "acAsrConf": 87
-    } ]
-  }, {
-    "tStartMs": 328440,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 328450,
-    "dDurationMs": 4000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सब्सक्राइब",
-      "acAsrConf": 156
-    }, {
-      "utf8": " टो",
-      "tOffsetMs": 1000,
-      "acAsrConf": 41
-    } ]
-  }, {
-    "tStartMs": 334550,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 334560,
-    "dDurationMs": 4329,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "कि",
-      "acAsrConf": 17
-    }, {
-      "utf8": " सफारी",
-      "tOffsetMs": 30,
-      "acAsrConf": 176
-    }, {
-      "utf8": " एक",
-      "tOffsetMs": 990,
-      "acAsrConf": 223
-    }, {
-      "utf8": " बच्चा",
-      "tOffsetMs": 1200,
-      "acAsrConf": 158
-    } ]
-  }, {
-    "tStartMs": 336790,
-    "dDurationMs": 2099,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 336800,
-    "dDurationMs": 5190,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "के",
-      "acAsrConf": 27
-    }, {
-      "utf8": " दिन",
-      "tOffsetMs": 30,
-      "acAsrConf": 155
-    }, {
-      "utf8": " एक",
-      "tOffsetMs": 570,
-      "acAsrConf": 185
-    }, {
-      "utf8": " टीचर",
-      "tOffsetMs": 869,
-      "acAsrConf": 176
-    }, {
-      "utf8": " बिहार",
-      "tOffsetMs": 1230,
-      "acAsrConf": 149
-    } ]
-  }, {
-    "tStartMs": 338879,
-    "dDurationMs": 3111,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 338889,
-    "dDurationMs": 5471,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "इंटीग्रेशन",
-      "acAsrConf": 194
-    }, {
-      "utf8": " विद",
-      "tOffsetMs": 1000,
-      "acAsrConf": 229
-    }, {
-      "utf8": " टेस्टिंग",
-      "tOffsetMs": 1270,
-      "acAsrConf": 229
-    }, {
-      "utf8": " बॉस",
-      "tOffsetMs": 1691,
-      "acAsrConf": 72
-    } ]
-  }, {
-    "tStartMs": 341980,
-    "dDurationMs": 2380,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 341990,
-    "dDurationMs": 5880,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "कि",
-      "acAsrConf": 86
-    }, {
-      "utf8": " फिल्म",
-      "tOffsetMs": 30,
-      "acAsrConf": 129
-    }, {
-      "utf8": " हिम",
-      "tOffsetMs": 660,
-      "acAsrConf": 41
-    }, {
-      "utf8": " कैन",
-      "tOffsetMs": 870,
-      "acAsrConf": 224
-    }, {
-      "utf8": " वेल",
-      "tOffsetMs": 1260,
-      "acAsrConf": 173
-    }, {
-      "utf8": " इंटीग्रेटिड",
-      "tOffsetMs": 1740,
-      "acAsrConf": 103
-    } ]
-  }, {
-    "tStartMs": 344350,
-    "dDurationMs": 3520,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 344360,
-    "dDurationMs": 6600,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टेस्टिंग",
-      "acAsrConf": 177
-    }, {
-      "utf8": " चैंबर",
-      "tOffsetMs": 540,
-      "acAsrConf": 47
-    }, {
-      "utf8": " ग्लूटेन",
-      "tOffsetMs": 920,
-      "acAsrConf": 59
-    }, {
-      "utf8": " जी",
-      "tOffsetMs": 1920,
-      "acAsrConf": 126
-    }, {
-      "utf8": " फॉर",
-      "tOffsetMs": 2220,
-      "acAsrConf": 125
-    }, {
-      "utf8": " एप्लीकेशन",
-      "tOffsetMs": 2670,
-      "acAsrConf": 184
-    } ]
-  }, {
-    "tStartMs": 347860,
-    "dDurationMs": 3100,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 347870,
-    "dDurationMs": 5820,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टेस्टिंग",
-      "acAsrConf": 224
-    }, {
-      "utf8": " इन",
-      "tOffsetMs": 630,
-      "acAsrConf": 209
-    }, {
-      "utf8": " जेनरेटिंग",
-      "tOffsetMs": 660,
-      "acAsrConf": 229
-    }, {
-      "utf8": " रिपोर्ट्स",
-      "tOffsetMs": 1140,
-      "acAsrConf": 173
-    }, {
-      "utf8": " एंड",
-      "tOffsetMs": 1890,
-      "acAsrConf": 227
-    }, {
-      "utf8": " अलसो",
-      "tOffsetMs": 2520,
-      "acAsrConf": 125
-    } ]
-  }, {
-    "tStartMs": 350950,
-    "dDurationMs": 2740,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 350960,
-    "dDurationMs": 7950,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "ए",
-      "acAsrConf": 155
-    }, {
-      "utf8": " फैलियर",
-      "tOffsetMs": 570,
-      "acAsrConf": 155
-    }, {
-      "utf8": " कैन",
-      "tOffsetMs": 1050,
-      "acAsrConf": 229
-    }, {
-      "utf8": " बे",
-      "tOffsetMs": 1110,
-      "acAsrConf": 187
-    }, {
-      "utf8": " इंटीग्रेटेड",
-      "tOffsetMs": 1380,
-      "acAsrConf": 229
-    }, {
-      "utf8": " विद",
-      "tOffsetMs": 1680,
-      "acAsrConf": 229
-    }, {
-      "utf8": " प्रेम",
-      "tOffsetMs": 2220,
-      "acAsrConf": 110
-    } ]
-  }, {
-    "tStartMs": 353680,
-    "dDurationMs": 5230,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 353690,
-    "dDurationMs": 6620,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "कुछ",
-      "acAsrConf": 125
-    }, {
-      "utf8": " लाइक",
-      "tOffsetMs": 750,
-      "acAsrConf": 229
-    }, {
-      "utf8": " एंड",
-      "tOffsetMs": 990,
-      "acAsrConf": 229
-    }, {
-      "utf8": " अनविन",
-      "tOffsetMs": 1440,
-      "acAsrConf": 148
-    }, {
-      "utf8": " अधिकतम",
-      "tOffsetMs": 2510,
-      "acAsrConf": 129
-    }, {
-      "utf8": " पहले",
-      "tOffsetMs": 3510,
-      "acAsrConf": 187
-    }, {
-      "utf8": " इलास्टिक",
-      "tOffsetMs": 4220,
-      "acAsrConf": 149
-    } ]
-  }, {
-    "tStartMs": 358900,
-    "dDurationMs": 1410,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 358910,
-    "dDurationMs": 4400,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "डालें",
-      "acAsrConf": 85
-    } ]
-  }, {
-    "tStartMs": 360300,
-    "dDurationMs": 3010,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 360310,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "5310",
-      "acAsrConf": 72
-    } ]
-  }, {
-    "tStartMs": 367170,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 367180,
-    "dDurationMs": 4750,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "विड",
-      "acAsrConf": 223
-    }, {
-      "utf8": " ऊ",
-      "tOffsetMs": 1000,
-      "acAsrConf": 223
-    } ]
-  }, {
-    "tStartMs": 369100,
-    "dDurationMs": 2830,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 369110,
-    "dDurationMs": 8840,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "है",
-      "acAsrConf": 93
-    }, {
-      "utf8": " इसलिए",
-      "tOffsetMs": 30,
-      "acAsrConf": 125
-    }, {
-      "utf8": " रिक्वायर्ड",
-      "tOffsetMs": 800,
-      "acAsrConf": 191
-    }, {
-      "utf8": " यह",
-      "tOffsetMs": 1800,
-      "acAsrConf": 41
-    }, {
-      "utf8": " रिसोर्सेज़",
-      "tOffsetMs": 2010,
-      "acAsrConf": 137
-    } ]
-  }, {
-    "tStartMs": 371920,
-    "dDurationMs": 6030,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 371930,
-    "dDurationMs": 9020,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "कांटेक्ट",
-      "acAsrConf": 82
-    }, {
-      "utf8": " अदर",
-      "tOffsetMs": 810,
-      "acAsrConf": 114
-    }, {
-      "utf8": " ऑटोमेशन",
-      "tOffsetMs": 1380,
-      "acAsrConf": 221
-    }, {
-      "utf8": " टेस्टिंग",
-      "tOffsetMs": 2100,
-      "acAsrConf": 229
-    }, {
-      "utf8": " टू",
-      "tOffsetMs": 2400,
-      "acAsrConf": 212
-    }, {
-      "utf8": " नो",
-      "tOffsetMs": 3080,
-      "acAsrConf": 192
-    }, {
-      "utf8": " द",
-      "tOffsetMs": 4100,
-      "acAsrConf": 194
-    } ]
-  }, {
-    "tStartMs": 377940,
-    "dDurationMs": 3010,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 377950,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "डिफरेंट",
-      "acAsrConf": 115
-    } ]
-  }, {
-    "tStartMs": 381210,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 381220,
-    "dDurationMs": 8880,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "फॉर",
-      "acAsrConf": 46
-    }, {
-      "utf8": " डिफरेंट",
-      "tOffsetMs": 1000,
-      "acAsrConf": 133
-    }, {
-      "utf8": " टू",
-      "tOffsetMs": 1060,
-      "acAsrConf": 82
-    }, {
-      "utf8": " डू",
-      "tOffsetMs": 1800,
-      "acAsrConf": 154
-    } ]
-  }, {
-    "tStartMs": 384720,
-    "dDurationMs": 5380,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 384730,
-    "dDurationMs": 5370,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "द",
-      "acAsrConf": 176
-    }, {
-      "utf8": " फोटोस",
-      "tOffsetMs": 1000,
-      "acAsrConf": 191
-    }, {
-      "utf8": " रिमोट",
-      "tOffsetMs": 1890,
-      "acAsrConf": 229
-    }, {
-      "utf8": " कंट्रोल",
-      "tOffsetMs": 2890,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 394760,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 394770,
-    "dDurationMs": 3030,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "[संगीत]"
-    } ]
-  }, {
-    "tStartMs": 398940,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 398950,
-    "dDurationMs": 8160,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "रिमोट",
-      "acAsrConf": 177
-    }, {
-      "utf8": " कंट्रोल",
-      "tOffsetMs": 1000,
-      "acAsrConf": 177
-    } ]
-  }, {
-    "tStartMs": 401430,
-    "dDurationMs": 5680,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 401440,
-    "dDurationMs": 5670,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "रिमोट",
-      "acAsrConf": 229
-    }, {
-      "utf8": " कंट्रोल",
-      "tOffsetMs": 1000,
-      "acAsrConf": 229
-    }, {
-      "utf8": " राइटिंग",
-      "tOffsetMs": 2100,
-      "acAsrConf": 190
-    }, {
-      "utf8": " टो",
-      "tOffsetMs": 3100,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 413070,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 413080,
-    "dDurationMs": 3150,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सब्सक्राइब",
-      "acAsrConf": 229
-    }, {
-      "utf8": " टो",
-      "tOffsetMs": 1000,
-      "acAsrConf": 207
-    } ]
-  }, {
-    "tStartMs": 419800,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 419810,
-    "dDurationMs": 4740,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "है",
-      "acAsrConf": 186
-    }, {
-      "utf8": " इसलिए",
-      "tOffsetMs": 30,
-      "acAsrConf": 171
-    }, {
-      "utf8": " मार्कशीट",
-      "tOffsetMs": 600,
-      "acAsrConf": 184
-    }, {
-      "utf8": " प्रोडक्ट्स",
-      "tOffsetMs": 1079,
-      "acAsrConf": 72
-    }, {
-      "utf8": " अनेबल",
-      "tOffsetMs": 2010,
-      "acAsrConf": 127
-    } ]
-  }, {
-    "tStartMs": 422110,
-    "dDurationMs": 2440,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 422120,
-    "dDurationMs": 5970,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "प्रोजेक्ट",
-      "acAsrConf": 140
-    }, {
-      "utf8": " फॉर",
-      "tOffsetMs": 480,
-      "acAsrConf": 198
-    }, {
-      "utf8": " वेरी",
-      "tOffsetMs": 630,
-      "acAsrConf": 229
-    }, {
-      "utf8": " लोंग",
-      "tOffsetMs": 1110,
-      "acAsrConf": 229
-    }, {
-      "utf8": " टाइम",
-      "tOffsetMs": 1140,
-      "acAsrConf": 229
-    }, {
-      "utf8": " बिफोर",
-      "tOffsetMs": 1380,
-      "acAsrConf": 229
-    }, {
-      "utf8": " एंड",
-      "tOffsetMs": 2280,
-      "acAsrConf": 136
-    } ]
-  }, {
-    "tStartMs": 424540,
-    "dDurationMs": 3550,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 424550,
-    "dDurationMs": 6000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "वेब",
-      "acAsrConf": 93
-    }, {
-      "utf8": " ड्राइवर",
-      "tOffsetMs": 570,
-      "acAsrConf": 214
-    }, {
-      "utf8": " केम",
-      "tOffsetMs": 930,
-      "acAsrConf": 219
-    }, {
-      "utf8": " इनटू",
-      "tOffsetMs": 1560,
-      "acAsrConf": 229
-    }, {
-      "utf8": " एक्जिस्टेंस",
-      "tOffsetMs": 1710,
-      "acAsrConf": 229
-    }, {
-      "utf8": " इन",
-      "tOffsetMs": 1920,
-      "acAsrConf": 229
-    }, {
-      "utf8": " हैंड",
-      "tOffsetMs": 2850,
-      "acAsrConf": 180
-    } ]
-  }, {
-    "tStartMs": 428080,
-    "dDurationMs": 2470,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 428090,
-    "dDurationMs": 4190,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सैलेरी",
-      "acAsrConf": 79
-    }, {
-      "utf8": " मार्कशीट",
-      "tOffsetMs": 210,
-      "acAsrConf": 161
-    }, {
-      "utf8": " इस",
-      "tOffsetMs": 960,
-      "acAsrConf": 191
-    }, {
-      "utf8": " हार",
-      "tOffsetMs": 1560,
-      "acAsrConf": 125
-    }, {
-      "utf8": " दिल्ली",
-      "tOffsetMs": 1799,
-      "acAsrConf": 48
-    }, {
-      "utf8": " न्यूज़",
-      "tOffsetMs": 2070,
-      "acAsrConf": 178
-    } ]
-  }, {
-    "tStartMs": 430540,
-    "dDurationMs": 1740,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 430550,
-    "dDurationMs": 4760,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टुडे",
-      "acAsrConf": 181
-    } ]
-  }, {
-    "tStartMs": 432270,
-    "dDurationMs": 3040,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 432280,
-    "dDurationMs": 8740,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "मोर",
-      "acAsrConf": 138
-    }, {
-      "utf8": " थन",
-      "tOffsetMs": 1000,
-      "acAsrConf": 90
-    } ]
-  }, {
-    "tStartMs": 435300,
-    "dDurationMs": 5720,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 435310,
-    "dDurationMs": 5710,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टू",
-      "acAsrConf": 95
-    }, {
-      "utf8": " व्हिच",
-      "tOffsetMs": 1000,
-      "acAsrConf": 125
-    }, {
-      "utf8": " इज",
-      "tOffsetMs": 1270,
-      "acAsrConf": 136
-    }, {
-      "utf8": " द",
-      "tOffsetMs": 2050,
-      "acAsrConf": 137
-    }, {
-      "utf8": " नेम",
-      "tOffsetMs": 2109,
-      "acAsrConf": 98
-    }, {
-      "utf8": " ऑफ",
-      "tOffsetMs": 2620,
-      "acAsrConf": 135
-    }, {
-      "utf8": " द",
-      "tOffsetMs": 2710,
-      "acAsrConf": 96
-    } ]
-  }, {
-    "tStartMs": 446920,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 446930,
-    "dDurationMs": 8000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "मैं",
-      "acAsrConf": 68
-    }, {
-      "utf8": " विस्मित",
-      "tOffsetMs": 30,
-      "acAsrConf": 125
-    }, {
-      "utf8": " पॉसिबल",
-      "tOffsetMs": 780,
-      "acAsrConf": 200
-    }, {
-      "utf8": " मेहंदी",
-      "tOffsetMs": 1500,
-      "acAsrConf": 186
-    }, {
-      "utf8": " कमाना",
-      "tOffsetMs": 2100,
-      "acAsrConf": 43
-    }, {
-      "utf8": " रूटेड",
-      "tOffsetMs": 2609,
-      "acAsrConf": 211
-    }, {
-      "utf8": " टो",
-      "tOffsetMs": 3120,
-      "acAsrConf": 108
-    } ]
-  }, {
-    "tStartMs": 450279,
-    "dDurationMs": 4651,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 450289,
-    "dDurationMs": 8521,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "थे",
-      "acAsrConf": 141
-    }, {
-      "utf8": " रिमोट",
-      "tOffsetMs": 211,
-      "acAsrConf": 229
-    }, {
-      "utf8": " वेब",
-      "tOffsetMs": 421,
-      "acAsrConf": 163
-    }, {
-      "utf8": " ब्राउजर्स",
-      "tOffsetMs": 750,
-      "acAsrConf": 130
-    }, {
-      "utf8": " इंस्टेंसस",
-      "tOffsetMs": 1081,
-      "acAsrConf": 125
-    }, {
-      "utf8": " इन",
-      "tOffsetMs": 1681,
-      "acAsrConf": 186
-    }, {
-      "utf8": " व्वे",
-      "tOffsetMs": 2301,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 454920,
-    "dDurationMs": 3890,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 454930,
-    "dDurationMs": 8170,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "इज",
-      "acAsrConf": 190
-    }, {
-      "utf8": " रिस्पॉन्सिबल",
-      "tOffsetMs": 1000,
-      "acAsrConf": 229
-    }, {
-      "utf8": " फॉर",
-      "tOffsetMs": 1209,
-      "acAsrConf": 229
-    }, {
-      "utf8": " कंडक्टिंग",
-      "tOffsetMs": 1959,
-      "acAsrConf": 229
-    }, {
-      "utf8": " टेस्ट",
-      "tOffsetMs": 2880,
-      "acAsrConf": 185
-    } ]
-  }, {
-    "tStartMs": 458800,
-    "dDurationMs": 4300,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 458810,
-    "dDurationMs": 6290,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "मल्टीपल",
-      "acAsrConf": 173
-    }, {
-      "utf8": " मशीन",
-      "tOffsetMs": 750,
-      "acAsrConf": 229
-    }, {
-      "utf8": " लर्निंग",
-      "tOffsetMs": 1340,
-      "acAsrConf": 55
-    }, {
-      "utf8": " फ्रॉम",
-      "tOffsetMs": 2840,
-      "acAsrConf": 19
-    }, {
-      "utf8": " ब्राउजर",
-      "tOffsetMs": 3840,
-      "acAsrConf": 53
-    } ]
-  }, {
-    "tStartMs": 463090,
-    "dDurationMs": 2010,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 463100,
-    "dDurationMs": 7039,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टेस्टिंग",
-      "acAsrConf": 151
-    } ]
-  }, {
-    "tStartMs": 465090,
-    "dDurationMs": 5049,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 465100,
-    "dDurationMs": 5039,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "एंड",
-      "acAsrConf": 51
-    }, {
-      "utf8": " जेरी",
-      "tOffsetMs": 1000,
-      "acAsrConf": 59
-    }, {
-      "utf8": " मल्टीपल",
-      "tOffsetMs": 1740,
-      "acAsrConf": 174
-    }, {
-      "utf8": " मशीन",
-      "tOffsetMs": 2740,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 470670,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 470680,
-    "dDurationMs": 3180,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "Video",
-      "acAsrConf": 176
-    }, {
-      "utf8": " Channel",
-      "tOffsetMs": 1000,
-      "acAsrConf": 222
-    } ]
-  }, {
-    "tStartMs": 478020,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 478030,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "and",
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 483270,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 483280,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "subscribe",
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 504600,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 504610,
-    "dDurationMs": 7000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "This",
-      "acAsrConf": 229
+      "utf8": "selenium",
+      "acAsrConf": 248
     }, {
       "utf8": " is",
       "tOffsetMs": 1000,
-      "acAsrConf": 150
+      "acAsrConf": 248
     }, {
-      "utf8": " पीली",
-      "tOffsetMs": 2330,
-      "acAsrConf": 18
+      "utf8": " an",
+      "tOffsetMs": 1300,
+      "acAsrConf": 248
     }, {
-      "utf8": " mi2",
-      "tOffsetMs": 3190,
-      "acAsrConf": 14
+      "utf8": " open",
+      "tOffsetMs": 1421,
+      "acAsrConf": 248
     }, {
-      "utf8": " वांट",
-      "tOffsetMs": 4190,
-      "acAsrConf": 133
+      "utf8": " source",
+      "tOffsetMs": 1541,
+      "acAsrConf": 248
     }, {
-      "utf8": " टो",
-      "tOffsetMs": 4700,
-      "acAsrConf": 86
+      "utf8": " framework",
+      "tOffsetMs": 2021,
+      "acAsrConf": 248
     }, {
-      "utf8": " बेगिन",
-      "tOffsetMs": 4790,
-      "acAsrConf": 100
-    }, {
-      "utf8": " विद",
-      "tOffsetMs": 5030,
-      "acAsrConf": 131
+      "utf8": " for",
+      "tOffsetMs": 2381,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 509810,
-    "dDurationMs": 1800,
+    "tStartMs": 5269,
+    "dDurationMs": 2050,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 509820,
-    "dDurationMs": 5150,
+    "tStartMs": 5279,
+    "dDurationMs": 4021,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "सेलेनियम",
-      "acAsrConf": 138
+      "utf8": "automating",
+      "acAsrConf": 248
     }, {
-      "utf8": " इड",
-      "tOffsetMs": 570,
-      "acAsrConf": 166
+      "utf8": " web",
+      "tOffsetMs": 421,
+      "acAsrConf": 248
+    }, {
+      "utf8": " browsers",
+      "tOffsetMs": 721,
+      "acAsrConf": 248
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 1141,
+      "acAsrConf": 248
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 1560,
+      "acAsrConf": 248
+    }, {
+      "utf8": " used",
+      "tOffsetMs": 1681,
+      "acAsrConf": 248
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1801,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 511600,
-    "dDurationMs": 3370,
+    "tStartMs": 7309,
+    "dDurationMs": 1991,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 511610,
-    "dDurationMs": 7170,
+    "tStartMs": 7319,
+    "dDurationMs": 4261,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "नो",
-      "acAsrConf": 135
+      "utf8": "testing",
+      "acAsrConf": 248
     }, {
-      "utf8": " एडीशनल",
-      "tOffsetMs": 1000,
-      "acAsrConf": 159
+      "utf8": " web",
+      "tOffsetMs": 361,
+      "acAsrConf": 248
     }, {
-      "utf8": " सेट",
-      "tOffsetMs": 1239,
-      "acAsrConf": 92
+      "utf8": " applications",
+      "tOffsetMs": 540,
+      "acAsrConf": 248
     }, {
-      "utf8": " अप",
-      "tOffsetMs": 1660,
-      "acAsrConf": 119
-    }, {
-      "utf8": " एक्सेप्ट",
-      "tOffsetMs": 2020,
-      "acAsrConf": 161
-    }, {
-      "utf8": " इंस्टॉलिंग",
-      "tOffsetMs": 2799,
-      "acAsrConf": 173
+      "utf8": " performing",
+      "tOffsetMs": 1081,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 514960,
-    "dDurationMs": 3820,
+    "tStartMs": 9290,
+    "dDurationMs": 2290,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 514970,
-    "dDurationMs": 3810,
+    "tStartMs": 9300,
+    "dDurationMs": 3959,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "एक्सटेंशन",
-      "acAsrConf": 177
+      "utf8": "automation",
+      "acAsrConf": 248
     }, {
-      "utf8": " आफ",
-      "tOffsetMs": 1000,
-      "acAsrConf": 219
-    }, {
-      "utf8": " ब्राउज़र",
-      "tOffsetMs": 1150,
-      "acAsrConf": 70
-    } ]
-  }, {
-    "tStartMs": 518920,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 518930,
-    "dDurationMs": 3989,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "प्रोवाइड",
-      "acAsrConf": 156
-    }, {
-      "utf8": " यू",
-      "tOffsetMs": 1000,
-      "acAsrConf": 79
-    }, {
-      "utf8": " टू",
-      "tOffsetMs": 1750,
-      "acAsrConf": 74
-    } ]
-  }, {
-    "tStartMs": 524920,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 524930,
-    "dDurationMs": 6000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "रिकॉर्ड",
-      "acAsrConf": 204
-    }, {
-      "utf8": " मल्टीपल",
-      "tOffsetMs": 1000,
-      "acAsrConf": 166
-    }, {
-      "utf8": " लोकेटर",
-      "tOffsetMs": 1780,
-      "acAsrConf": 229
-    }, {
-      "utf8": " एलिमेंट",
-      "tOffsetMs": 2820,
-      "acAsrConf": 190
-    }, {
-      "utf8": " की",
-      "tOffsetMs": 3820,
-      "acAsrConf": 50
-    } ]
-  }, {
-    "tStartMs": 537850,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 537860,
-    "dDurationMs": 7140,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टेस्ट",
-      "acAsrConf": 34
-    } ]
-  }, {
-    "tStartMs": 540520,
-    "dDurationMs": 4480,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 540530,
-    "dDurationMs": 4470,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "लेग",
-      "acAsrConf": 125
-    }, {
-      "utf8": " ब्रेक",
-      "tOffsetMs": 1000,
-      "acAsrConf": 229
-    }, {
-      "utf8": " प्वाइंट",
-      "tOffsetMs": 1570,
-      "acAsrConf": 193
-    } ]
-  }, {
-    "tStartMs": 551320,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 551330,
-    "dDurationMs": 3330,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "लेने",
-      "acAsrConf": 229
-    }, {
-      "utf8": " की",
-      "tOffsetMs": 1000,
-      "acAsrConf": 163
-    } ]
-  }, {
-    "tStartMs": 557680,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 557690,
-    "dDurationMs": 7769,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टो",
-      "acAsrConf": 74
-    }, {
-      "utf8": " इंटीग्रेट",
-      "tOffsetMs": 1000,
-      "acAsrConf": 91
-    }, {
-      "utf8": " थर्ड",
-      "tOffsetMs": 1830,
-      "acAsrConf": 162
-    }, {
-      "utf8": " पार्टी",
-      "tOffsetMs": 2830,
-      "acAsrConf": 183
-    }, {
-      "utf8": " है",
-      "tOffsetMs": 3190,
-      "acAsrConf": 30
-    }, {
-      "utf8": " अ",
-      "tOffsetMs": 4199,
-      "acAsrConf": 171
-    }, {
-      "utf8": " क्लास",
-      "acAsrConf": 163
-    }, {
-      "utf8": " 10th",
-      "tOffsetMs": 4859,
-      "acAsrConf": 37
-    } ]
-  }, {
-    "tStartMs": 562869,
-    "dDurationMs": 2590,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 562879,
-    "dDurationMs": 8510,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "पोत",
-      "acAsrConf": 62
-    }, {
-      "utf8": " टूल",
-      "tOffsetMs": 300,
-      "acAsrConf": 132
-    }, {
-      "utf8": " इंडस्ट्री",
-      "tOffsetMs": 690,
-      "acAsrConf": 149
-    }, {
-      "utf8": " नेम",
-      "tOffsetMs": 930,
-      "acAsrConf": 125
-    }, {
-      "utf8": " सूट",
-      "tOffsetMs": 1500,
-      "acAsrConf": 189
-    }, {
-      "utf8": " विद",
-      "tOffsetMs": 1860,
-      "acAsrConf": 133
-    }, {
-      "utf8": " सेलेनियम",
-      "tOffsetMs": 2310,
-      "acAsrConf": 151
-    } ]
-  }, {
-    "tStartMs": 565449,
-    "dDurationMs": 5940,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 565459,
-    "dDurationMs": 8240,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "वेवर",
-      "acAsrConf": 169
-    }, {
-      "utf8": " स्लैम",
-      "tOffsetMs": 1070,
-      "acAsrConf": 89
-    }, {
-      "utf8": " ड्राइवर",
-      "tOffsetMs": 2070,
-      "acAsrConf": 158
-    }, {
-      "utf8": " इज",
-      "tOffsetMs": 2820,
-      "acAsrConf": 222
-    }, {
-      "utf8": " द",
-      "tOffsetMs": 3060,
-      "acAsrConf": 223
-    }, {
-      "utf8": " मोस्ट",
-      "tOffsetMs": 3150,
-      "acAsrConf": 229
-    }, {
-      "utf8": " क्रिटिकल",
-      "tOffsetMs": 3451,
-      "acAsrConf": 200
-    } ]
-  }, {
-    "tStartMs": 571379,
-    "dDurationMs": 2320,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 571389,
-    "dDurationMs": 5940,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सब्सक्राइब",
-      "acAsrConf": 99
-    } ]
-  }, {
-    "tStartMs": 573689,
-    "dDurationMs": 3640,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 573699,
-    "dDurationMs": 3630,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "ब्राउज़र",
-      "acAsrConf": 84
-    }, {
-      "utf8": " कंप्यूटर",
-      "tOffsetMs": 1000,
-      "acAsrConf": 168
-    } ]
-  }, {
-    "tStartMs": 579239,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 579249,
-    "dDurationMs": 5911,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "ऑपरेटिंग",
-      "acAsrConf": 229
-    }, {
-      "utf8": " सिस्टम्स",
-      "tOffsetMs": 1000,
-      "acAsrConf": 155
-    } ]
-  }, {
-    "tStartMs": 581879,
-    "dDurationMs": 3281,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 581889,
-    "dDurationMs": 7950,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "इन",
-      "acAsrConf": 191
-    }, {
-      "utf8": " यूनिसन",
-      "tOffsetMs": 1000,
-      "acAsrConf": 216
-    } ]
-  }, {
-    "tStartMs": 585150,
-    "dDurationMs": 4689,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 585160,
-    "dDurationMs": 4679,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "प्रोवाइड",
-      "acAsrConf": 212
-    }, {
-      "utf8": " स्टेबिलिटी",
-      "tOffsetMs": 1000,
-      "acAsrConf": 111
-    }, {
-      "utf8": " एंड",
-      "tOffsetMs": 1679,
-      "acAsrConf": 84
-    } ]
-  }, {
-    "tStartMs": 591809,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 591819,
-    "dDurationMs": 3240,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "विड्रॉ",
-      "acAsrConf": 148
-    }, {
-      "utf8": " सपोर्ट",
-      "tOffsetMs": 1000,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 596519,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 596529,
-    "dDurationMs": 3270,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "subscribe",
-      "acAsrConf": 229
+      "utf8": " tasks",
+      "tOffsetMs": 420,
+      "acAsrConf": 248
     }, {
       "utf8": " and",
-      "tOffsetMs": 1000,
-      "acAsrConf": 227
+      "tOffsetMs": 900,
+      "acAsrConf": 248
+    }, {
+      "utf8": " scraping",
+      "tOffsetMs": 1200,
+      "acAsrConf": 248
+    }, {
+      "utf8": " data",
+      "tOffsetMs": 1680,
+      "acAsrConf": 248
+    }, {
+      "utf8": " from",
+      "tOffsetMs": 2040,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 603720,
+    "tStartMs": 11570,
+    "dDurationMs": 1689,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 603730,
-    "dDurationMs": 4019,
+    "tStartMs": 11580,
+    "dDurationMs": 3660,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "subscribe",
-      "acAsrConf": 229
+      "utf8": "websites",
+      "acAsrConf": 248
     }, {
-      "utf8": " the",
-      "tOffsetMs": 1000,
-      "acAsrConf": 229
-    }, {
-      "utf8": " Channel",
-      "tOffsetMs": 1870,
-      "acAsrConf": 228
-    } ]
-  }, {
-    "tStartMs": 609389,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 609399,
-    "dDurationMs": 5340,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "ड्राइवर",
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 611729,
-    "dDurationMs": 3010,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 611739,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "ड्राइवर",
-      "acAsrConf": 201
-    } ]
-  }, {
-    "tStartMs": 615119,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 615129,
-    "dDurationMs": 4751,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टू",
-      "acAsrConf": 186
-    } ]
-  }, {
-    "tStartMs": 617400,
-    "dDurationMs": 2480,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 617410,
-    "dDurationMs": 5530,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टू",
-      "acAsrConf": 188
-    }, {
-      "utf8": " टू",
-      "tOffsetMs": 1000,
-      "acAsrConf": 189
-    }, {
-      "utf8": " टू",
-      "tOffsetMs": 1029,
-      "acAsrConf": 187
-    } ]
-  }, {
-    "tStartMs": 619870,
-    "dDurationMs": 3070,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 619880,
-    "dDurationMs": 6810,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "कल",
-      "acAsrConf": 19
-    }, {
-      "utf8": " स्विमिंग",
-      "tOffsetMs": 60,
-      "acAsrConf": 19
-    }, {
-      "utf8": " नेक्स्ट",
+      "utf8": " It",
       "tOffsetMs": 540,
-      "acAsrConf": 45
+      "acAsrConf": 248
     }, {
-      "utf8": " टॉपिक",
-      "tOffsetMs": 1020,
-      "acAsrConf": 148
-    }, {
-      "utf8": " 85",
-      "tOffsetMs": 1550,
-      "acAsrConf": 42
-    }, {
-      "utf8": " डिफरेंट",
-      "tOffsetMs": 2550,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 622930,
-    "dDurationMs": 3760,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 622940,
-    "dDurationMs": 7010,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "फैक्टर्स",
-      "acAsrConf": 146
-    }, {
-      "utf8": " बेसिस",
-      "tOffsetMs": 350,
-      "acAsrConf": 155
-    }, {
-      "utf8": " आफ",
-      "tOffsetMs": 1350,
-      "acAsrConf": 188
-    }, {
-      "utf8": " विच",
-      "tOffsetMs": 1440,
-      "acAsrConf": 229
-    }, {
-      "utf8": " विल",
-      "tOffsetMs": 1650,
-      "acAsrConf": 196
-    }, {
-      "utf8": " डिसाइड",
-      "tOffsetMs": 2340,
-      "acAsrConf": 216
-    }, {
-      "utf8": " विच",
-      "tOffsetMs": 2760,
-      "acAsrConf": 227
-    }, {
-      "utf8": " विल",
-      "tOffsetMs": 3270,
-      "acAsrConf": 164
-    } ]
-  }, {
-    "tStartMs": 626680,
-    "dDurationMs": 3270,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 626690,
-    "dDurationMs": 3260,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "गिव",
-      "acAsrConf": 166
-    }, {
-      "utf8": " सूटेबल",
-      "tOffsetMs": 120,
-      "acAsrConf": 157
-    }, {
-      "utf8": " फॉर",
-      "tOffsetMs": 840,
-      "acAsrConf": 166
-    } ]
-  }, {
-    "tStartMs": 635310,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 635320,
-    "dDurationMs": 5820,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "रिमोट",
-      "acAsrConf": 186
-    }, {
-      "utf8": " कंट्रोल",
-      "tOffsetMs": 1000,
-      "acAsrConf": 226
-    }, {
-      "utf8": " रिमोट",
-      "tOffsetMs": 1920,
-      "acAsrConf": 229
-    }, {
-      "utf8": " कंट्रोल",
-      "tOffsetMs": 2920,
-      "acAsrConf": 229
-    }, {
-      "utf8": " और",
-      "tOffsetMs": 3640,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 643740,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 643750,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "लैंग्वेज",
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 649470,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 649480,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "यूज्ड",
-      "acAsrConf": 48
-    } ]
-  }, {
-    "tStartMs": 656970,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 656980,
-    "dDurationMs": 5610,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "अगेंस्ट",
-      "acAsrConf": 164
-    }, {
-      "utf8": " डिफरेंट",
-      "tOffsetMs": 1000,
-      "acAsrConf": 179
-    }, {
-      "utf8": " डिफरेंट",
-      "tOffsetMs": 1500,
-      "acAsrConf": 142
-    }, {
-      "utf8": " ऑपरेटिंग",
-      "tOffsetMs": 2500,
-      "acAsrConf": 187
-    }, {
-      "utf8": " सिस्टम",
-      "tOffsetMs": 2860,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 660130,
-    "dDurationMs": 2460,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 660140,
-    "dDurationMs": 2450,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "यूजिंग",
-      "acAsrConf": 215
-    } ]
-  }, {
-    "tStartMs": 666420,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 666430,
-    "dDurationMs": 6280,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सेलेनियम",
-      "acAsrConf": 214
-    } ]
-  }, {
-    "tStartMs": 668700,
-    "dDurationMs": 4010,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 668710,
-    "dDurationMs": 4000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टेस्टिंग",
-      "acAsrConf": 214
-    }, {
-      "utf8": " सब्सक्राइब",
-      "tOffsetMs": 1000,
-      "acAsrConf": 140
-    } ]
-  }, {
-    "tStartMs": 678660,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 678670,
-    "dDurationMs": 8630,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "कि",
-      "acAsrConf": 149
-    }, {
-      "utf8": " नाव",
-      "tOffsetMs": 30,
-      "acAsrConf": 137
-    }, {
-      "utf8": " जस्टिन",
-      "tOffsetMs": 800,
-      "acAsrConf": 22
-    }, {
-      "utf8": " टूल",
-      "tOffsetMs": 1800,
-      "acAsrConf": 200
-    }, {
-      "utf8": " फॉर",
-      "tOffsetMs": 2220,
-      "acAsrConf": 229
-    }, {
-      "utf8": " विच",
-      "tOffsetMs": 2580,
-      "acAsrConf": 189
-    }, {
-      "utf8": " विशेस",
-      "tOffsetMs": 2850,
-      "acAsrConf": 190
-    }, {
-      "utf8": " इन",
-      "tOffsetMs": 3780,
-      "acAsrConf": 172
-    } ]
-  }, {
-    "tStartMs": 682560,
-    "dDurationMs": 4740,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 682570,
-    "dDurationMs": 11100,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "ऑस्ट्रेलियन",
-      "acAsrConf": 191
-    }, {
-      "utf8": " ग्रैंड",
+      "utf8": " supports",
       "tOffsetMs": 960,
-      "acAsrConf": 211
+      "acAsrConf": 248
     }, {
-      "utf8": " स्लैम",
+      "utf8": " multiple",
       "tOffsetMs": 1320,
-      "acAsrConf": 228
-    }, {
-      "utf8": " ग्रेड",
-      "tOffsetMs": 2250,
-      "acAsrConf": 229
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 687290,
-    "dDurationMs": 6380,
+    "tStartMs": 13249,
+    "dDurationMs": 1991,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 687300,
-    "dDurationMs": 8850,
+    "tStartMs": 13259,
+    "dDurationMs": 4621,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "वीरवती",
-      "acAsrConf": 91
+      "utf8": "programming",
+      "acAsrConf": 248
     }, {
-      "utf8": " यूजर",
-      "tOffsetMs": 1290,
-      "acAsrConf": 172
+      "utf8": " languages",
+      "tOffsetMs": 481,
+      "acAsrConf": 248
     }, {
-      "utf8": " नेम",
-      "tOffsetMs": 2520,
-      "acAsrConf": 229
+      "utf8": " including",
+      "tOffsetMs": 781,
+      "acAsrConf": 248
     }, {
-      "utf8": " और",
-      "tOffsetMs": 3520,
-      "acAsrConf": 229
-    }, {
-      "utf8": " सब्सक्राइब",
-      "tOffsetMs": 3990,
-      "acAsrConf": 125
-    }, {
-      "utf8": " ब्राउजर",
-      "tOffsetMs": 4990,
-      "acAsrConf": 140
-    }, {
-      "utf8": " इन",
-      "tOffsetMs": 5950,
-      "acAsrConf": 190
+      "utf8": " Java",
+      "tOffsetMs": 1441,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 693660,
-    "dDurationMs": 2490,
+    "tStartMs": 15230,
+    "dDurationMs": 2650,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 693670,
-    "dDurationMs": 2480,
+    "tStartMs": 15240,
+    "dDurationMs": 4860,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "ऑपरेटिंग",
-      "acAsrConf": 229
+      "utf8": "Python",
+      "acAsrConf": 248
     }, {
-      "utf8": " सिस्टम",
-      "tOffsetMs": 390,
-      "acAsrConf": 187
+      "utf8": " c-sharp",
+      "tOffsetMs": 599,
+      "acAsrConf": 248
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1440,
+      "acAsrConf": 248
+    }, {
+      "utf8": " Ruby",
+      "tOffsetMs": 1560,
+      "acAsrConf": 248
+    }, {
+      "utf8": " selenium",
+      "tOffsetMs": 1980,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 696470,
+    "tStartMs": 17870,
+    "dDurationMs": 2230,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 696480,
-    "dDurationMs": 7320,
+    "tStartMs": 17880,
+    "dDurationMs": 4860,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "रिड्यूस",
-      "acAsrConf": 229
+      "utf8": "consists",
+      "acAsrConf": 248
     }, {
-      "utf8": " ट्यूसडे",
-      "tOffsetMs": 1260,
-      "acAsrConf": 135
+      "utf8": " of",
+      "tOffsetMs": 540,
+      "acAsrConf": 248
+    }, {
+      "utf8": " several",
+      "tOffsetMs": 600,
+      "acAsrConf": 248
+    }, {
+      "utf8": " components",
+      "tOffsetMs": 1200,
+      "acAsrConf": 248
+    }, {
+      "utf8": " including",
+      "tOffsetMs": 1739,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 699980,
-    "dDurationMs": 3820,
+    "tStartMs": 20090,
+    "dDurationMs": 2650,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 699990,
-    "dDurationMs": 7200,
+    "tStartMs": 20100,
+    "dDurationMs": 5400,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "कंप्लीटेड",
-      "acAsrConf": 229
+      "utf8": "selenium",
+      "acAsrConf": 248
     }, {
-      "utf8": " अट",
-      "tOffsetMs": 1000,
-      "acAsrConf": 175
+      "utf8": " Webdriver",
+      "tOffsetMs": 540,
+      "acAsrConf": 247
     }, {
-      "utf8": " थे",
-      "tOffsetMs": 1390,
-      "acAsrConf": 175
+      "utf8": " selenium",
+      "tOffsetMs": 1080,
+      "acAsrConf": 248
     }, {
-      "utf8": " अर्लीस्ट",
-      "tOffsetMs": 1540,
-      "acAsrConf": 175
+      "utf8": " grid",
+      "tOffsetMs": 1980,
+      "acAsrConf": 248
     }, {
-      "utf8": " पॉसिबल",
-      "tOffsetMs": 1690,
-      "acAsrConf": 188
-    }, {
-      "utf8": " टाइम",
-      "tOffsetMs": 2290,
-      "acAsrConf": 213
+      "utf8": " and",
+      "tOffsetMs": 2339,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 703790,
-    "dDurationMs": 3400,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 703800,
-    "dDurationMs": 5510,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "थर्ड",
-      "acAsrConf": 208
-    }, {
-      "utf8": " थर्ड",
-      "tOffsetMs": 1110,
-      "acAsrConf": 195
-    } ]
-  }, {
-    "tStartMs": 707180,
-    "dDurationMs": 2130,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 707190,
-    "dDurationMs": 3840,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "मीडिया",
-      "acAsrConf": 45
-    }, {
-      "utf8": " ने",
-      "tOffsetMs": 1000,
-      "acAsrConf": 45
-    } ]
-  }, {
-    "tStartMs": 709300,
-    "dDurationMs": 1730,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 709310,
-    "dDurationMs": 3850,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "[संगीत]"
-    } ]
-  }, {
-    "tStartMs": 711020,
-    "dDurationMs": 2140,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 711030,
-    "dDurationMs": 5250,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "कौन-कौन",
-      "acAsrConf": 80
-    } ]
-  }, {
-    "tStartMs": 713150,
-    "dDurationMs": 3130,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 713160,
-    "dDurationMs": 3120,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "टेस्टिंग",
-      "acAsrConf": 179
-    }, {
-      "utf8": " एंड",
-      "tOffsetMs": 1000,
-      "acAsrConf": 169
-    } ]
-  }, {
-    "tStartMs": 717770,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 717780,
-    "dDurationMs": 8970,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सब्सक्राइब",
-      "acAsrConf": 172
-    }, {
-      "utf8": " ओपन",
-      "tOffsetMs": 1110,
-      "acAsrConf": 189
-    }, {
-      "utf8": " लिक्विड",
-      "tOffsetMs": 2220,
-      "acAsrConf": 229
-    }, {
-      "utf8": " पसंद",
-      "tOffsetMs": 3220,
-      "acAsrConf": 43
-    }, {
-      "utf8": " है",
-      "tOffsetMs": 3910,
-      "acAsrConf": 73
-    } ]
-  }, {
-    "tStartMs": 723980,
+    "tStartMs": 22730,
     "dDurationMs": 2770,
     "wWinId": 1,
     "aAppend": 1,
@@ -4252,464 +339,1328 @@ Video url: https://www.youtube.com/watch?v=TdwwPP9oW4c
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 723990,
-    "dDurationMs": 6349,
+    "tStartMs": 22740,
+    "dDurationMs": 4799,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "मैंने",
-      "acAsrConf": 26
+      "utf8": "selenium",
+      "acAsrConf": 248
     }, {
-      "utf8": " कौन",
-      "tOffsetMs": 90,
-      "acAsrConf": 40
+      "utf8": " IDE",
+      "tOffsetMs": 539,
+      "acAsrConf": 248
     }, {
-      "utf8": " से",
-      "tOffsetMs": 690,
-      "acAsrConf": 53
+      "utf8": " the",
+      "tOffsetMs": 780,
+      "acAsrConf": 248
     }, {
-      "utf8": " टिप्स",
-      "tOffsetMs": 810,
-      "acAsrConf": 29
+      "utf8": " selenium",
+      "tOffsetMs": 1560,
+      "acAsrConf": 248
     }, {
-      "utf8": " फॉर",
-      "tOffsetMs": 930,
-      "acAsrConf": 88
+      "utf8": " Webdriver",
+      "tOffsetMs": 1980,
+      "acAsrConf": 248
     }, {
-      "utf8": " वाचिंग",
-      "tOffsetMs": 1110,
-      "acAsrConf": 52
-    }, {
-      "utf8": " और",
-      "tOffsetMs": 1409,
-      "acAsrConf": 145
-    }, {
-      "utf8": " लोकेटर",
-      "tOffsetMs": 1760,
-      "acAsrConf": 229
+      "utf8": " is",
+      "tOffsetMs": 2459,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 726740,
-    "dDurationMs": 3599,
+    "tStartMs": 25490,
+    "dDurationMs": 2049,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 726750,
-    "dDurationMs": 6770,
+    "tStartMs": 25500,
+    "dDurationMs": 4080,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "सटल",
-      "acAsrConf": 144
+      "utf8": "used",
+      "acAsrConf": 248
     }, {
-      "utf8": " आईडी",
-      "tOffsetMs": 720,
-      "acAsrConf": 191
+      "utf8": " for",
+      "tOffsetMs": 180,
+      "acAsrConf": 248
     }, {
-      "utf8": " नेम",
+      "utf8": " automating",
+      "tOffsetMs": 359,
+      "acAsrConf": 248
+    }, {
+      "utf8": " browser",
+      "tOffsetMs": 840,
+      "acAsrConf": 248
+    }, {
+      "utf8": " interactions",
+      "tOffsetMs": 1380,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 27529,
+    "dDurationMs": 2051,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 27539,
+    "dDurationMs": 3961,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and",
+      "acAsrConf": 248
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 480,
+      "acAsrConf": 248
+    }, {
+      "utf8": " selenium",
+      "tOffsetMs": 660,
+      "acAsrConf": 248
+    }, {
+      "utf8": " grid",
+      "tOffsetMs": 1080,
+      "acAsrConf": 248
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 1381,
+      "acAsrConf": 248
+    }, {
+      "utf8": " used",
+      "tOffsetMs": 1621,
+      "acAsrConf": 248
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1801,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 29570,
+    "dDurationMs": 1930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 29580,
+    "dDurationMs": 4499,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "parallel",
+      "acAsrConf": 248
+    }, {
+      "utf8": " testing",
+      "tOffsetMs": 359,
+      "acAsrConf": 248
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 779,
+      "acAsrConf": 248
+    }, {
+      "utf8": " multiple",
+      "tOffsetMs": 959,
+      "acAsrConf": 248
+    }, {
+      "utf8": " machines",
+      "tOffsetMs": 1380,
+      "acAsrConf": 248
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 1740,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 31490,
+    "dDurationMs": 2589,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 31500,
+    "dDurationMs": 4440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "browsers",
+      "acAsrConf": 248
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 420,
+      "acAsrConf": 248
+    }, {
+      "utf8": " selenium",
+      "tOffsetMs": 779,
+      "acAsrConf": 248
+    }, {
+      "utf8": " IDE",
+      "tOffsetMs": 1259,
+      "acAsrConf": 248
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 1559,
+      "acAsrConf": 248
+    }, {
+      "utf8": " an",
+      "tOffsetMs": 2340,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 34069,
+    "dDurationMs": 1871,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 34079,
+    "dDurationMs": 3961,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "integrated",
+      "acAsrConf": 248
+    }, {
+      "utf8": " development",
+      "tOffsetMs": 421,
+      "acAsrConf": 248
+    }, {
+      "utf8": " environment",
+      "tOffsetMs": 961,
+      "acAsrConf": 248
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1441,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 35930,
+    "dDurationMs": 2110,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 35940,
+    "dDurationMs": 4200,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "creating",
+      "acAsrConf": 248
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 360,
+      "acAsrConf": 248
+    }, {
+      "utf8": " running",
+      "tOffsetMs": 660,
+      "acAsrConf": 248
+    }, {
+      "utf8": " selenium",
+      "tOffsetMs": 840,
+      "acAsrConf": 248
+    }, {
+      "utf8": " test",
+      "tOffsetMs": 1500,
+      "acAsrConf": 248
+    }, {
+      "utf8": " cases",
+      "tOffsetMs": 1680,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 38030,
+    "dDurationMs": 2110,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 38040,
+    "dDurationMs": 4260,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "the",
+      "acAsrConf": 248
+    }, {
+      "utf8": " key",
+      "tOffsetMs": 300,
+      "acAsrConf": 248
+    }, {
+      "utf8": " advantage",
+      "tOffsetMs": 480,
+      "acAsrConf": 248
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 900,
+      "acAsrConf": 248
+    }, {
+      "utf8": " using",
+      "tOffsetMs": 1080,
+      "acAsrConf": 248
+    }, {
+      "utf8": " selenium",
       "tOffsetMs": 1320,
-      "acAsrConf": 191
+      "acAsrConf": 248
     }, {
-      "utf8": " एक्सपायर",
-      "tOffsetMs": 2060,
-      "acAsrConf": 229
+      "utf8": " is",
+      "tOffsetMs": 1859,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 730329,
-    "dDurationMs": 3191,
+    "tStartMs": 40130,
+    "dDurationMs": 2170,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 730339,
-    "dDurationMs": 3181,
+    "tStartMs": 40140,
+    "dDurationMs": 4380,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "सीरवी",
-      "acAsrConf": 207
+      "utf8": "its",
+      "acAsrConf": 248
     }, {
-      "utf8": " सीरवी",
-      "tOffsetMs": 1000,
-      "acAsrConf": 208
+      "utf8": " ability",
+      "tOffsetMs": 360,
+      "acAsrConf": 248
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 540,
+      "acAsrConf": 248
+    }, {
+      "utf8": " simulate",
+      "tOffsetMs": 840,
+      "acAsrConf": 248
+    }, {
+      "utf8": " real",
+      "tOffsetMs": 1200,
+      "acAsrConf": 248
+    }, {
+      "utf8": " world",
+      "tOffsetMs": 1500,
+      "acAsrConf": 192
+    }, {
+      "utf8": " user",
+      "tOffsetMs": 1680,
+      "acAsrConf": 245
     } ]
   }, {
-    "tStartMs": 735880,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 735890,
-    "dDurationMs": 3000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "कस्टमर्स",
-      "acAsrConf": 213
-    } ]
-  }, {
-    "tStartMs": 740650,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 740660,
-    "dDurationMs": 9090,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "विल",
-      "acAsrConf": 226
-    } ]
-  }, {
-    "tStartMs": 743290,
-    "dDurationMs": 6460,
+    "tStartMs": 42290,
+    "dDurationMs": 2230,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 743300,
-    "dDurationMs": 6450,
+    "tStartMs": 42300,
+    "dDurationMs": 4259,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "लीड",
-      "acAsrConf": 229
+      "utf8": "interactions",
+      "acAsrConf": 248
     }, {
-      "utf8": " यू",
-      "tOffsetMs": 1000,
-      "acAsrConf": 185
+      "utf8": " with",
+      "tOffsetMs": 540,
+      "acAsrConf": 245
     }, {
-      "utf8": " टो",
-      "tOffsetMs": 1270,
-      "acAsrConf": 222
+      "utf8": " web",
+      "tOffsetMs": 1020,
+      "acAsrConf": 248
     }, {
-      "utf8": " क्रिएट",
-      "tOffsetMs": 1450,
-      "acAsrConf": 202
+      "utf8": " applications",
+      "tOffsetMs": 1259,
+      "acAsrConf": 248
     }, {
-      "utf8": " ए",
-      "tOffsetMs": 1690,
-      "acAsrConf": 214
-    }, {
-      "utf8": " लिमिटेड",
-      "tOffsetMs": 2400,
-      "acAsrConf": 229
-    }, {
-      "utf8": " नॉलेज",
-      "tOffsetMs": 3400,
-      "acAsrConf": 229
-    }, {
-      "utf8": " एंड",
-      "tOffsetMs": 4000,
-      "acAsrConf": 69
+      "utf8": " this",
+      "tOffsetMs": 1800,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 754480,
+    "tStartMs": 44510,
+    "dDurationMs": 2049,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 754490,
-    "dDurationMs": 3539,
+    "tStartMs": 44520,
+    "dDurationMs": 3840,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "फाइनली",
-      "acAsrConf": 132
+      "utf8": "helps",
+      "acAsrConf": 248
     }, {
-      "utf8": " Bigg",
-      "tOffsetMs": 1000,
-      "acAsrConf": 135
+      "utf8": " to",
+      "tOffsetMs": 359,
+      "acAsrConf": 248
     }, {
-      "utf8": " Boss",
-      "tOffsetMs": 1420,
-      "acAsrConf": 135
+      "utf8": " identify",
+      "tOffsetMs": 480,
+      "acAsrConf": 248
+    }, {
+      "utf8": " potential",
+      "tOffsetMs": 900,
+      "acAsrConf": 248
+    }, {
+      "utf8": " issues",
+      "tOffsetMs": 1440,
+      "acAsrConf": 248
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1800,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 758470,
+    "tStartMs": 46549,
+    "dDurationMs": 1811,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 758480,
+    "tStartMs": 46559,
     "dDurationMs": 4020,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "last.fm",
-      "acAsrConf": 96
+      "utf8": "bugs",
+      "acAsrConf": 248
     }, {
-      "utf8": " वेब",
-      "tOffsetMs": 1020,
-      "acAsrConf": 139
+      "utf8": " in",
+      "tOffsetMs": 421,
+      "acAsrConf": 248
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 660,
+      "acAsrConf": 248
+    }, {
+      "utf8": " application",
+      "tOffsetMs": 781,
+      "acAsrConf": 248
+    }, {
+      "utf8": " before",
+      "tOffsetMs": 1201,
+      "acAsrConf": 248
+    }, {
+      "utf8": " they",
+      "tOffsetMs": 1561,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 763120,
+    "tStartMs": 48350,
+    "dDurationMs": 2229,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 763130,
-    "dDurationMs": 3750,
+    "tStartMs": 48360,
+    "dDurationMs": 4320,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "प्रोग्रामिंग",
-      "acAsrConf": 224
+      "utf8": "become",
+      "acAsrConf": 248
     }, {
-      "utf8": " लैंग्वेज",
-      "tOffsetMs": 1000,
-      "acAsrConf": 196
-    } ]
-  }, {
-    "tStartMs": 767710,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 767720,
-    "dDurationMs": 4050,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "यूज",
-      "acAsrConf": 229
+      "utf8": " a",
+      "tOffsetMs": 300,
+      "acAsrConf": 248
     }, {
-      "utf8": " पेज",
-      "tOffsetMs": 1050,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 771940,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 771950,
-    "dDurationMs": 3150,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सब्सक्राइब",
-      "acAsrConf": 229
-    }, {
-      "utf8": " करें",
-      "tOffsetMs": 1000,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 778060,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 778070,
-    "dDurationMs": 4000,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "सब्सक्राइब",
-      "acAsrConf": 125
-    }, {
-      "utf8": " टो",
-      "tOffsetMs": 1000,
-      "acAsrConf": 46
-    } ]
-  }, {
-    "tStartMs": 783990,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 784000,
-    "dDurationMs": 4880,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "अपने",
-      "acAsrConf": 59
-    }, {
-      "utf8": " नेम",
-      "tOffsetMs": 270,
-      "acAsrConf": 75
-    }, {
-      "utf8": " टू",
-      "tOffsetMs": 570,
-      "acAsrConf": 141
-    } ]
-  }, {
-    "tStartMs": 785360,
-    "dDurationMs": 3520,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 785370,
-    "dDurationMs": 7480,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "योजना",
-      "acAsrConf": 42
-    }, {
-      "utf8": " विदेश",
-      "tOffsetMs": 1000,
-      "acAsrConf": 229
-    }, {
-      "utf8": " वेलकम",
-      "tOffsetMs": 1420,
-      "acAsrConf": 229
-    }, {
-      "utf8": " टू",
-      "tOffsetMs": 2170,
-      "acAsrConf": 229
-    }, {
-      "utf8": " द",
-      "tOffsetMs": 2350,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 788870,
-    "dDurationMs": 3980,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 788880,
-    "dDurationMs": 6660,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "होम",
-      "acAsrConf": 229
-    }, {
-      "utf8": " विकास",
-      "tOffsetMs": 1000,
-      "acAsrConf": 218
-    }, {
-      "utf8": " पांडे",
-      "tOffsetMs": 1330,
-      "acAsrConf": 209
-    }, {
-      "utf8": " इन्हें",
-      "tOffsetMs": 2070,
-      "acAsrConf": 165
-    }, {
-      "utf8": " thanks",
-      "tOffsetMs": 3070,
-      "acAsrConf": 49
+      "utf8": " problem",
+      "tOffsetMs": 480,
+      "acAsrConf": 248
     }, {
       "utf8": " for",
-      "tOffsetMs": 3940,
-      "acAsrConf": 49
+      "tOffsetMs": 600,
+      "acAsrConf": 248
+    }, {
+      "utf8": " end",
+      "tOffsetMs": 900,
+      "acAsrConf": 248
+    }, {
+      "utf8": " users",
+      "tOffsetMs": 1080,
+      "acAsrConf": 248
+    }, {
+      "utf8": " selenium",
+      "tOffsetMs": 1440,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 792840,
-    "dDurationMs": 2700,
+    "tStartMs": 50569,
+    "dDurationMs": 2111,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 792850,
-    "dDurationMs": 2690,
+    "tStartMs": 50579,
+    "dDurationMs": 4261,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "watching",
-      "acAsrConf": 49
+      "utf8": "also",
+      "acAsrConf": 248
     }, {
-      "utf8": " this",
-      "tOffsetMs": 90,
-      "acAsrConf": 42
+      "utf8": " supports",
+      "tOffsetMs": 421,
+      "acAsrConf": 248
+    }, {
+      "utf8": " multiple",
+      "tOffsetMs": 781,
+      "acAsrConf": 248
+    }, {
+      "utf8": " browsers",
+      "tOffsetMs": 1140,
+      "acAsrConf": 248
+    }, {
+      "utf8": " making",
+      "tOffsetMs": 1621,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 799400,
+    "tStartMs": 52670,
+    "dDurationMs": 2170,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 799410,
-    "dDurationMs": 5580,
+    "tStartMs": 52680,
+    "dDurationMs": 4260,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "Video",
-      "acAsrConf": 42
+      "utf8": "it",
+      "acAsrConf": 248
     }, {
-      "utf8": " subscribe",
-      "tOffsetMs": 1350,
-      "acAsrConf": 229
+      "utf8": " easier",
+      "tOffsetMs": 240,
+      "acAsrConf": 248
     }, {
-      "utf8": " our",
-      "tOffsetMs": 2350,
-      "acAsrConf": 146
+      "utf8": " to",
+      "tOffsetMs": 539,
+      "acAsrConf": 248
     }, {
-      "utf8": " YouTube",
-      "tOffsetMs": 2620,
-      "acAsrConf": 229
+      "utf8": " test",
+      "tOffsetMs": 780,
+      "acAsrConf": 248
     }, {
-      "utf8": " Channel",
-      "tOffsetMs": 2860,
-      "acAsrConf": 229
+      "utf8": " web",
+      "tOffsetMs": 899,
+      "acAsrConf": 248
     }, {
-      "utf8": " and",
-      "tOffsetMs": 3190,
-      "acAsrConf": 229
-    } ]
-  }, {
-    "tStartMs": 805220,
-    "wWinId": 1,
-    "aAppend": 1,
-    "segs": [ {
-      "utf8": "\n"
-    } ]
-  }, {
-    "tStartMs": 805230,
-    "dDurationMs": 3210,
-    "wWinId": 1,
-    "segs": [ {
-      "utf8": "tap",
-      "acAsrConf": 229
+      "utf8": " applications",
+      "tOffsetMs": 1140,
+      "acAsrConf": 248
     }, {
       "utf8": " on",
-      "tOffsetMs": 1000,
-      "acAsrConf": 183
+      "tOffsetMs": 1680,
+      "acAsrConf": 248
     } ]
   }, {
-    "tStartMs": 809150,
+    "tStartMs": 54830,
+    "dDurationMs": 2110,
     "wWinId": 1,
     "aAppend": 1,
     "segs": [ {
       "utf8": "\n"
     } ]
   }, {
-    "tStartMs": 809160,
-    "dDurationMs": 2719,
+    "tStartMs": 54840,
+    "dDurationMs": 4080,
     "wWinId": 1,
     "segs": [ {
-      "utf8": "कर",
-      "acAsrConf": 14
+      "utf8": "different",
+      "acAsrConf": 248
     }, {
-      "utf8": " दो",
-      "tOffsetMs": 60,
-      "acAsrConf": 16
+      "utf8": " platforms",
+      "tOffsetMs": 180,
+      "acAsrConf": 248
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 840,
+      "acAsrConf": 248
+    }, {
+      "utf8": " helps",
+      "tOffsetMs": 1320,
+      "acAsrConf": 248
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1680,
+      "acAsrConf": 248
+    }, {
+      "utf8": " ensure",
+      "tOffsetMs": 1800,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 56930,
+    "dDurationMs": 1990,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 56940,
+    "dDurationMs": 4020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "compatibility",
+      "acAsrConf": 242
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 599,
+      "acAsrConf": 248
+    }, {
+      "utf8": " reduce",
+      "tOffsetMs": 1080,
+      "acAsrConf": 248
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1259,
+      "acAsrConf": 248
+    }, {
+      "utf8": " risk",
+      "tOffsetMs": 1619,
+      "acAsrConf": 248
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1920,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 58910,
+    "dDurationMs": 2050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 58920,
+    "dDurationMs": 4979,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "issues",
+      "acAsrConf": 248
+    }, {
+      "utf8": " arising",
+      "tOffsetMs": 360,
+      "acAsrConf": 246
+    }, {
+      "utf8": " from",
+      "tOffsetMs": 900,
+      "acAsrConf": 237
+    }, {
+      "utf8": " differences",
+      "tOffsetMs": 1080,
+      "acAsrConf": 248
+    }, {
+      "utf8": " between",
+      "tOffsetMs": 1619,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 60950,
+    "dDurationMs": 2949,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 60960,
+    "dDurationMs": 4979,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "houses",
+      "acAsrConf": 209
+    }, {
+      "utf8": " another",
+      "tOffsetMs": 419,
+      "acAsrConf": 239
+    }, {
+      "utf8": " advantage",
+      "tOffsetMs": 1200,
+      "acAsrConf": 248
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1800,
+      "acAsrConf": 248
+    }, {
+      "utf8": " selenium",
+      "tOffsetMs": 2099,
+      "acAsrConf": 248
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 2640,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 63889,
+    "dDurationMs": 2050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 63899,
+    "dDurationMs": 4260,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "its",
+      "acAsrConf": 248
+    }, {
+      "utf8": " large",
+      "tOffsetMs": 361,
+      "acAsrConf": 248
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 421,
+      "acAsrConf": 248
+    }, {
+      "utf8": " active",
+      "tOffsetMs": 660,
+      "acAsrConf": 248
+    }, {
+      "utf8": " Community",
+      "tOffsetMs": 961,
+      "acAsrConf": 248
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 1201,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 65929,
+    "dDurationMs": 2230,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 65939,
+    "dDurationMs": 4741,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "community",
+      "acAsrConf": 248
+    }, {
+      "utf8": " provides",
+      "tOffsetMs": 180,
+      "acAsrConf": 248
+    }, {
+      "utf8": " support",
+      "tOffsetMs": 841,
+      "acAsrConf": 248
+    }, {
+      "utf8": " documentation",
+      "tOffsetMs": 1220,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 68149,
+    "dDurationMs": 2531,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 68159,
+    "dDurationMs": 4441,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and",
+      "acAsrConf": 248
+    }, {
+      "utf8": " tutorials",
+      "tOffsetMs": 481,
+      "acAsrConf": 248
+    }, {
+      "utf8": " making",
+      "tOffsetMs": 1081,
+      "acAsrConf": 248
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 1621,
+      "acAsrConf": 248
+    }, {
+      "utf8": " easier",
+      "tOffsetMs": 1861,
+      "acAsrConf": 248
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 2221,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 70670,
+    "dDurationMs": 1930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 70680,
+    "dDurationMs": 4140,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "developers",
+      "acAsrConf": 248
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 420,
+      "acAsrConf": 248
+    }, {
+      "utf8": " get",
+      "tOffsetMs": 780,
+      "acAsrConf": 248
+    }, {
+      "utf8": " started",
+      "tOffsetMs": 900,
+      "acAsrConf": 248
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 1259,
+      "acAsrConf": 248
+    }, {
+      "utf8": " selenium",
+      "tOffsetMs": 1439,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 72590,
+    "dDurationMs": 2230,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 72600,
+    "dDurationMs": 4620,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Additionally",
+      "acAsrConf": 248
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 720,
+      "acAsrConf": 248
+    }, {
+      "utf8": " open",
+      "tOffsetMs": 1260,
+      "acAsrConf": 248
+    }, {
+      "utf8": " source",
+      "tOffsetMs": 1440,
+      "acAsrConf": 248
+    }, {
+      "utf8": " nature",
+      "tOffsetMs": 1860,
+      "acAsrConf": 248
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 2100,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 74810,
+    "dDurationMs": 2410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 74820,
+    "dDurationMs": 4619,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "selenium",
+      "acAsrConf": 248
+    }, {
+      "utf8": " means",
+      "tOffsetMs": 479,
+      "acAsrConf": 248
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 1080,
+      "acAsrConf": 248
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 1440,
+      "acAsrConf": 248
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 1680,
+      "acAsrConf": 248
+    }, {
+      "utf8": " free",
+      "tOffsetMs": 1799,
+      "acAsrConf": 248
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 2040,
+      "acAsrConf": 248
+    }, {
+      "utf8": " use",
+      "tOffsetMs": 2220,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 77210,
+    "dDurationMs": 2229,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 77220,
+    "dDurationMs": 5100,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and",
+      "acAsrConf": 248
+    }, {
+      "utf8": " can",
+      "tOffsetMs": 600,
+      "acAsrConf": 248
+    }, {
+      "utf8": " be",
+      "tOffsetMs": 780,
+      "acAsrConf": 248
+    }, {
+      "utf8": " modified",
+      "tOffsetMs": 960,
+      "acAsrConf": 244
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1259,
+      "acAsrConf": 248
+    }, {
+      "utf8": " meet",
+      "tOffsetMs": 1560,
+      "acAsrConf": 248
+    }, {
+      "utf8": " specific",
+      "tOffsetMs": 1740,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 79429,
+    "dDurationMs": 2891,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 79439,
+    "dDurationMs": 4801,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "requirements",
+      "acAsrConf": 248
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 601,
+      "acAsrConf": 248
+    }, {
+      "utf8": " conclusion",
+      "tOffsetMs": 961,
+      "acAsrConf": 248
+    }, {
+      "utf8": " selenium",
+      "tOffsetMs": 1441,
+      "acAsrConf": 246
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 2401,
+      "acAsrConf": 248
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 2701,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 82310,
+    "dDurationMs": 1930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 82320,
+    "dDurationMs": 3900,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "valuable",
+      "acAsrConf": 248
+    }, {
+      "utf8": " tool",
+      "tOffsetMs": 360,
+      "acAsrConf": 248
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 720,
+      "acAsrConf": 248
+    }, {
+      "utf8": " automating",
+      "tOffsetMs": 960,
+      "acAsrConf": 248
+    }, {
+      "utf8": " browser",
+      "tOffsetMs": 1380,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 84230,
+    "dDurationMs": 1990,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 84240,
+    "dDurationMs": 4440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "interactions",
+      "acAsrConf": 246
+    }, {
+      "utf8": " testing",
+      "tOffsetMs": 600,
+      "acAsrConf": 248
+    }, {
+      "utf8": " web",
+      "tOffsetMs": 1260,
+      "acAsrConf": 248
+    }, {
+      "utf8": " applications",
+      "tOffsetMs": 1500,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 86210,
+    "dDurationMs": 2470,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 86220,
+    "dDurationMs": 4200,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and",
+      "acAsrConf": 248
+    }, {
+      "utf8": " scraping",
+      "tOffsetMs": 660,
+      "acAsrConf": 246
+    }, {
+      "utf8": " data",
+      "tOffsetMs": 1079,
+      "acAsrConf": 248
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1380,
+      "acAsrConf": 248
+    }, {
+      "utf8": " websites",
+      "tOffsetMs": 1500,
+      "acAsrConf": 248
+    }, {
+      "utf8": " its",
+      "tOffsetMs": 1980,
+      "acAsrConf": 246
+    } ]
+  }, {
+    "tStartMs": 88670,
+    "dDurationMs": 1750,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 88680,
+    "dDurationMs": 3780,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "ability",
+      "acAsrConf": 248
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 240,
+      "acAsrConf": 248
+    }, {
+      "utf8": " support",
+      "tOffsetMs": 479,
+      "acAsrConf": 248
+    }, {
+      "utf8": " multiple",
+      "tOffsetMs": 660,
+      "acAsrConf": 248
+    }, {
+      "utf8": " programming",
+      "tOffsetMs": 1200,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 90410,
+    "dDurationMs": 2050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 90420,
+    "dDurationMs": 4019,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "languages",
+      "acAsrConf": 248
+    }, {
+      "utf8": " browsers",
+      "tOffsetMs": 300,
+      "acAsrConf": 248
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1199,
+      "acAsrConf": 248
+    }, {
+      "utf8": " its",
+      "tOffsetMs": 1739,
+      "acAsrConf": 248
+    }, {
+      "utf8": " large",
+      "tOffsetMs": 1920,
+      "acAsrConf": 223
+    } ]
+  }, {
+    "tStartMs": 92450,
+    "dDurationMs": 1989,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 92460,
+    "dDurationMs": 3780,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "community",
+      "acAsrConf": 243
+    }, {
+      "utf8": " make",
+      "tOffsetMs": 360,
+      "acAsrConf": 248
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 839,
+      "acAsrConf": 248
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1019,
+      "acAsrConf": 248
+    }, {
+      "utf8": " popular",
+      "tOffsetMs": 1199,
+      "acAsrConf": 248
+    }, {
+      "utf8": " choice",
+      "tOffsetMs": 1320,
+      "acAsrConf": 248
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1680,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 94429,
+    "dDurationMs": 1811,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 94439,
+    "dDurationMs": 3360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "developers",
+      "acAsrConf": 248
+    }, {
+      "utf8": " whether",
+      "tOffsetMs": 421,
+      "acAsrConf": 247
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 1021,
+      "acAsrConf": 248
+    }, {
+      "utf8": " are",
+      "tOffsetMs": 1201,
+      "acAsrConf": 248
+    }, {
+      "utf8": " testing",
+      "tOffsetMs": 1320,
+      "acAsrConf": 248
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1561,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 96230,
+    "dDurationMs": 1569,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 96240,
+    "dDurationMs": 4199,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "small",
+      "acAsrConf": 248
+    }, {
+      "utf8": " personal",
+      "tOffsetMs": 120,
+      "acAsrConf": 248
+    }, {
+      "utf8": " project",
+      "tOffsetMs": 360,
+      "acAsrConf": 248
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 839,
+      "acAsrConf": 248
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1260,
+      "acAsrConf": 248
+    }, {
+      "utf8": " large",
+      "tOffsetMs": 1440,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 97789,
+    "dDurationMs": 2650,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 97799,
+    "dDurationMs": 4500,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Enterprise",
+      "acAsrConf": 248
+    }, {
+      "utf8": " application",
+      "tOffsetMs": 301,
+      "acAsrConf": 248
+    }, {
+      "utf8": " selenium",
+      "tOffsetMs": 1041,
+      "acAsrConf": 248
+    }, {
+      "utf8": " can",
+      "tOffsetMs": 2041,
+      "acAsrConf": 248
+    }, {
+      "utf8": " help",
+      "tOffsetMs": 2401,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 100429,
+    "dDurationMs": 1870,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 100439,
+    "dDurationMs": 4401,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "you",
+      "acAsrConf": 248
+    }, {
+      "utf8": " get",
+      "tOffsetMs": 61,
+      "acAsrConf": 248
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 301,
+      "acAsrConf": 248
+    }, {
+      "utf8": " job",
+      "tOffsetMs": 421,
+      "acAsrConf": 241
+    }, {
+      "utf8": " done",
+      "tOffsetMs": 661,
+      "acAsrConf": 248
+    }, {
+      "utf8": " quickly",
+      "tOffsetMs": 901,
+      "acAsrConf": 248
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1561,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 102289,
+    "dDurationMs": 2551,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 102299,
+    "dDurationMs": 2541,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "effectively",
+      "acAsrConf": 248
     } ]
   } ]
 }
