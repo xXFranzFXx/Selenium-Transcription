@@ -59,6 +59,7 @@ public class YoutubePageTests extends BaseTest {
                         List<String> ccContent = new ArrayList<>();
                         resBody.complete(devTools.send(Network.getResponseBody(requestId.get())).getBody());
                         ccContent.add("Title: " + youtubePage.videoTitle());
+                        ccContent.add("Video url: " + youtubeURL);
                         ccContent.add(resBody.get());
                         TranscriptUtil.convertTranscriptToFile(ccContent, "youtubeClosedCaptions");
                     } catch (InterruptedException | ExecutionException | IOException e) {

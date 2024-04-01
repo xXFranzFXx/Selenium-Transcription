@@ -21,8 +21,10 @@ public class YoutubePage extends BasePage{
     private WebElement moreLocator;
     @FindBy(css =".ytp-chrome-bottom button.ytp-subtitles-button.ytp-button")
     private WebElement closedCaptionButtons;
-    @FindBy(css = "//div[@id='ytp-id-56']//div[@class='ytp-menuitem-content']")
-    private WebElement ccGeneratedLanguage;
+    @FindBy(css=".ytp-button.ytp-settings-button.ytp-hd-quality-badge")
+    private WebElement settingsButton;
+    @FindBy(css = "//div[@id='ytp-id-56']//div[@class='ytp-menuitem']")
+    private List<WebElement> settingsMenu;
     @FindBy(css = "#label-text")
     private WebElement transcriptLang;
     @FindBy(css = "#title > h1 > yt-formatted-string")
@@ -83,9 +85,11 @@ public class YoutubePage extends BasePage{
     public String videoTitle() {
         return findElement(videoTitle).getText();
     }
-    private String ccSubtitleLanguage() {
-        return findElement(ccGeneratedLanguage).getText();
-    }
+//    public String ccSubtitleLanguage() {
+//        findElement(settingsButton).click();
+//        WebElement ccSetings = settingsMenu.get(2);
+//
+//    }
 
     public Map<String, String> createMap() {
         return IntStream.range(0, getTimeStamps())
@@ -118,7 +122,6 @@ public class YoutubePage extends BasePage{
                     .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".ytp-ad-skip-button-modern.ytp-button")));
             actions.moveToElement(skp).click().perform();
         }
-
         findElement(closedCaptionButtons).click();
         return this;
     }
