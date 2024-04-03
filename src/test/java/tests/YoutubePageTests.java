@@ -8,7 +8,6 @@ import org.openqa.selenium.devtools.v121.network.model.Request;
 import org.openqa.selenium.devtools.v121.network.model.RequestId;
 import org.testng.Assert;
 
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import pages.YoutubePage;
@@ -66,7 +65,6 @@ public class YoutubePageTests extends BaseTest {
     public void writeClosedCaptionsToFileAsync(String youtubeURL, String name) {
         final CompletableFuture<RequestId> requestId = new CompletableFuture<>();
         final CompletableFuture<String> resBody = new CompletableFuture<>();
-        final CompletableFuture<String> id = new CompletableFuture<>();
         getDriver().get(youtubeURL);
         DevTools devTools = ((HasDevTools) getDriver()).getDevTools();
         devTools.createSession();

@@ -10,10 +10,12 @@ public class DataProviderUtil {
     public Object[][] getYoutubeData(Method method){
         if(method.getName().equalsIgnoreCase("writeClosedCaptionsToFileAsync")) {
         return new Object[][]{
+                //put youtube videos that don't contain ads here
                 {"https://www.youtube.com/watch?v=cc26zFE8X1k", "youtubeCC"}
         };
         } else {
             return new Object[][] {
+                    //put youtube videos that contain ads here
                     {"https://www.youtube.com/watch?v=cc26zFE8X1k"}
             };
         }

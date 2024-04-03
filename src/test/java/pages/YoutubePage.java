@@ -121,7 +121,7 @@ public class YoutubePage extends BasePage{
             actions.sendKeys(Keys.SPACE).pause(Duration.ofSeconds(7)).perform();
             WebElement skp = wait.pollingEvery(Duration.ofSeconds(15))
                     .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".ytp-ad-skip-button-modern.ytp-button")));
-            actions.moveToElement(skp).click().perform();
+                actions.moveToElement(skp).click().perform();
         }
         findElement(closedCaptionButtons).click();
         return this;
