@@ -119,7 +119,7 @@ public class YoutubePage extends BasePage{
 
         if (isSubscribeBtnVisible()) {
             actions.sendKeys(Keys.SPACE).pause(Duration.ofSeconds(7)).perform();
-            WebElement skp = wait.pollingEvery(Duration.ofSeconds(15))
+            WebElement skp = wait.pollingEvery(Duration.ofSeconds(7))
                     .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".ytp-ad-skip-button-modern.ytp-button")));
                 actions.moveToElement(skp).click().perform();
         }
