@@ -69,37 +69,6 @@ public class EmpathTraumaPage extends BasePage {
         System.out.println(transcriptInnerText);
         return transcriptInnerText;
     }
-    private void scrollScreen() {
-        List<String> text = new ArrayList<>();
-        long initialLength = (long) javascriptExecutor.executeScript("return document.body.scrollHeight");
-        actions.moveToElement(firstTranscript).click().perform();
-        System.out.println(initialLength);
-        while (true) {
-
-            javascriptExecutor.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-            try {
-//                wait.until(ExpectedConditions.visibilityOfNestedElementsLocatedBy(transcriptList, transcriptChild));
-                text.add(getTranscriptListInnerText());
-
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            long currentLength = (long) javascriptExecutor.executeScript("return document.body.scrollHeight");
-            if (initialLength == currentLength) {
-                break;
-            }
-            initialLength = currentLength;
-        }
-        System.out.println("text" + text);
-    }
-    private void scrollPixels(int pixels) {
-        javascriptExecutor.executeScript("window.scrollBy(0, "+pixels+")");
-    }
-    private void keyScroll() {
-        long initialLength = (long) javascriptExecutor.executeScript("return document.body.scrollHeight");
-        wait.until(ExpectedConditions.visibilityOf(transcriptList));
-        actions.moveToElement(transcriptList).scrollByAmount(0, (int) initialLength).pause(3000).perform();
-    }
 
      public EmpathTraumaPage visitIframeSource() {
         String iframeSrc = getAttribute(iframe, "src");

@@ -63,4 +63,10 @@ public class BasePage {
     protected void switchToIframe(WebElement element) {
         wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(element));
     }
+    public boolean elementIsPresent(By locator) {
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
+        boolean exists = !findElements(locator).isEmpty();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        return exists;
+    }
 }

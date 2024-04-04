@@ -44,6 +44,8 @@ public class YoutubePage extends BasePage{
     @FindBy(xpath = "//h1//yt-formatted-string[@class='style-scope ytd-watch-metadata']")
     private WebElement videoTitle;
     private final By subscribeBtn = By.cssSelector("#subscribe-button-shape button");
+    private final By skpBttn = By.cssSelector(".ytp-ad-skip-button-modern.ytp-button");
+    private final By cc = By.cssSelector(".ytp-chrome-bottom button.ytp-subtitles-button.ytp-button");
     public YoutubePage(WebDriver givenDriver) {
         super(givenDriver);
     }
@@ -102,7 +104,7 @@ public class YoutubePage extends BasePage{
         List<String> segmentTexts = getSegmentText();
         List<String> transcript = new ArrayList<>(
                 IntStream.range(0, Math.min(timeStamps.size(), segmentTexts.size()))
-               .mapToObj(i ->timeStamps.get(i) + " : " + segmentTexts.get(i))
+               .mapToObj(i -> timeStamps.get(i) + " : " + segmentTexts.get(i))
                .toList());
         transcript.addFirst("language: " + getTranscriptLanguage());
         transcript.addFirst("video url: " + driver.getCurrentUrl());
@@ -127,12 +129,13 @@ public class YoutubePage extends BasePage{
         return this;
     }
     public YoutubePage clickCCBtnNoAds(){
-
-        if (isSubscribeBtnVisible()) {
+        if(elementIsPresent(cc)) {
+            clickElement(closedCaptionButtons);
+        } else if (isSubscribeBtnVisible()) {
             actions.sendKeys(Keys.SPACE).perform();
-            findElement(closedCaptionButtons).click();
+            clickElement(closedCaptionButtons);
         }
-
         return this;
     }
+
 }
