@@ -44,7 +44,6 @@ public class YoutubePage extends BasePage{
     @FindBy(xpath = "//h1//yt-formatted-string[@class='style-scope ytd-watch-metadata']")
     private WebElement videoTitle;
     private final By subscribeBtn = By.cssSelector("#subscribe-button-shape button");
-    private final By skpBttn = By.cssSelector(".ytp-ad-skip-button-modern.ytp-button");
     private final By cc = By.cssSelector(".ytp-chrome-bottom button.ytp-subtitles-button.ytp-button");
     public YoutubePage(WebDriver givenDriver) {
         super(givenDriver);
@@ -87,11 +86,11 @@ public class YoutubePage extends BasePage{
     public String videoTitle() {
         return findElement(videoTitle).getText();
     }
-//    public String ccSubtitleLanguage() {
-//        findElement(settingsButton).click();
-//        WebElement ccSetings = settingsMenu.get(2);
-//
-//    }
+    public String ccSubtitleLanguage() {
+        findElement(settingsButton).click();
+        WebElement ccSetings = settingsMenu.get(2);
+        return ccSetings.getText();
+    }
 
     public Map<String, String> createMap() {
         return IntStream.range(0, getTimeStamps())
