@@ -23,6 +23,9 @@ import org.openqa.selenium.logging.LoggingPreferences;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.safari.SafariDriverService;
+import org.openqa.selenium.safari.SafariOptions;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 import org.testng.Reporter;
 import org.testng.annotations.*;
@@ -39,6 +42,7 @@ import java.util.logging.Level;
 
 public class BaseTest {
     public static WebDriver driver;
+    public static SafariDriver safariDriver;
     private static final ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
     public static WebDriver getDriver() {
         return threadDriver.get();
@@ -53,6 +57,7 @@ public class BaseTest {
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         getDriver().manage().deleteAllCookies();
     }
+
     public static  WebDriver pickBrowser(String browser) throws MalformedURLException {
         DesiredCapabilities caps = new DesiredCapabilities();
         String gridURL = System.getProperty("gridUrl");
@@ -85,6 +90,12 @@ public class BaseTest {
                 return driver = new RemoteWebDriver(URI.create(gridURL).toURL(),caps);
             case "cloud":
                 return lambdaTest();
+            case "safari":
+                SafariOptions safariOptions = new SafariOptions();
+                SafariDriverService safariDriverService = new SafariDriverService.Builder()
+                        .withLogging(true)
+                        .build();
+                safariDriver = new SafariDriver(safariDriverService, safariOptions);
           default:
                 WebDriverManager.chromedriver().driverVersion("122").setup();
                 ChromeDriverService service = new ChromeDriverService.Builder().usingAnyFreePort().build();
