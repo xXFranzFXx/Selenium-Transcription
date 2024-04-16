@@ -50,5 +50,4 @@ public class EasyYesLeadsPage extends BasePage{
         actions.pause(seconds).perform();
         return this;
     }
-
 }

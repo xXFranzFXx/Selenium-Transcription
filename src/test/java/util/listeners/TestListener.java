@@ -103,7 +103,6 @@ public class TestListener  implements ITestListener, WebDriverListener {
     public void afterGetCurrentUrl(String result, WebDriver driver) {
         Log.debug("After getting current URL: " + result);
     }
-
     public void beforeGetTitle(WebDriver driver) {
         Log.debug("Before getting page title.");
     }
