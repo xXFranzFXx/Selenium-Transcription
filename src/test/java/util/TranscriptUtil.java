@@ -33,8 +33,8 @@ public class TranscriptUtil {
         String finalString = String.join("", allMatches);
         return allMatches;
     }
-    public static void convertTranscriptToFile(List<String> transcript, String name) throws IOException {
-        Path filePath = Path.of("src/test/resources/"+name+".txt");
+    public static void convertTranscriptToFile(List<String> transcript, Path filePath) throws IOException {
+//        Path filePath = Path.of("src/test/resources/"+name+".txt");
         Files.deleteIfExists(filePath);
         Files.createFile(filePath);
         for (String str : transcript) {

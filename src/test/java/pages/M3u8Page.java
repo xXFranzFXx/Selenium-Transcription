@@ -1,5 +1,6 @@
 package pages;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -41,4 +42,5 @@ public class M3u8Page extends BasePage{
         actions.pause(Duration.ofSeconds(seconds)).perform();
         return this;
     }
+
 }

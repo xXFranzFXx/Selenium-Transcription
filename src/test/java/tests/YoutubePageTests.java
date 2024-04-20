@@ -14,7 +14,9 @@ import pages.YoutubePage;
 import util.DataProviderUtil;
 import util.TranscriptUtil;
 
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -85,7 +87,8 @@ public class YoutubePageTests extends BaseTest {
                     ccContent.add("Title: " + youtubePage.videoTitle());
                     ccContent.add("Video url: " + youtubeURL);
                     ccContent.add(resBody.get());
-                    TranscriptUtil.convertTranscriptToFile(ccContent, name);
+                    Path filePath = Path.of(System.getProperty("youtubeDir") + File.separator +name+".txt");
+                    TranscriptUtil.convertTranscriptToFile(ccContent, filePath);
                     Assert.assertEquals(requestId.get(), responseReceived.getRequestId());
                 } catch (InterruptedException | ExecutionException | IOException e) {
                     resBody.completeExceptionally(e);

@@ -45,34 +45,4 @@ public class AssemblyAITranscriber {
         Log.info("Audio transcription summary: " + transcript.getSummary());
         return transcript;
     }
-
-    public static Transcript transcribeAudioFromFile(String m3u8Link, String fileName) throws IOException, ExecutionException, InterruptedException {
-        String filePath = System.getProperty("ffmpegDestFile") + "/" + fileName + ".mp3";
-        Transcript transcript = null;
-        boolean finished = false;
-        try {
-            FfmpegUtil.convertToMp3File(m3u8Link, fileName);
-            finished = true;
-        } catch(Exception e) {
-            e.printStackTrace();
-        }
-        AssemblyAI client = AssemblyAI.builder()
-                .apiKey(System.getProperty("assemblyAIApiKey"))
-                .build();
-        if(finished) {
-          transcript = client.transcripts().transcribe(new File(filePath));
-            if (transcript.getStatus().equals("error")) {
-                System.err.println(transcript.getError());
-                Log.error("Error transcribing audio url: " + transcript.getAudioUrl());
-                Log.error("Error message: " + transcript.getError());
-            }
-            Log.info("Audio url: " + transcript.getAudioUrl());
-            Log.info("Audio transcription id: " + transcript.getId());
-            Log.info("Audio duration: " + transcript.getAudioDuration());
-            Log.info("Audio transcription summary: " + transcript.getSummary());
-//            TranscriptUtil.convertTranscriptToFile(transcript.toString(), fileName);
-
-        }
-        return transcript;
-    }
 }

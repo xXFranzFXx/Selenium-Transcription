@@ -55,7 +55,8 @@ public class EasyYesLeadsTests extends BaseTest {
             }
             try {
                 for (String l : audioLinks) {
-                    TranscriptUtil.convertTranscriptToFile(audioLinks, fileName);
+                    Path filePath = Path.of(System.getProperty("easyYesLeadsDir") + File.separator +fileName+".txt");
+                    TranscriptUtil.convertTranscriptToFile(audioLinks, filePath);
                 }
                 Assert.assertFalse(audioLinks.isEmpty());
             } catch (IOException e) {

@@ -2,16 +2,20 @@ package tests;
 
 import base.BaseTest;
 import com.assemblyai.api.resources.transcripts.types.Transcript;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.HasDevTools;
 import org.openqa.selenium.devtools.v121.network.Network;
 import org.openqa.selenium.devtools.v121.network.model.Request;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.M3u8Page;
 import util.AssemblyAITranscriber;
 import util.FfmpegUtil;
+import util.FileUtil;
 import util.TranscriptUtil;
+
 
 import java.io.File;
 import java.io.IOException;
@@ -21,21 +25,12 @@ import java.util.concurrent.ExecutionException;
 
 
 public class M3u8Tests extends BaseTest {
-    public File[] getAudioFiles() {
-        File rootFolder = new File(System.getProperty("user.dir") + "/src/test/resources/");
-        return rootFolder.listFiles(file ->
-                file.getName().endsWith(".mp3")
-        );
-    }
-    public boolean checkAudioFiles() {
-        File rootFolder = new File(System.getProperty("user.dir") + "/src/test/resources/");
-        File[] files = rootFolder.listFiles(file ->
-                file.getName().endsWith(".mp3") && file.getName().endsWith(".mp3.txt")
-        );
-        return files != null;
+    @BeforeClass
+    public void clearFiles() throws IOException {
+        FileUtil.deleteAudioFiles();
     }
     @Test(description = "extract audio output from video stream")
-    public void convertM3u8() throws IOException{
+    public void convertM3u8() {
         final CompletableFuture<Void> convertAudio = new CompletableFuture<>();
         getDriver().get(System.getProperty("m3u8Player"));
         DevTools devTools = ((HasDevTools) getDriver()).getDevTools();
@@ -58,7 +53,7 @@ public class M3u8Tests extends BaseTest {
                 convertAudio.completeExceptionally(e);
             }
             if(convertAudio.isDone()) {
-                List<File> audioFiles = Arrays.stream(getAudioFiles()).toList();
+                List<File> audioFiles = Arrays.stream(FileUtil.getAudioFiles()).toList();
                 for(File file: audioFiles) {
                     Transcript transcript = null;
                     try {
@@ -74,7 +69,7 @@ public class M3u8Tests extends BaseTest {
                         throw new RuntimeException(e);
                     }
                 }
-                Assert.assertTrue(checkAudioFiles());
+                Assert.assertTrue(FileUtil.checkAudioFiles());
             }
         });
         M3u8Page m3u8Page = new M3u8Page(getDriver());

@@ -7,7 +7,10 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import util.AssemblyAITranscriber;
 import util.TranscriptUtil;
+
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Path;
 import java.util.List;
 import java.util.Optional;
 
@@ -30,7 +33,9 @@ public class RestAPITests extends BaseTest {
     @Test
     public void writeFileTextOnly() throws IOException {
         List<String> transcriptText = TranscriptUtil.extractTranscriptText(getTranscript());
-        TranscriptUtil.convertTranscriptToFile(transcriptText, "transcript");
+        String fileName = "trauma";
+        Path filePath = Path.of(System.getProperty("empathTraumaDir") + File.separator +fileName+".txt");
+        TranscriptUtil.convertTranscriptToFile(transcriptText, filePath);
     }
     @Test
     public void writeFileTextWitTimeStamps() throws IOException {
