@@ -32,10 +32,6 @@ public class M3u8Page extends BasePage{
         List<WebElement> subTitles = subtitleRows();
         return  subTitles.stream().map(WebElement::getText).collect(Collectors.toList());
     }
-    public M3u8Page enterInput(String m3u8Link) {
-       input.sendKeys(m3u8Link);
-        return this;
-    }
     public M3u8Page clickPlay() {
         WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(playBtn.get(0)));
         findElement(btn).click();
@@ -45,10 +41,4 @@ public class M3u8Page extends BasePage{
         actions.pause(Duration.ofSeconds(seconds)).perform();
         return this;
     }
-    public String getSrc() {
-       WebElement video = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("div.w-video-wrapper > video[id^='wistia_simple_video']")));
-       return getAttribute(video, "src");
-    }
-
-
 }
