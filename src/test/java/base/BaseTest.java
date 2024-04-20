@@ -97,10 +97,10 @@ public class BaseTest {
                         .build();
                 safariDriver = new SafariDriver(safariDriverService, safariOptions);
           default:
-                WebDriverManager.chromedriver().driverVersion("122").setup();
+                WebDriverManager.chromedriver().driverVersion("123").setup();
                 ChromeDriverService service = new ChromeDriverService.Builder().usingAnyFreePort().build();
                 ChromeOptions options = new ChromeOptions();
-                options.addArguments("--remote-allow-origins=*", "--disable-notifications", "--start-maximized", "--incognito");
+                options.addArguments("--remote-allow-origins=*", "--disable-notifications", "--start-maximized", "--incognito", "--headless");
                 options.setExperimentalOption("prefs", setDownloadDir());
                 TestListener eventListener = new TestListener();
                 driver = new ChromeDriver(service, options);

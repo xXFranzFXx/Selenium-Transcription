@@ -15,6 +15,7 @@
             <class name="tests.RestAPITests"/>
             <class name="tests.EasyYesLeadsTests"/>
             <class name="tests.YoutubePageTests"/>
+            <class name="tests.M3u8Tests"/>
         </classes>
     </test>
 </suite>
