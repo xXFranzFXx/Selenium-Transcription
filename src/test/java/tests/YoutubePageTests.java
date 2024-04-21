@@ -32,8 +32,9 @@ public class YoutubePageTests extends BaseTest {
         getDriver().get(youtubeURL);
         youtubePage = new YoutubePage(getDriver());
         youtubePage.clickMore().clickTranscript();
+        Path filePath = Path.of("src/test/resources/youtubeTranscript.txt");
         List<String> transcriptList =  youtubePage.createTranscriptList();
-        TranscriptUtil.convertTranscriptToFile(transcriptList, "youtubeTranscript");
+        TranscriptUtil.convertTranscriptToFile(transcriptList, filePath);
         Assert.assertEquals(youtubePage.createMap().keySet().size(), youtubePage.getTimeStamps());
     }
 
@@ -52,7 +53,8 @@ public class YoutubePageTests extends BaseTest {
                         ccContent.add("Title: " + youtubePage.videoTitle());
                         ccContent.add("Video url: " + youtubeURL);
                         ccContent.add(resBody);
-                        TranscriptUtil.convertTranscriptToFile(ccContent, "youtubeClosedCaptions");
+                        Path filePath = Path.of("src/test/resources/youtubeClosedCaptions.txt");
+                        TranscriptUtil.convertTranscriptToFile(ccContent, filePath);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

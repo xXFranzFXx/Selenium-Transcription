@@ -19,6 +19,7 @@ import util.TranscriptUtil;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Path;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
@@ -64,7 +65,8 @@ public class M3u8Tests extends BaseTest {
                     String transcriptString = transcript.toString();
                     System.out.println("transcription: " + transcriptString);
                     try {
-                        TranscriptUtil.convertTranscriptToFile(transcriptString, file.getName());
+                        Path filePath = Path.of(System.getProperty("folder")+ "/" +file.getName()+".txt");
+                        TranscriptUtil.convertTranscriptToFile(transcriptString, filePath);
                     } catch (IOException e) {
                         throw new RuntimeException(e);
                     }

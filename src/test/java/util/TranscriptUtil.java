@@ -42,8 +42,8 @@ public class TranscriptUtil {
                     StandardOpenOption.APPEND);
         }
     }
-    public static void convertTranscriptToFile(String transcript, String name) throws IOException {
-        Path filePath = Path.of("src/test/resources/"+name+".txt");
+    public static void convertTranscriptToFile(String transcript, Path filePath) throws IOException {
+//        Path filePath = Path.of("src/test/resources/"+name+".txt");
         Files.deleteIfExists(filePath);
         Files.createFile(filePath);
         Files.writeString(filePath, transcript,

@@ -20,7 +20,7 @@ public class FileUtil {
         return files != null;
     }
     public static void deleteAudioFiles() throws IOException {
-        File directory = new File(System.getProperty("ffmpegDestFile"));
+        File directory = new File(System.getProperty("folder"));
         FileUtils.cleanDirectory(directory);
     }
 }
