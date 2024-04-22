@@ -42,13 +42,13 @@ public class TranscriptUtil {
                     StandardOpenOption.APPEND);
         }
     }
-    public static void convertTranscriptToFile(String transcript, Path filePath) throws IOException {
+    public static Void convertTranscriptToFile(String transcript, Path filePath) throws IOException {
 //        Path filePath = Path.of("src/test/resources/"+name+".txt");
         Files.deleteIfExists(filePath);
         Files.createFile(filePath);
         Files.writeString(filePath, transcript,
                     StandardOpenOption.APPEND);
-
+        return null;
     }
     public static void convertTranscriptToFileWithTimestamps(Response response) throws IOException {
         Path filePath = Path.of("src/test/resources/transcriptAndTimestamps.txt");

@@ -2,7 +2,6 @@ package tests;
 
 import base.BaseTest;
 import com.assemblyai.api.resources.transcripts.types.Transcript;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.HasDevTools;
 import org.openqa.selenium.devtools.v121.network.Network;
@@ -45,36 +44,37 @@ public class M3u8Tests extends BaseTest {
                 try {
                     convertAudio.complete(FfmpegUtil.convertToMp3(req.getUrl(), id));
                 } catch (IOException e) {
-                    throw new RuntimeException(e);
+                    convertAudio.completeExceptionally(e);
                 }
             }
-            try{
-                convertAudio.get();
                 if(convertAudio.isDone()) {
-                List<File> audioFiles = Arrays.stream(FileUtil.getAudioFiles()).toList();
-                    for (File file : audioFiles) {
-                        System.out.println(file.getName());
-                        Transcript transcript = null;
-                        try {
-                          transcript = AssemblyAITranscriber.transcribeAudioFile(file.getName());
-                         } catch (IOException e) {
-                              throw new RuntimeException(e);
-                         }
-                         String transcriptString = transcript.toString();
-                         System.out.println("transcription: " + transcriptString);
-                         try {
-                            String fileName = file.getName();
-                            String name = fileName.substring(0, fileName.indexOf("m")) + "txt";
-                            Path filePath = Path.of("src/test/resources/m3u8/" + name);
-                            TranscriptUtil.convertTranscriptToFile(transcriptString, filePath);
-                         } catch (IOException e) {
-                            throw new RuntimeException(e);
+                    CompletableFuture<List<File>> audioFileList = CompletableFuture.supplyAsync(() -> Arrays.asList(FileUtil.getAudioFiles()));
+                    CompletableFuture<Transcript> futureTranscript = new CompletableFuture<>();
+                    CompletableFuture<Void>futureFile = new CompletableFuture<>();
+                    try {
+                        for (File file : audioFileList.get()) {
+                            System.out.println(file.getName());
+                            Transcript transcript = null;
+                            try {
+                              futureTranscript.complete(AssemblyAITranscriber.transcribeAudioFile(file.getName()));
+                             } catch (IOException e) {
+                                futureTranscript.completeExceptionally(e);
+                             }
+                             String transcriptString = futureTranscript.get().toString();
+                             System.out.println("transcription: " + transcriptString);
+                             try {
+                                String fileName = file.getName();
+                                String name = fileName.substring(0, fileName.indexOf("m")) + "txt";
+                                Path filePath = Path.of("src/test/resources/m3u8/" + name);
+                                futureFile.complete(TranscriptUtil.convertTranscriptToFile(transcriptString, filePath));
+                             } catch (IOException e) {
+                                 futureFile.completeExceptionally(e);
+                            }
                         }
+                    } catch (InterruptedException | ExecutionException e) {
+                        audioFileList.completeExceptionally(e);
                     }
                 }
-            }catch (InterruptedException | ExecutionException e) {
-                convertAudio.completeExceptionally(e);
-          }
             Assert.assertTrue(FileUtil.checkAudioFiles());
         });
         M3u8Page m3u8Page = new M3u8Page(getDriver());
