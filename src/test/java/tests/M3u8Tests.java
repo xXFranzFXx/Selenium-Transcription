@@ -30,7 +30,7 @@ public class M3u8Tests extends BaseTest {
     public void clearFiles() throws IOException {
         FileUtil.deleteAudioFiles();
     }
-    @Test(description = "extract audio output from video stream")
+    @Test(description = "extract audio output from video stream and create audio transcription")
     public void convertM3u8() {
         final CompletableFuture<Void> convertAudio = new CompletableFuture<>();
         getDriver().get(System.getProperty("m3u8Player"));
@@ -48,31 +48,34 @@ public class M3u8Tests extends BaseTest {
                     throw new RuntimeException(e);
                 }
             }
-            try {
+            try{
                 convertAudio.get();
-            }  catch (ExecutionException | InterruptedException e) {
-                convertAudio.completeExceptionally(e);
-            }
-            if(convertAudio.isDone()) {
+                if(convertAudio.isDone()) {
                 List<File> audioFiles = Arrays.stream(FileUtil.getAudioFiles()).toList();
-                for(File file: audioFiles) {
-                    Transcript transcript = null;
-                    try {
-                        transcript = AssemblyAITranscriber.transcribeAudioFile(file.getName());
-                    } catch (IOException e) {
-                        throw new RuntimeException(e);
-                    }
-                    String transcriptString = transcript.toString();
-                    System.out.println("transcription: " + transcriptString);
-                    try {
-                        Path filePath = Path.of(System.getProperty("folder")+ "/" +file.getName()+".txt");
-                        TranscriptUtil.convertTranscriptToFile(transcriptString, filePath);
-                    } catch (IOException e) {
-                        throw new RuntimeException(e);
+                    for (File file : audioFiles) {
+                        System.out.println(file.getName());
+                        Transcript transcript = null;
+                        try {
+                          transcript = AssemblyAITranscriber.transcribeAudioFile(file.getName());
+                         } catch (IOException e) {
+                              throw new RuntimeException(e);
+                         }
+                         String transcriptString = transcript.toString();
+                         System.out.println("transcription: " + transcriptString);
+                         try {
+                            String fileName = file.getName();
+                            String name = fileName.substring(0, fileName.indexOf("m")) + "txt";
+                            Path filePath = Path.of("src/test/resources/m3u8/" + name);
+                            TranscriptUtil.convertTranscriptToFile(transcriptString, filePath);
+                         } catch (IOException e) {
+                            throw new RuntimeException(e);
+                        }
                     }
                 }
-                Assert.assertTrue(FileUtil.checkAudioFiles());
-            }
+            }catch (InterruptedException | ExecutionException e) {
+                convertAudio.completeExceptionally(e);
+          }
+            Assert.assertTrue(FileUtil.checkAudioFiles());
         });
         M3u8Page m3u8Page = new M3u8Page(getDriver());
         m3u8Page.pause(2);

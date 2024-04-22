@@ -1,10 +1,10 @@
 {
-  "id" : "2ca724ab-0a60-4b0d-8e24-f1230d74af24",
+  "id" : "8525d28b-13f9-41a3-9e50-60da0b196f69",
   "language_model" : "assemblyai_default",
   "acoustic_model" : "assemblyai_default",
   "status" : "completed",
   "language_code" : "en_us",
-  "audio_url" : "https://cdn.assemblyai.com/upload/41e729a5-bddb-4530-9d42-06ac33b102d5",
+  "audio_url" : "https://cdn.assemblyai.com/upload/303f8622-da75-425b-9d30-da30a4b8e87f",
   "text" : "Hey, everyone in this video, I will walk you through my three month 101 LinkedIn coaching program, how it works, who it is for, and what makes this different than anything else out there. And I believe by the end of this video, you will know whether this is the type of program that you need right now to win more clients on LinkedIn and grow your business. All right, let's rock and roll, shall we? I will start off with an interesting stat. 80% of the clients that I work with in this three month period get their first inbound leads within the first 30 days of applying the strategies that I teach them. If you happen to not be that 80%, I will work with you for free until you get your first inbound leads and discovery calls. Yeah, that is the guarantee which I haven't seen any LinkedIn coach give, by the way, and I feel like such guarantee makes it a little bit hard to not get results with this program. Here's the bad news, though. If you don't put in the work, we are gonna hang out together for quite some time. You've gotta put in the work because we don't want that to happen, do we? All right, let's talk about the structure of the program. We're going to have a session every other week together for a total of six intensive sessions. And yes, that's enough sessions to turn you into LinkedIn pro. I like this structure a lot because it gives the client not only the space and the time to apply what I'm going to be teaching them, but also to digest and internalize the strategies that I'm going to be equipping them with. And you also have WhatsApp access to me or whatever app we're going to use. But I'm there for you for any questions, any challenges. We are going to even jump on quick calls to make sure that you're having momentum and progress. Now, I want to make clear that this is a mix of coaching and consulting simply because of the nature of the problem that I help clients solve. So in some sessions, there's going to be more coaching, in some other sessions, there's going to be more consulting, and me telling you basically what you need to do and how you do it, of course, in your own unique way so that you can stand out from other people in your field. All right, what is the goal, though? What are we even trying to achieve with this program? Let me tell you, the goal is to help you create a lot of demand for your program by leveraging LinkedIn in a brilliant way. Here's how we do it the first thing that I help clients with is to clarify their marketing message and strengthen their positioning. Here, the goal is to articulate what you do in such a compelling way that ideal clients immediately recognize the transformation that you can bring into their lives. The work we will do here will help you stand out from a lot of people in your industry because that will reflect on your LinkedIn profile, your content, and even when you talk to a new client. Second, I help you turn your LinkedIn profile into a client acquisition machine. So here we focus on the LinkedIn profile, on the sales process, and even the discovery call. The objective with this is to make sure you don't leave any opportunities on the table when an ideal client comes across your name in their newsfeed and when they land on your LinkedIn profile. And to be frank with you, I've had more than 700 coaching sessions and when it comes to this second step, you can easily screw it up. All right, number three and this is one of the things that I feel makes this program different than anything else out there. Here I help you craft high converting LinkedIn posts by leveraging human nature and human psychology in a very in depth way. I won't teach you how to come up with content ideas or how to provide value. Here I will teach you how to leverage the strongest marketing psychology tactics to craft content that converts. And I will go as far as to make the crazy claim that you won't learn this stuff anywhere else. When it comes to the next step, I hope you get more rich visibility by leveraging what I believe to be the best hacks. The main objective with this step is to increase your engagement so that you can reach ideal clients within your network and ideal clients outside your network. And the crazy thing is that most of you watching this already have ideal clients sitting in your network and you don't even know that. You probably already know that and that's why you're here watching this video. And last but not least, I help you find and add a lot of buyers in your network and start conversations with them in this last session. The goal is to help you outsmart everyone in your industry when it comes to finding your buyers so that two, three, four months from now, you have an additional 5100 ideal clients sitting in your network who are very likely to come across your content on a weekly basis. Now, I'm going to be honest with you. I believe the main reason this program has such a high client success rate is because we tried to nail all these five steps. I feel like if you just nail one of them, you're going to be good. But if you nail all five. Oh my goodness. And the other reason I will say is that the work that I do with my clients is very personalized to what is going to make them succeed based on the challenges and objectives that they have. This is not one of those group coaching programs where there are ten people in there, and then you've got to figure out how to apply the information for yourself and your business. This is just you and me. That wasn't supposed to sound romantic, but you get the point. Fantastic. Now, before I dive into who this program is for, I want to address something that I have on my profile. I have in my headline the last LinkedIn coach you will ever need. I won't expand on that because it might come off as a little bit too arrogant if you don't know me. So many of the clients that I worked with in the past who got amazing results with my program, they had previously invested in other LinkedIn programs that didn't work very well, even though they were very, very valuable. And when we started working together, they started to see results quite fast. And that was actually the main inspiration behind that line, which I feel represents my brand very well. I wanted to expand on that because, again, I don't want it to come off as arrogant in any other way. So there you go. Now, let's talk about who this program is for. Is for coaches and entrepreneurs who already have a decent following and engagement on LinkedIn, even though some of the people that I've helped in the past started from scratch. But I feel like if you already have a good engagement, a good following, it's better than if you didn't have it. And if you're a leadership coach or a career coach, this program is perfect for you. You are the type of people who can benefit the most from such program. And I'm going to be quite clear in saying that some of my most successful clients come from all different industries, financial coaching, health coaching, mindset coaching, and entrepreneurs with different lines of products, especially if they are leadership coaches or career coaches, and even high performance coaches. All right, fantastic. If this sounds interesting, you can now schedule a 45 minutes strategy call where I get to learn more about your business, your objectives, what you're trying to achieve, to make sure that this program is a good fit. Because it might not, I don't know, you might have some unrealistic goals, I don't know. But if it's not a good fit, of course I'm not going to take you as a client. So, yeah, I definitely need to learn more about your business objectives and even get a feeling of what it would be like to work together. So, yeah, if this sounds interesting again, click the link below. On the other side. You're going to find the time to schedule and even answer a few questions before you do that. So, yeah, looking forward to speaking with you and I will see you on the other side. Cheers.",
   "words" : [ {
     "confidence" : 0.98553,
@@ -227,7 +227,7 @@
     "end" : 13086,
     "text" : "you"
   }, {
-    "confidence" : 0.99284,
+    "confidence" : 0.99288,
     "start" : 13110,
     "end" : 13294,
     "text" : "will"
@@ -317,7 +317,7 @@
     "end" : 16974,
     "text" : "clients"
   }, {
-    "confidence" : 0.92881,
+    "confidence" : 0.92887,
     "start" : 17014,
     "end" : 17142,
     "text" : "on"
@@ -347,7 +347,7 @@
     "end" : 19118,
     "text" : "business."
   }, {
-    "confidence" : 0.52235,
+    "confidence" : 0.52032,
     "start" : 19286,
     "end" : 19518,
     "text" : "All"
@@ -357,12 +357,12 @@
     "end" : 19766,
     "text" : "right,"
   }, {
-    "confidence" : 0.97457,
+    "confidence" : 0.97472,
     "start" : 19830,
     "end" : 20086,
     "text" : "let's"
   }, {
-    "confidence" : 0.63057,
+    "confidence" : 0.63304,
     "start" : 20110,
     "end" : 20286,
     "text" : "rock"
@@ -372,17 +372,17 @@
     "end" : 20398,
     "text" : "and"
   }, {
-    "confidence" : 0.41826,
+    "confidence" : 0.41964,
     "start" : 20406,
     "end" : 20654,
     "text" : "roll,"
   }, {
-    "confidence" : 0.93438,
+    "confidence" : 0.93428,
     "start" : 20694,
     "end" : 20870,
     "text" : "shall"
   }, {
-    "confidence" : 0.99907,
+    "confidence" : 0.99908,
     "start" : 20902,
     "end" : 21166,
     "text" : "we?"
@@ -402,7 +402,7 @@
     "end" : 21630,
     "text" : "start"
   }, {
-    "confidence" : 0.91536,
+    "confidence" : 0.91569,
     "start" : 21662,
     "end" : 21806,
     "text" : "off"
@@ -422,7 +422,7 @@
     "end" : 22494,
     "text" : "interesting"
   }, {
-    "confidence" : 0.78539,
+    "confidence" : 0.78587,
     "start" : 22534,
     "end" : 22830,
     "text" : "stat."
@@ -472,7 +472,7 @@
     "end" : 24886,
     "text" : "in"
   }, {
-    "confidence" : 0.98868,
+    "confidence" : 0.98861,
     "start" : 24910,
     "end" : 25118,
     "text" : "this"
@@ -1147,7 +1147,7 @@
     "end" : 63008,
     "text" : "session"
   }, {
-    "confidence" : 0.99717,
+    "confidence" : 0.99716,
     "start" : 63056,
     "end" : 63240,
     "text" : "every"
@@ -1252,7 +1252,7 @@
     "end" : 69728,
     "text" : "LinkedIn"
   }, {
-    "confidence" : 0.9947,
+    "confidence" : 0.99469,
     "start" : 69776,
     "end" : 70200,
     "text" : "pro."
@@ -1362,7 +1362,7 @@
     "end" : 75408,
     "text" : "what"
   }, {
-    "confidence" : 0.74801,
+    "confidence" : 0.74803,
     "start" : 75416,
     "end" : 75512,
     "text" : "I'm"
@@ -1407,7 +1407,7 @@
     "end" : 77064,
     "text" : "to"
   }, {
-    "confidence" : 0.99647,
+    "confidence" : 0.99642,
     "start" : 77104,
     "end" : 77536,
     "text" : "digest"
@@ -1477,7 +1477,7 @@
     "end" : 80952,
     "text" : "And"
   }, {
-    "confidence" : 0.99864,
+    "confidence" : 0.99863,
     "start" : 80968,
     "end" : 81168,
     "text" : "you"
@@ -1507,7 +1507,7 @@
     "end" : 82840,
     "text" : "to"
   }, {
-    "confidence" : 0.99864,
+    "confidence" : 0.99862,
     "start" : 82872,
     "end" : 83112,
     "text" : "me"
@@ -1517,7 +1517,7 @@
     "end" : 83336,
     "text" : "or"
   }, {
-    "confidence" : 0.97715,
+    "confidence" : 0.97718,
     "start" : 83360,
     "end" : 83784,
     "text" : "whatever"
@@ -1527,7 +1527,7 @@
     "end" : 84128,
     "text" : "app"
   }, {
-    "confidence" : 0.96233,
+    "confidence" : 0.96231,
     "start" : 84176,
     "end" : 84352,
     "text" : "we're"
@@ -1587,7 +1587,7 @@
     "end" : 86320,
     "text" : "questions,"
   }, {
-    "confidence" : 0.9875,
+    "confidence" : 0.98744,
     "start" : 86352,
     "end" : 86544,
     "text" : "any"
@@ -1602,7 +1602,7 @@
     "end" : 87328,
     "text" : "We"
   }, {
-    "confidence" : 0.99205,
+    "confidence" : 0.99201,
     "start" : 87376,
     "end" : 87536,
     "text" : "are"
@@ -2302,7 +2302,7 @@
     "end" : 122870,
     "text" : "brilliant"
   }, {
-    "confidence" : 0.99968,
+    "confidence" : 0.99969,
     "start" : 122942,
     "end" : 123606,
     "text" : "way."
@@ -2372,7 +2372,7 @@
     "end" : 126350,
     "text" : "with"
   }, {
-    "confidence" : 0.9981,
+    "confidence" : 0.99811,
     "start" : 126382,
     "end" : 126526,
     "text" : "is"
@@ -2387,7 +2387,7 @@
     "end" : 127190,
     "text" : "clarify"
   }, {
-    "confidence" : 0.99636,
+    "confidence" : 0.99637,
     "start" : 127222,
     "end" : 127366,
     "text" : "their"
@@ -2447,7 +2447,7 @@
     "end" : 131302,
     "text" : "to"
   }, {
-    "confidence" : 0.73913,
+    "confidence" : 0.73983,
     "start" : 131318,
     "end" : 131734,
     "text" : "articulate"
@@ -2467,7 +2467,7 @@
     "end" : 132166,
     "text" : "do"
   }, {
-    "confidence" : 0.97539,
+    "confidence" : 0.97538,
     "start" : 132190,
     "end" : 132326,
     "text" : "in"
@@ -2482,7 +2482,7 @@
     "end" : 132670,
     "text" : "a"
   }, {
-    "confidence" : 0.95858,
+    "confidence" : 0.95841,
     "start" : 132702,
     "end" : 133310,
     "text" : "compelling"
@@ -2497,7 +2497,7 @@
     "end" : 134366,
     "text" : "that"
   }, {
-    "confidence" : 0.7365,
+    "confidence" : 0.73776,
     "start" : 134390,
     "end" : 134726,
     "text" : "ideal"
@@ -2667,12 +2667,12 @@
     "end" : 143806,
     "text" : "that"
   }, {
-    "confidence" : 0.9959,
+    "confidence" : 0.99589,
     "start" : 143830,
     "end" : 143990,
     "text" : "will"
   }, {
-    "confidence" : 0.71373,
+    "confidence" : 0.71391,
     "start" : 144022,
     "end" : 144270,
     "text" : "reflect"
@@ -2682,7 +2682,7 @@
     "end" : 144422,
     "text" : "on"
   }, {
-    "confidence" : 0.99562,
+    "confidence" : 0.99555,
     "start" : 144438,
     "end" : 144542,
     "text" : "your"
@@ -2782,7 +2782,7 @@
     "end" : 150010,
     "text" : "your"
   }, {
-    "confidence" : 0.98253,
+    "confidence" : 0.98261,
     "start" : 150042,
     "end" : 150394,
     "text" : "LinkedIn"
@@ -2812,7 +2812,7 @@
     "end" : 152722,
     "text" : "acquisition"
   }, {
-    "confidence" : 0.54758,
+    "confidence" : 0.54757,
     "start" : 152858,
     "end" : 153338,
     "text" : "machine."
@@ -2832,7 +2832,7 @@
     "end" : 153866,
     "text" : "we"
   }, {
-    "confidence" : 0.9889,
+    "confidence" : 0.98898,
     "start" : 153890,
     "end" : 154074,
     "text" : "focus"
@@ -2847,7 +2847,7 @@
     "end" : 154322,
     "text" : "the"
   }, {
-    "confidence" : 0.95732,
+    "confidence" : 0.95733,
     "start" : 154338,
     "end" : 154586,
     "text" : "LinkedIn"
@@ -2857,7 +2857,7 @@
     "end" : 154970,
     "text" : "profile,"
   }, {
-    "confidence" : 0.9977,
+    "confidence" : 0.99769,
     "start" : 155042,
     "end" : 155202,
     "text" : "on"
@@ -2897,7 +2897,7 @@
     "end" : 157970,
     "text" : "discovery"
   }, {
-    "confidence" : 0.99112,
+    "confidence" : 0.99117,
     "start" : 158002,
     "end" : 158482,
     "text" : "call."
@@ -2992,7 +2992,7 @@
     "end" : 163298,
     "text" : "an"
   }, {
-    "confidence" : 0.79766,
+    "confidence" : 0.7981,
     "start" : 163306,
     "end" : 163650,
     "text" : "ideal"
@@ -3067,7 +3067,7 @@
     "end" : 167930,
     "text" : "your"
   }, {
-    "confidence" : 0.92462,
+    "confidence" : 0.92461,
     "start" : 167962,
     "end" : 168290,
     "text" : "LinkedIn"
@@ -3112,7 +3112,7 @@
     "end" : 170066,
     "text" : "I've"
   }, {
-    "confidence" : 0.99914,
+    "confidence" : 0.99915,
     "start" : 170090,
     "end" : 170226,
     "text" : "had"
@@ -3122,7 +3122,7 @@
     "end" : 170362,
     "text" : "more"
   }, {
-    "confidence" : 0.99194,
+    "confidence" : 0.99195,
     "start" : 170378,
     "end" : 170554,
     "text" : "than"
@@ -3342,7 +3342,7 @@
     "end" : 182326,
     "text" : "help"
   }, {
-    "confidence" : 0.99761,
+    "confidence" : 0.99762,
     "start" : 182350,
     "end" : 182486,
     "text" : "you"
@@ -3357,12 +3357,12 @@
     "end" : 183118,
     "text" : "high"
   }, {
-    "confidence" : 0.99479,
+    "confidence" : 0.99478,
     "start" : 183166,
     "end" : 183590,
     "text" : "converting"
   }, {
-    "confidence" : 0.83206,
+    "confidence" : 0.83307,
     "start" : 183622,
     "end" : 183926,
     "text" : "LinkedIn"
@@ -3387,7 +3387,7 @@
     "end" : 185278,
     "text" : "human"
   }, {
-    "confidence" : 0.98504,
+    "confidence" : 0.98505,
     "start" : 185326,
     "end" : 185790,
     "text" : "nature"
@@ -3402,7 +3402,7 @@
     "end" : 186398,
     "text" : "human"
   }, {
-    "confidence" : 0.751,
+    "confidence" : 0.75045,
     "start" : 186446,
     "end" : 187070,
     "text" : "psychology"
@@ -3442,7 +3442,7 @@
     "end" : 188806,
     "text" : "I"
   }, {
-    "confidence" : 0.6293,
+    "confidence" : 0.62926,
     "start" : 188830,
     "end" : 189070,
     "text" : "won't"
@@ -3492,7 +3492,7 @@
     "end" : 190918,
     "text" : "ideas"
   }, {
-    "confidence" : 0.98937,
+    "confidence" : 0.98936,
     "start" : 190966,
     "end" : 191174,
     "text" : "or"
@@ -3587,7 +3587,7 @@
     "end" : 197094,
     "text" : "to"
   }, {
-    "confidence" : 0.98723,
+    "confidence" : 0.98722,
     "start" : 197134,
     "end" : 197454,
     "text" : "craft"
@@ -3672,7 +3672,7 @@
     "end" : 201806,
     "text" : "that"
   }, {
-    "confidence" : 0.99872,
+    "confidence" : 0.99874,
     "start" : 201830,
     "end" : 201990,
     "text" : "you"
@@ -3682,7 +3682,7 @@
     "end" : 202190,
     "text" : "won't"
   }, {
-    "confidence" : 0.99695,
+    "confidence" : 0.99694,
     "start" : 202222,
     "end" : 202382,
     "text" : "learn"
@@ -3707,7 +3707,7 @@
     "end" : 203790,
     "text" : "else."
   }, {
-    "confidence" : 0.99151,
+    "confidence" : 0.99146,
     "start" : 203862,
     "end" : 204046,
     "text" : "When"
@@ -4167,7 +4167,7 @@
     "end" : 226910,
     "text" : "but"
   }, {
-    "confidence" : 0.99416,
+    "confidence" : 0.99413,
     "start" : 226942,
     "end" : 227158,
     "text" : "not"
@@ -4227,7 +4227,7 @@
     "end" : 230158,
     "text" : "buyers"
   }, {
-    "confidence" : 0.98102,
+    "confidence" : 0.981,
     "start" : 230206,
     "end" : 230318,
     "text" : "in"
@@ -4252,7 +4252,7 @@
     "end" : 231366,
     "text" : "start"
   }, {
-    "confidence" : 0.97866,
+    "confidence" : 0.97863,
     "start" : 231430,
     "end" : 232134,
     "text" : "conversations"
@@ -4452,7 +4452,7 @@
     "end" : 244120,
     "text" : "clients"
   }, {
-    "confidence" : 0.97075,
+    "confidence" : 0.97071,
     "start" : 244192,
     "end" : 244496,
     "text" : "sitting"
@@ -4557,7 +4557,7 @@
     "end" : 249832,
     "text" : "to"
   }, {
-    "confidence" : 0.99907,
+    "confidence" : 0.99908,
     "start" : 249848,
     "end" : 249928,
     "text" : "be"
@@ -4677,7 +4677,7 @@
     "end" : 255448,
     "text" : "nail"
   }, {
-    "confidence" : 0.99665,
+    "confidence" : 0.99671,
     "start" : 255536,
     "end" : 255976,
     "text" : "all"
@@ -4727,7 +4727,7 @@
     "end" : 257944,
     "text" : "just"
   }, {
-    "confidence" : 0.82817,
+    "confidence" : 0.82595,
     "start" : 257984,
     "end" : 258208,
     "text" : "nail"
@@ -4992,7 +4992,7 @@
     "end" : 270936,
     "text" : "that"
   }, {
-    "confidence" : 0.99889,
+    "confidence" : 0.9989,
     "start" : 270960,
     "end" : 271120,
     "text" : "they"
@@ -5057,7 +5057,7 @@
     "end" : 273992,
     "text" : "there"
   }, {
-    "confidence" : 0.99657,
+    "confidence" : 0.99656,
     "start" : 274008,
     "end" : 274136,
     "text" : "are"
@@ -5087,7 +5087,7 @@
     "end" : 275072,
     "text" : "and"
   }, {
-    "confidence" : 0.96947,
+    "confidence" : 0.96946,
     "start" : 275088,
     "end" : 275192,
     "text" : "then"
@@ -5172,7 +5172,7 @@
     "end" : 278976,
     "text" : "This"
   }, {
-    "confidence" : 0.999,
+    "confidence" : 0.99899,
     "start" : 279000,
     "end" : 279136,
     "text" : "is"
@@ -5257,7 +5257,7 @@
     "end" : 284720,
     "text" : "Fantastic."
   }, {
-    "confidence" : 0.97098,
+    "confidence" : 0.97141,
     "start" : 284752,
     "end" : 284920,
     "text" : "Now,"
@@ -5272,7 +5272,7 @@
     "end" : 285272,
     "text" : "I"
   }, {
-    "confidence" : 0.70486,
+    "confidence" : 0.70813,
     "start" : 285288,
     "end" : 285456,
     "text" : "dive"
@@ -5292,7 +5292,7 @@
     "end" : 285936,
     "text" : "this"
   }, {
-    "confidence" : 0.99719,
+    "confidence" : 0.9972,
     "start" : 285960,
     "end" : 286216,
     "text" : "program"
@@ -5367,7 +5367,7 @@
     "end" : 288680,
     "text" : "I"
   }, {
-    "confidence" : 0.96705,
+    "confidence" : 0.96711,
     "start" : 288712,
     "end" : 289024,
     "text" : "have"
@@ -5382,7 +5382,7 @@
     "end" : 289440,
     "text" : "my"
   }, {
-    "confidence" : 0.50952,
+    "confidence" : 0.50753,
     "start" : 289472,
     "end" : 289856,
     "text" : "headline"
@@ -5492,7 +5492,7 @@
     "end" : 294656,
     "text" : "little"
   }, {
-    "confidence" : 0.96764,
+    "confidence" : 0.96787,
     "start" : 294680,
     "end" : 294840,
     "text" : "bit"
@@ -5537,7 +5537,7 @@
     "end" : 297280,
     "text" : "So"
   }, {
-    "confidence" : 0.53265,
+    "confidence" : 0.53448,
     "start" : 297312,
     "end" : 297456,
     "text" : "many"
@@ -5642,7 +5642,7 @@
     "end" : 302560,
     "text" : "previously"
   }, {
-    "confidence" : 0.9986,
+    "confidence" : 0.99859,
     "start" : 302592,
     "end" : 302896,
     "text" : "invested"
@@ -5652,12 +5652,12 @@
     "end" : 303032,
     "text" : "in"
   }, {
-    "confidence" : 0.99873,
+    "confidence" : 0.99875,
     "start" : 303048,
     "end" : 303200,
     "text" : "other"
   }, {
-    "confidence" : 0.96879,
+    "confidence" : 0.96878,
     "start" : 303232,
     "end" : 303560,
     "text" : "LinkedIn"
@@ -5737,7 +5737,7 @@
     "end" : 307656,
     "text" : "when"
   }, {
-    "confidence" : 0.99774,
+    "confidence" : 0.99775,
     "start" : 307680,
     "end" : 307816,
     "text" : "we"
@@ -5797,7 +5797,7 @@
     "end" : 311968,
     "text" : "And"
   }, {
-    "confidence" : 0.99564,
+    "confidence" : 0.99565,
     "start" : 312096,
     "end" : 312360,
     "text" : "that"
@@ -5862,12 +5862,12 @@
     "end" : 316320,
     "text" : "represents"
   }, {
-    "confidence" : 0.99922,
+    "confidence" : 0.99923,
     "start" : 316352,
     "end" : 316520,
     "text" : "my"
   }, {
-    "confidence" : 0.99951,
+    "confidence" : 0.9995,
     "start" : 316552,
     "end" : 316936,
     "text" : "brand"
@@ -5877,7 +5877,7 @@
     "end" : 317280,
     "text" : "very"
   }, {
-    "confidence" : 0.99961,
+    "confidence" : 0.99962,
     "start" : 317312,
     "end" : 317654,
     "text" : "well."
@@ -6002,7 +6002,7 @@
     "end" : 322762,
     "text" : "you"
   }, {
-    "confidence" : 0.99853,
+    "confidence" : 0.99851,
     "start" : 322778,
     "end" : 323074,
     "text" : "go."
@@ -6012,7 +6012,7 @@
     "end" : 323322,
     "text" : "Now,"
   }, {
-    "confidence" : 0.62936,
+    "confidence" : 0.62941,
     "start" : 323338,
     "end" : 323482,
     "text" : "let's"
@@ -6022,7 +6022,7 @@
     "end" : 323626,
     "text" : "talk"
   }, {
-    "confidence" : 0.99732,
+    "confidence" : 0.99734,
     "start" : 323650,
     "end" : 323810,
     "text" : "about"
@@ -6042,7 +6042,7 @@
     "end" : 324402,
     "text" : "program"
   }, {
-    "confidence" : 0.99827,
+    "confidence" : 0.99826,
     "start" : 324458,
     "end" : 324626,
     "text" : "is"
@@ -6052,7 +6052,7 @@
     "end" : 324786,
     "text" : "for."
   }, {
-    "confidence" : 0.42967,
+    "confidence" : 0.42842,
     "start" : 324810,
     "end" : 324946,
     "text" : "Is"
@@ -6072,7 +6072,7 @@
     "end" : 325522,
     "text" : "and"
   }, {
-    "confidence" : 0.80809,
+    "confidence" : 0.80572,
     "start" : 325538,
     "end" : 325994,
     "text" : "entrepreneurs"
@@ -6122,7 +6122,7 @@
     "end" : 329018,
     "text" : "on"
   }, {
-    "confidence" : 0.58361,
+    "confidence" : 0.58532,
     "start" : 329106,
     "end" : 329562,
     "text" : "LinkedIn,"
@@ -6162,7 +6162,7 @@
     "end" : 330698,
     "text" : "that"
   }, {
-    "confidence" : 0.53656,
+    "confidence" : 0.53657,
     "start" : 330706,
     "end" : 330866,
     "text" : "I've"
@@ -6252,7 +6252,7 @@
     "end" : 334530,
     "text" : "good"
   }, {
-    "confidence" : 0.99781,
+    "confidence" : 0.99779,
     "start" : 334562,
     "end" : 335138,
     "text" : "engagement,"
@@ -6292,12 +6292,12 @@
     "end" : 337346,
     "text" : "if"
   }, {
-    "confidence" : 0.99946,
+    "confidence" : 0.99945,
     "start" : 337370,
     "end" : 337530,
     "text" : "you"
   }, {
-    "confidence" : 0.96754,
+    "confidence" : 0.96753,
     "start" : 337562,
     "end" : 337810,
     "text" : "didn't"
@@ -6322,7 +6322,7 @@
     "end" : 338882,
     "text" : "if"
   }, {
-    "confidence" : 0.67539,
+    "confidence" : 0.67671,
     "start" : 338898,
     "end" : 339066,
     "text" : "you're"
@@ -6662,7 +6662,7 @@
     "end" : 360402,
     "text" : "coaches"
   }, {
-    "confidence" : 0.99618,
+    "confidence" : 0.99617,
     "start" : 360458,
     "end" : 360866,
     "text" : "or"
@@ -6807,7 +6807,7 @@
     "end" : 370570,
     "text" : "learn"
   }, {
-    "confidence" : 0.99756,
+    "confidence" : 0.99757,
     "start" : 370602,
     "end" : 370746,
     "text" : "more"
@@ -7057,7 +7057,7 @@
     "end" : 383152,
     "text" : "to"
   }, {
-    "confidence" : 0.97111,
+    "confidence" : 0.97107,
     "start" : 383168,
     "end" : 383296,
     "text" : "take"
@@ -7087,7 +7087,7 @@
     "end" : 384304,
     "text" : "So,"
   }, {
-    "confidence" : 0.84509,
+    "confidence" : 0.84515,
     "start" : 384344,
     "end" : 384496,
     "text" : "yeah,"
@@ -7097,7 +7097,7 @@
     "end" : 384656,
     "text" : "I"
   }, {
-    "confidence" : 0.67456,
+    "confidence" : 0.6716,
     "start" : 384680,
     "end" : 385040,
     "text" : "definitely"
@@ -7282,12 +7282,12 @@
     "end" : 393184,
     "text" : "other"
   }, {
-    "confidence" : 0.99858,
+    "confidence" : 0.9986,
     "start" : 393224,
     "end" : 393376,
     "text" : "side."
   }, {
-    "confidence" : 0.96943,
+    "confidence" : 0.96936,
     "start" : 393400,
     "end" : 393552,
     "text" : "You're"
@@ -7337,7 +7337,7 @@
     "end" : 396200,
     "text" : "even"
   }, {
-    "confidence" : 0.84524,
+    "confidence" : 0.8472,
     "start" : 396232,
     "end" : 396440,
     "text" : "answer"
@@ -7382,7 +7382,7 @@
     "end" : 398056,
     "text" : "So,"
   }, {
-    "confidence" : 0.97574,
+    "confidence" : 0.97573,
     "start" : 398080,
     "end" : 398352,
     "text" : "yeah,"
@@ -7462,12 +7462,12 @@
     "end" : 401760,
     "text" : "side."
   }, {
-    "confidence" : 0.96585,
+    "confidence" : 0.96609,
     "start" : 401832,
     "end" : 401984,
     "text" : "Cheers."
   } ],
-  "confidence" : 0.94750352546917,
+  "confidence" : 0.947507332439678,
   "audio_duration" : 403.0,
   "punctuate" : true,
   "format_text" : true,
