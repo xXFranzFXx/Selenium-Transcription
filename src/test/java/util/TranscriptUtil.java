@@ -101,33 +101,22 @@ public class TranscriptUtil {
         System.out.println(futureTranscript.get());
         return futureTranscript;
     }
-    public static CompletableFuture<Void> transcribeM3u8() {
-        CompletableFuture<List<File>> audioFileList = CompletableFuture.supplyAsync(() -> Arrays.asList(FileUtil.getAudioFiles()));
-        CompletableFuture<Transcript> futureTranscript = new CompletableFuture<>();
-        CompletableFuture<Void>futureFile = new CompletableFuture<>();
-        try {
-            for (File file : audioFileList.get()) {
-                System.out.println(file.getName());
-                Transcript transcript = null;
-                try {
-                    futureTranscript.complete(AssemblyAITranscriber.transcribeAudioFile(file.getName()));
-                } catch (IOException e) {
-                    futureTranscript.completeExceptionally(e);
-                }
-                String transcriptString = futureTranscript.get().toString();
+    public static Void transcribeM3u8() throws IOException {
+        File[] audioFiles = FileUtil.getAudioFiles();
+        for (File file : audioFiles) {
+            System.out.println(file.getName());
+            try {
+                Transcript transcript = AssemblyAITranscriber.transcribeAudioFile(file.getName());
+                String transcriptString = transcript.toString();
                 System.out.println("transcription: " + transcriptString);
-                try {
-                    String fileName = file.getName();
-                    String name = fileName.substring(0, fileName.indexOf("m")) + "txt";
-                    Path filePath = Path.of(System.getProperty("folder") + "/" + name);
-                    futureFile.complete(TranscriptUtil.convertTranscriptToFile(transcriptString, filePath));
-                } catch (IOException e) {
-                    futureFile.completeExceptionally(e);
-                }
+                String fileName = file.getName();
+                String name = fileName.substring(0, fileName.indexOf("m")) + "txt";
+                Path filePath = Path.of(System.getProperty("folder") + "/" + name);
+                TranscriptUtil.convertTranscriptToFile(transcriptString, filePath);
+            } catch (IOException e) {
+             e.printStackTrace();
             }
-        } catch (InterruptedException | ExecutionException e) {
-            audioFileList.completeExceptionally(e);
         }
-        return futureFile;
+        return null;
     }
 }

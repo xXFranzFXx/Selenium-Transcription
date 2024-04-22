@@ -42,9 +42,9 @@ public class M3u8Tests extends BaseTest {
             }
                 if(convertAudio.isDone()) {
                     try {
-                        TranscriptUtil.transcribeM3u8().get();
-                    } catch (InterruptedException | ExecutionException e) {
-                       TranscriptUtil.transcribeM3u8().completeExceptionally(e);
+                        TranscriptUtil.transcribeM3u8();
+                    } catch ( IOException e) {
+                      e.printStackTrace();
                     }
                 }
             Assert.assertTrue(FileUtil.checkAudioFiles());
