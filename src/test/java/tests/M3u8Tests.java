@@ -15,6 +15,7 @@ import util.TranscriptUtil;
 import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 
 public class M3u8Tests extends BaseTest {
     @BeforeClass
@@ -40,7 +41,11 @@ public class M3u8Tests extends BaseTest {
                 }
             }
                 if(convertAudio.isDone()) {
-                    TranscriptUtil.transcribeM3u8();
+                    try {
+                        TranscriptUtil.transcribeM3u8().get();
+                    } catch (InterruptedException | ExecutionException e) {
+                       TranscriptUtil.transcribeM3u8().completeExceptionally(e);
+                    }
                 }
             Assert.assertTrue(FileUtil.checkAudioFiles());
         });
