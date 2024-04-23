@@ -8,10 +8,12 @@ import org.openqa.selenium.devtools.v121.network.model.Request;
 import org.openqa.selenium.devtools.v121.network.model.RequestId;
 import org.testng.Assert;
 
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import pages.YoutubePage;
 import util.DataProviderUtil;
+import util.FileUtil;
 import util.TranscriptUtil;
 
 import java.io.File;
@@ -26,13 +28,18 @@ import java.util.concurrent.ExecutionException;
 
 public class YoutubePageTests extends BaseTest {
     YoutubePage youtubePage;
+    private final String ytDir = System.getProperty("youtubeDir") + "/";
+    @BeforeClass
+    public void clearFiles() throws IOException {
+        FileUtil.clearDirectory("youtubeDir");
+    }
 
     @Test(description = "Get transcript text from every audio excerpt and write to a file", dataProvider="YoutubeData", dataProviderClass = DataProviderUtil.class)
     public void clickTranscriptButton(String youtubeURL) throws IOException {
         getDriver().get(youtubeURL);
         youtubePage = new YoutubePage(getDriver());
         youtubePage.clickMore().clickTranscript();
-        Path filePath = Path.of("src/test/resources/youtubeTranscript.txt");
+        Path filePath = Path.of(ytDir + "youtubeTranscript.txt");
         List<String> transcriptList =  youtubePage.createTranscriptList();
         TranscriptUtil.convertTranscriptToFile(transcriptList, filePath);
         Assert.assertEquals(youtubePage.createMap().keySet().size(), youtubePage.getTimeStamps());
@@ -53,7 +60,7 @@ public class YoutubePageTests extends BaseTest {
                         ccContent.add("Title: " + youtubePage.videoTitle());
                         ccContent.add("Video url: " + youtubeURL);
                         ccContent.add(resBody);
-                        Path filePath = Path.of("src/test/resources/youtubeClosedCaptions.txt");
+                                        Path filePath = Path.of(ytDir + "youtubeClosedCaptions.txt");
                         TranscriptUtil.convertTranscriptToFile(ccContent, filePath);
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -89,7 +96,7 @@ public class YoutubePageTests extends BaseTest {
                     ccContent.add("Title: " + youtubePage.videoTitle());
                     ccContent.add("Video url: " + youtubeURL);
                     ccContent.add(resBody.get());
-                    Path filePath = Path.of(System.getProperty("youtubeDir") + File.separator +name+".txt");
+                                Path filePath = Path.of(ytDir +name+ ".txt");
                     TranscriptUtil.convertTranscriptToFile(ccContent, filePath);
                     Assert.assertEquals(requestId.get(), responseReceived.getRequestId());
                 } catch (InterruptedException | ExecutionException | IOException e) {
