@@ -37,18 +37,12 @@ public class M3u8Tests extends BaseTest {
                 try {
                     convertAudio.complete(FfmpegUtil.convertToMp3(req.getUrl(), id));
                     Assert.assertTrue(FileUtil.checkAudioFiles());
+                    TranscriptUtil.transcribeM3u8();
+                    Assert.assertTrue(FileUtil.checkTxtFiles());
                 } catch (IOException e) {
                     convertAudio.completeExceptionally(e);
                 }
             }
-                if(convertAudio.isDone()) {
-                    try {
-                        TranscriptUtil.transcribeM3u8();
-                        Assert.assertTrue(FileUtil.checkTxtFiles());
-                    } catch ( IOException e) {
-                      e.printStackTrace();
-                    }
-                }
         });
         M3u8Page m3u8Page = new M3u8Page(getDriver());
         m3u8Page.pause(2);
