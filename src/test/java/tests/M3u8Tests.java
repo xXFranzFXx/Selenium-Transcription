@@ -20,7 +20,7 @@ import java.util.concurrent.ExecutionException;
 public class M3u8Tests extends BaseTest {
     @BeforeClass
     public void clearFiles() throws IOException {
-        FileUtil.deleteAudioFiles();
+        FileUtil.clearDirectory("m3u8Dir");
     }
     @Test(description = "extract audio output from video stream and create audio transcription")
     public void convertM3u8() {
@@ -31,14 +31,15 @@ public class M3u8Tests extends BaseTest {
         devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
         devTools.addListener(Network.requestWillBeSent(), requestConsumer -> {
             Request req = requestConsumer.getRequest();
-            if (!req.getUrl().startsWith(System.getProperty("exclude")) && req.getUrl().endsWith(".m3u8")) {
+            String exclude = System.getProperty("exclude");
+            if (!req.getUrl().startsWith(exclude) && req.getUrl().endsWith(".m3u8")) {
                 String id = requestConsumer.getRequestId().toString();
                 System.out.println("Video stream file: " + req.getUrl());
                 try {
                     convertAudio.complete(FfmpegUtil.convertToMp3(req.getUrl(), id));
-                    Assert.assertTrue(FileUtil.checkAudioFiles());
+                    Assert.assertTrue(FileUtil.checkAudioFiles("m3u8Dir"));
                     TranscriptUtil.transcribeM3u8();
-                    Assert.assertTrue(FileUtil.checkTxtFiles());
+                    Assert.assertTrue(FileUtil.checkTxtFiles("m3u8Dir"));
                 } catch (IOException e) {
                     convertAudio.completeExceptionally(e);
                 }

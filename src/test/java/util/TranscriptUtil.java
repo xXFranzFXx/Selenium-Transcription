@@ -102,7 +102,7 @@ public class TranscriptUtil {
         return futureTranscript;
     }
     public static Void transcribeM3u8() throws IOException {
-        File[] audioFiles = FileUtil.getAudioFiles();
+        File[] audioFiles = FileUtil.getAudioFiles("m3u8Dir");
         for (File file : audioFiles) {
             System.out.println(file.getName());
             try {
@@ -111,7 +111,7 @@ public class TranscriptUtil {
                 System.out.println("transcription: " + transcriptString);
                 String fileName = file.getName();
                 String name = fileName.substring(0, fileName.indexOf("m")) + "txt";
-                Path filePath = Path.of(System.getProperty("folder") + "/" + name);
+                Path filePath = Path.of(System.getProperty("m3u8Dir") + "/" + name);
                 TranscriptUtil.convertTranscriptToFile(transcriptString, filePath);
             } catch (IOException e) {
              e.printStackTrace();

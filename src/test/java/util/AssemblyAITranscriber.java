@@ -29,7 +29,7 @@ public class AssemblyAITranscriber {
     }
 
     public static Transcript transcribeAudioFile(String fileName) throws IOException {
-        String filePath = System.getProperty("folder") + "/" +fileName;
+        String filePath = System.getProperty("m3u8Dir") + "/" +fileName;
         AssemblyAI client = AssemblyAI.builder()
                 .apiKey(System.getProperty("assemblyAIApiKey"))
                 .build();
