@@ -31,7 +31,7 @@ public class M3u8Tests extends BaseTest {
         devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
         devTools.addListener(Network.requestWillBeSent(), requestConsumer -> {
             Request req = requestConsumer.getRequest();
-            if (!req.getUrl().startsWith("https://embed-cloudfront.wistia.com/deliveries/") && req.getUrl().endsWith(".m3u8")) {
+            if (!req.getUrl().startsWith(System.getProperty("exclude")) && req.getUrl().endsWith(".m3u8")) {
                 String id = requestConsumer.getRequestId().toString();
                 System.out.println("Video stream file: " + req.getUrl());
                 try {
