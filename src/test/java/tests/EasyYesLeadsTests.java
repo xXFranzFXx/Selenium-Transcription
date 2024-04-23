@@ -88,7 +88,7 @@ public class EasyYesLeadsTests extends BaseTest {
     public void transcribe() throws ExecutionException, InterruptedException {
         easyYesLeadsPage = new EasyYesLeadsPage(getDriver());
         TranscriptUtil.asyncTranscribeLinks();
-        Path filePath = Path.of("src/test/resources/asyncTranscribeFromLinks.txt");
+        Path filePath = Path.of("src/test/resources/easyYesLeads/asyncTranscribeFromLinks.txt");
         boolean exists = Files.exists(filePath);
         Assert.assertTrue(exists);
     }
