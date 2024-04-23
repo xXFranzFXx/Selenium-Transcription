@@ -60,7 +60,7 @@ public class YoutubePageTests extends BaseTest {
                         ccContent.add("Title: " + youtubePage.videoTitle());
                         ccContent.add("Video url: " + youtubeURL);
                         ccContent.add(resBody);
-                                        Path filePath = Path.of(ytDir + "youtubeClosedCaptions.txt");
+                        Path filePath = Path.of(ytDir + "youtubeClosedCaptions.txt");
                         TranscriptUtil.convertTranscriptToFile(ccContent, filePath);
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -96,7 +96,7 @@ public class YoutubePageTests extends BaseTest {
                     ccContent.add("Title: " + youtubePage.videoTitle());
                     ccContent.add("Video url: " + youtubeURL);
                     ccContent.add(resBody.get());
-                                Path filePath = Path.of(ytDir +name+ ".txt");
+                    Path filePath = Path.of(ytDir +name+ ".txt");
                     TranscriptUtil.convertTranscriptToFile(ccContent, filePath);
                     Assert.assertEquals(requestId.get(), responseReceived.getRequestId());
                 } catch (InterruptedException | ExecutionException | IOException e) {
