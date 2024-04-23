@@ -15,7 +15,14 @@ public class FileUtil {
     public static boolean checkAudioFiles() {
         File rootFolder = new File(System.getProperty("user.dir") + "/src/test/resources/m3u8");
         File[] files = rootFolder.listFiles(file ->
-                file.getName().endsWith(".mp3") && file.getName().endsWith(".mp3.txt")
+                file.getName().endsWith(".mp3")
+        );
+        return files != null;
+    }
+    public static boolean checkTxtFiles() {
+        File rootFolder = new File(System.getProperty("user.dir") + "/src/test/resources/m3u8");
+        File[] files = rootFolder.listFiles(file ->
+                file.getName().endsWith(".mp3.txt")
         );
         return files != null;
     }

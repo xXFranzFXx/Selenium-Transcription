@@ -36,6 +36,7 @@ public class M3u8Tests extends BaseTest {
                 System.out.println("Video stream file: " + req.getUrl());
                 try {
                     convertAudio.complete(FfmpegUtil.convertToMp3(req.getUrl(), id));
+                    Assert.assertTrue(FileUtil.checkAudioFiles());
                 } catch (IOException e) {
                     convertAudio.completeExceptionally(e);
                 }
@@ -43,11 +44,11 @@ public class M3u8Tests extends BaseTest {
                 if(convertAudio.isDone()) {
                     try {
                         TranscriptUtil.transcribeM3u8();
+                        Assert.assertTrue(FileUtil.checkTxtFiles());
                     } catch ( IOException e) {
                       e.printStackTrace();
                     }
                 }
-            Assert.assertTrue(FileUtil.checkAudioFiles());
         });
         M3u8Page m3u8Page = new M3u8Page(getDriver());
         m3u8Page.pause(2);
