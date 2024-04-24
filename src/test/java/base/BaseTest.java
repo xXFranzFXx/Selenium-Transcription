@@ -96,7 +96,7 @@ public class BaseTest {
                         .withLogging(true)
                         .build();
                 safariDriver = new SafariDriver(safariDriverService, safariOptions);
-          default:
+            case "chrome-headless":
                 WebDriverManager.chromedriver().driverVersion("123").setup();
                 ChromeDriverService service = new ChromeDriverService.Builder().usingAnyFreePort().build();
                 ChromeOptions options = new ChromeOptions();
@@ -108,6 +108,18 @@ public class BaseTest {
                 caps.setCapability(ChromeOptions.CAPABILITY, options);
                 EventFiringDecorator<WebDriver> decorator = new EventFiringDecorator<>(eventListener);
                 return decorator.decorate(driver);
+          default:
+                WebDriverManager.chromedriver().driverVersion("123").setup();
+                ChromeDriverService service2 = new ChromeDriverService.Builder().usingAnyFreePort().build();
+                ChromeOptions options2 = new ChromeOptions();
+                options2.addArguments("--remote-allow-origins=*", "--disable-notifications", "--start-maximized", "--incognito");
+                options2.setExperimentalOption("prefs", setDownloadDir());
+                TestListener eventListener2 = new TestListener();
+                driver = new ChromeDriver(service2, options2);
+                caps.setCapability("browserName", "chrome");
+                caps.setCapability(ChromeOptions.CAPABILITY, options2);
+                EventFiringDecorator<WebDriver> decorator2 = new EventFiringDecorator<>(eventListener2);
+                return decorator2.decorate(driver);
         }
     }
     public static WebDriver lambdaTest() throws MalformedURLException {

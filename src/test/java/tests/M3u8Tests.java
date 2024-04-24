@@ -20,6 +20,7 @@ import java.util.concurrent.ExecutionException;
 public class M3u8Tests extends BaseTest {
     @BeforeClass
     public void clearFiles() throws IOException {
+        System.setProperty("browser", "chrome-headless");
         FileUtil.clearDirectory("m3u8Dir");
     }
     @Test(description = "extract audio output from video stream and create audio transcription")

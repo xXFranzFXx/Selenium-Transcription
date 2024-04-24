@@ -121,10 +121,11 @@ public class YoutubePage extends BasePage{
         if (isSubscribeBtnVisible()) {
             actions.sendKeys(Keys.SPACE).pause(Duration.ofSeconds(7)).perform();
             WebElement skp = wait.pollingEvery(Duration.ofSeconds(7))
-                    .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".ytp-ad-skip-button-modern.ytp-button")));
+                    .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("button[id^='skip-button']")));
                 actions.moveToElement(skp).click().perform();
         }
         findElement(closedCaptionButtons).click();
+        actions.pause(Duration.ofSeconds(2)).perform();
         return this;
     }
     public YoutubePage clickCCBtnNoAds(){

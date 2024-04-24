@@ -93,7 +93,8 @@ public class YoutubePageTests extends BaseTest {
                     ccContent.add("Title: " + youtubePage.videoTitle());
                     ccContent.add("Video url: " + youtubeURL);
                     ccContent.add(resBody.get());
-                    TranscriptUtil.convertTranscriptToFile(ccContent, name);
+                    String fileDest = "youtube/"+name+".txt";
+                    TranscriptUtil.convertTranscriptToFile(ccContent, fileDest);
                     Assert.assertEquals(requestId.get(), responseReceived.getRequestId());
                 } catch (InterruptedException | ExecutionException | IOException e) {
                     resBody.completeExceptionally(e);
