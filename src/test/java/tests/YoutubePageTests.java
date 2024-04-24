@@ -37,7 +37,7 @@ public class YoutubePageTests extends BaseTest {
     public void clickTranscriptButton(String youtubeURL) throws IOException {
         getDriver().get(youtubeURL);
         youtubePage = new YoutubePage(getDriver());
-        youtubePage.clickMore().clickTranscript();
+        youtubePage.clickDismiss();
         List<String> transcriptList =  youtubePage.createTranscriptList();
         TranscriptUtil.convertTranscriptToFile(transcriptList, "youtube/youtubeTranscript.txt");
         Assert.assertEquals(youtubePage.createMap().keySet().size(), youtubePage.getTimeStamps());

@@ -56,6 +56,7 @@ public class YoutubePage extends BasePage{
         return elementWait.isDisplayed();
     }
     public YoutubePage clickMore() {
+
         if (isSubscribeBtnVisible()) {
             actions.sendKeys(Keys.SPACE).perform();
             findElement(moreLocator).click();
@@ -66,6 +67,20 @@ public class YoutubePage extends BasePage{
         actions.moveToElement(transcriptButton).perform();
         clickElement(transcriptButton);
         return this;
+    }
+    public YoutubePage clickDismiss() {
+        WebElement dismissBtn = new WebDriverWait(
+                driver, Duration.ofSeconds(35))
+                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//yt-button-renderer[@id='dismiss-button']")));
+       if(dismissBtn.isDisplayed()) {
+          dismissBtn.click();
+           clickMore();
+           clickTranscript();
+       } else {
+           clickMore();
+           clickTranscript();
+       }
+       return this;
     }
     public int getTimeStamps() {
         return getTimeStampsList().size();
@@ -121,7 +136,7 @@ public class YoutubePage extends BasePage{
         if (isSubscribeBtnVisible()) {
             actions.sendKeys(Keys.SPACE).pause(Duration.ofSeconds(7)).perform();
             WebElement skp = wait.pollingEvery(Duration.ofSeconds(7))
-                    .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("button[id^='skip-button']")));
+                    .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[class^='ytp-ad-skip-button-modern']")));
                 actions.moveToElement(skp).click().perform();
         }
         findElement(closedCaptionButtons).click();
@@ -135,6 +150,7 @@ public class YoutubePage extends BasePage{
             actions.sendKeys(Keys.SPACE).perform();
             clickElement(closedCaptionButtons);
         }
+        actions.pause(Duration.ofSeconds(2)).perform();
         return this;
     }
 
