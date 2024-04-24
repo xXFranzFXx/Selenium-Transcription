@@ -33,9 +33,7 @@ public class RestAPITests extends BaseTest {
     @Test
     public void writeFileTextOnly() throws IOException {
         List<String> transcriptText = TranscriptUtil.extractTranscriptText(getTranscript());
-        String fileName = "trauma";
-        Path filePath = Path.of(System.getProperty("empathTraumaDir") + File.separator +fileName+".txt");
-        TranscriptUtil.convertTranscriptToFile(transcriptText, filePath);
+        TranscriptUtil.convertTranscriptToFile(transcriptText, "empathTrauma/trauma.txt");
     }
     @Test
     public void writeFileTextWitTimeStamps() throws IOException {

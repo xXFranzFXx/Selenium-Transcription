@@ -28,7 +28,6 @@ import java.util.concurrent.ExecutionException;
 
 public class YoutubePageTests extends BaseTest {
     YoutubePage youtubePage;
-    private final String ytDir = System.getProperty("youtubeDir") + "/";
     @BeforeClass
     public void clearFiles() throws IOException {
         FileUtil.clearDirectory("youtubeDir");
@@ -39,9 +38,8 @@ public class YoutubePageTests extends BaseTest {
         getDriver().get(youtubeURL);
         youtubePage = new YoutubePage(getDriver());
         youtubePage.clickMore().clickTranscript();
-        Path filePath = Path.of(ytDir + "youtubeTranscript.txt");
         List<String> transcriptList =  youtubePage.createTranscriptList();
-        TranscriptUtil.convertTranscriptToFile(transcriptList, filePath);
+        TranscriptUtil.convertTranscriptToFile(transcriptList, "youtube/youtubeTranscript.txt");
         Assert.assertEquals(youtubePage.createMap().keySet().size(), youtubePage.getTimeStamps());
     }
 
@@ -60,8 +58,7 @@ public class YoutubePageTests extends BaseTest {
                         ccContent.add("Title: " + youtubePage.videoTitle());
                         ccContent.add("Video url: " + youtubeURL);
                         ccContent.add(resBody);
-                        Path filePath = Path.of(ytDir + "youtubeClosedCaptions.txt");
-                        TranscriptUtil.convertTranscriptToFile(ccContent, filePath);
+                        TranscriptUtil.convertTranscriptToFile(ccContent, "youtube/youtubeClosedCaptions.txt");
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -96,8 +93,7 @@ public class YoutubePageTests extends BaseTest {
                     ccContent.add("Title: " + youtubePage.videoTitle());
                     ccContent.add("Video url: " + youtubeURL);
                     ccContent.add(resBody.get());
-                    Path filePath = Path.of(ytDir +name+ ".txt");
-                    TranscriptUtil.convertTranscriptToFile(ccContent, filePath);
+                    TranscriptUtil.convertTranscriptToFile(ccContent, name);
                     Assert.assertEquals(requestId.get(), responseReceived.getRequestId());
                 } catch (InterruptedException | ExecutionException | IOException e) {
                     resBody.completeExceptionally(e);

@@ -55,8 +55,7 @@ public class EasyYesLeadsTests extends BaseTest {
             }
             try {
                 for (String l : audioLinks) {
-                    Path filePath = Path.of(System.getProperty("easyYesLeadsDir") + File.separator +fileName+".txt");
-                    TranscriptUtil.convertTranscriptToFile(audioLinks, filePath);
+                    TranscriptUtil.convertTranscriptToFile(audioLinks, "easyYesLeads/audioLinks.txt");
                 }
                 Assert.assertFalse(audioLinks.isEmpty());
             } catch (IOException e) {
@@ -76,7 +75,7 @@ public class EasyYesLeadsTests extends BaseTest {
         List<String> audioLinks = (TranscriptUtil.readFileToList(fileName));
         for (String link : audioLinks) {
             try {
-                convertTranscriptToFileFromLink(link, "transcribedLinksFromFile");
+                convertTranscriptToFileFromLink(link, "/easyYesLeads/transcribedLinksFromFile");
                 easyYesLeadsPage.pause(pause);
             } catch (SocketTimeoutException e) {
                 e.printStackTrace();

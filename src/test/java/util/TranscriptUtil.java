@@ -35,8 +35,8 @@ public class TranscriptUtil {
         String finalString = String.join("", allMatches);
         return allMatches;
     }
-    public static void convertTranscriptToFile(List<String> transcript, Path filePath) throws IOException {
-//        Path filePath = Path.of("src/test/resources/"+name+".txt");
+    public static void convertTranscriptToFile(List<String> transcript, String file) throws IOException {
+        Path filePath = Path.of("src/test/resources/"+file);
         Files.deleteIfExists(filePath);
         Files.createFile(filePath);
         for (String str : transcript) {
@@ -44,8 +44,8 @@ public class TranscriptUtil {
                     StandardOpenOption.APPEND);
         }
     }
-    public static Void convertTranscriptToFile(String transcript, Path filePath) throws IOException {
-//        Path filePath = Path.of("src/test/resources/"+name+".txt");
+    public static Void convertTranscriptToFile(String transcript, String file) throws IOException {
+        Path filePath = Path.of("src/test/resources/"+file);
         Files.deleteIfExists(filePath);
         Files.createFile(filePath);
         Files.writeString(filePath, transcript,
@@ -53,7 +53,7 @@ public class TranscriptUtil {
         return null;
     }
     public static void convertTranscriptToFileWithTimestamps(Response response) throws IOException {
-        Path filePath = Path.of("src/test/resources/transcriptAndTimestamps.txt");
+        Path filePath = Path.of("src/test/resources/empathTrauma/transcriptAndTimestamps.txt");
         Files.deleteIfExists(filePath);
         Files.createFile(filePath);
         Files.writeString(filePath, response.asString(), StandardOpenOption.APPEND);
@@ -111,8 +111,8 @@ public class TranscriptUtil {
                 System.out.println("transcription: " + transcriptString);
                 String fileName = file.getName();
                 String name = fileName.substring(0, fileName.indexOf("m")) + "txt";
-                Path filePath = Path.of(System.getProperty("m3u8Dir") + "/" + name);
-                TranscriptUtil.convertTranscriptToFile(transcriptString, filePath);
+                String fileDest = "m3u8/"+name;
+                TranscriptUtil.convertTranscriptToFile(transcriptString, fileDest);
             } catch (IOException e) {
              e.printStackTrace();
             }
