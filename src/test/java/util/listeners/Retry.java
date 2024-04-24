@@ -6,7 +6,6 @@ import org.testng.ITestResult;
 
 import java.io.IOException;
 
-import static util.extentReports.ExtentTestManager.getTest;
 
 public class Retry implements IRetryAnalyzer {
 
