@@ -119,4 +119,21 @@ public class TranscriptUtil {
         }
         return null;
     }
+    public static Void transcribeM3u8Lemur(String prompt) throws IOException {
+        File[] audioFiles = FileUtil.getAudioFiles("m3u8Dir");
+        for (File file : audioFiles) {
+            System.out.println(file.getName());
+            try {
+                String fileName = file.getName();
+                String lemur = AssemblyAITranscriber.transcribeAudioFileWithLemur(fileName, prompt);
+                System.out.println("lemur: " + lemur);
+                String name = fileName.substring(0, fileName.indexOf("m")) +"lemur.txt";
+                String fileDest = "m3u8/"+name;
+                TranscriptUtil.convertTranscriptToFile(lemur, fileDest);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return null;
+    }
 }

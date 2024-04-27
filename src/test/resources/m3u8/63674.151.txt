@@ -1,10 +1,10 @@
 {
-  "id" : "4e2c3794-ce33-4c33-8969-83d87151c1a1",
+  "id" : "fc27ddda-c53c-4d18-8279-6ef591efe655",
   "language_model" : "assemblyai_default",
   "acoustic_model" : "assemblyai_default",
   "status" : "completed",
   "language_code" : "en_us",
-  "audio_url" : "https://cdn.assemblyai.com/upload/60b75665-7cd4-4064-818d-7f18fd072e5f",
+  "audio_url" : "https://cdn.assemblyai.com/upload/43741c3d-fc23-4c4f-a5ec-dc724790a381",
   "text" : "Hey, everyone in this video, I will walk you through my three month 101 LinkedIn coaching program, how it works, who it is for, and what makes this different than anything else out there. And I believe by the end of this video, you will know whether this is the type of program that you need right now to win more clients on LinkedIn and grow your business. All right, let's rock and roll, shall we? I will start off with an interesting stat. 80% of the clients that I work with in this three month period get their first inbound leads within the first 30 days of applying the strategies that I teach them. If you happen to not be that 80%, I will work with you for free until you get your first inbound leads and discovery calls. Yeah, that is the guarantee which I haven't seen any LinkedIn coach give, by the way, and I feel like such guarantee makes it a little bit hard to not get results with this program. Here's the bad news, though. If you don't put in the work, we are gonna hang out together for quite some time. You've gotta put in the work because we don't want that to happen, do we? All right, let's talk about the structure of the program. We're going to have a session every other week together for a total of six intensive sessions. And yes, that's enough sessions to turn you into LinkedIn pro. I like this structure a lot because it gives the client not only the space and the time to apply what I'm going to be teaching them, but also to digest and internalize the strategies that I'm going to be equipping them with. And you also have WhatsApp access to me or whatever app we're going to use. But I'm there for you for any questions, any challenges. We are going to even jump on quick calls to make sure that you're having momentum and progress. Now, I want to make clear that this is a mix of coaching and consulting simply because of the nature of the problem that I help clients solve. So in some sessions, there's going to be more coaching, in some other sessions, there's going to be more consulting, and me telling you basically what you need to do and how you do it, of course, in your own unique way so that you can stand out from other people in your field. All right, what is the goal, though? What are we even trying to achieve with this program? Let me tell you, the goal is to help you create a lot of demand for your program by leveraging LinkedIn in a brilliant way. Here's how we do it the first thing that I help clients with is to clarify their marketing message and strengthen their positioning. Here, the goal is to articulate what you do in such a compelling way that ideal clients immediately recognize the transformation that you can bring into their lives. The work we will do here will help you stand out from a lot of people in your industry because that will reflect on your LinkedIn profile, your content, and even when you talk to a new client. Second, I help you turn your LinkedIn profile into a client acquisition machine. So here we focus on the LinkedIn profile, on the sales process, and even the discovery call. The objective with this is to make sure you don't leave any opportunities on the table when an ideal client comes across your name in their newsfeed and when they land on your LinkedIn profile. And to be frank with you, I've had more than 700 coaching sessions and when it comes to this second step, you can easily screw it up. All right, number three and this is one of the things that I feel makes this program different than anything else out there. Here I help you craft high converting LinkedIn posts by leveraging human nature and human psychology in a very in depth way. I won't teach you how to come up with content ideas or how to provide value. Here I will teach you how to leverage the strongest marketing psychology tactics to craft content that converts. And I will go as far as to make the crazy claim that you won't learn this stuff anywhere else. When it comes to the next step, I hope you get more rich visibility by leveraging what I believe to be the best hacks. The main objective with this step is to increase your engagement so that you can reach ideal clients within your network and ideal clients outside your network. And the crazy thing is that most of you watching this already have ideal clients sitting in your network and you don't even know that. You probably already know that and that's why you're here watching this video. And last but not least, I help you find and add a lot of buyers in your network and start conversations with them in this last session. The goal is to help you outsmart everyone in your industry when it comes to finding your buyers so that two, three, four months from now, you have an additional 5100 ideal clients sitting in your network who are very likely to come across your content on a weekly basis. Now, I'm going to be honest with you. I believe the main reason this program has such a high client success rate is because we tried to nail all these five steps. I feel like if you just nail one of them, you're going to be good. But if you nail all five. Oh my goodness. And the other reason I will say is that the work that I do with my clients is very personalized to what is going to make them succeed based on the challenges and objectives that they have. This is not one of those group coaching programs where there are ten people in there, and then you've got to figure out how to apply the information for yourself and your business. This is just you and me. That wasn't supposed to sound romantic, but you get the point. Fantastic. Now, before I dive into who this program is for, I want to address something that I have on my profile. I have in my headline the last LinkedIn coach you will ever need. I won't expand on that because it might come off as a little bit too arrogant if you don't know me. So many of the clients that I worked with in the past who got amazing results with my program, they had previously invested in other LinkedIn programs that didn't work very well, even though they were very, very valuable. And when we started working together, they started to see results quite fast. And that was actually the main inspiration behind that line, which I feel represents my brand very well. I wanted to expand on that because, again, I don't want it to come off as arrogant in any other way. So there you go. Now, let's talk about who this program is for. Is for coaches and entrepreneurs who already have a decent following and engagement on LinkedIn, even though some of the people that I've helped in the past started from scratch. But I feel like if you already have a good engagement, a good following, it's better than if you didn't have it. And if you're a leadership coach or a career coach, this program is perfect for you. You are the type of people who can benefit the most from such program. And I'm going to be quite clear in saying that some of my most successful clients come from all different industries, financial coaching, health coaching, mindset coaching, and entrepreneurs with different lines of products, especially if they are leadership coaches or career coaches, and even high performance coaches. All right, fantastic. If this sounds interesting, you can now schedule a 45 minutes strategy call where I get to learn more about your business, your objectives, what you're trying to achieve, to make sure that this program is a good fit. Because it might not, I don't know, you might have some unrealistic goals, I don't know. But if it's not a good fit, of course I'm not going to take you as a client. So, yeah, I definitely need to learn more about your business objectives and even get a feeling of what it would be like to work together. So, yeah, if this sounds interesting again, click the link below. On the other side. You're going to find the time to schedule and even answer a few questions before you do that. So, yeah, looking forward to speaking with you and I will see you on the other side. Cheers.",
   "words" : [ {
     "confidence" : 0.98553,
@@ -1147,7 +1147,7 @@
     "end" : 63008,
     "text" : "session"
   }, {
-    "confidence" : 0.99716,
+    "confidence" : 0.99717,
     "start" : 63056,
     "end" : 63240,
     "text" : "every"
@@ -1252,7 +1252,7 @@
     "end" : 69728,
     "text" : "LinkedIn"
   }, {
-    "confidence" : 0.99469,
+    "confidence" : 0.9947,
     "start" : 69776,
     "end" : 70200,
     "text" : "pro."
@@ -1362,7 +1362,7 @@
     "end" : 75408,
     "text" : "what"
   }, {
-    "confidence" : 0.74803,
+    "confidence" : 0.74801,
     "start" : 75416,
     "end" : 75512,
     "text" : "I'm"
@@ -1407,7 +1407,7 @@
     "end" : 77064,
     "text" : "to"
   }, {
-    "confidence" : 0.99642,
+    "confidence" : 0.99647,
     "start" : 77104,
     "end" : 77536,
     "text" : "digest"
@@ -1477,7 +1477,7 @@
     "end" : 80952,
     "text" : "And"
   }, {
-    "confidence" : 0.99863,
+    "confidence" : 0.99864,
     "start" : 80968,
     "end" : 81168,
     "text" : "you"
@@ -1517,7 +1517,7 @@
     "end" : 83336,
     "text" : "or"
   }, {
-    "confidence" : 0.97718,
+    "confidence" : 0.97716,
     "start" : 83360,
     "end" : 83784,
     "text" : "whatever"
@@ -1527,7 +1527,7 @@
     "end" : 84128,
     "text" : "app"
   }, {
-    "confidence" : 0.96231,
+    "confidence" : 0.96233,
     "start" : 84176,
     "end" : 84352,
     "text" : "we're"
@@ -1602,7 +1602,7 @@
     "end" : 87328,
     "text" : "We"
   }, {
-    "confidence" : 0.99201,
+    "confidence" : 0.99205,
     "start" : 87376,
     "end" : 87536,
     "text" : "are"
@@ -2847,7 +2847,7 @@
     "end" : 154322,
     "text" : "the"
   }, {
-    "confidence" : 0.95733,
+    "confidence" : 0.95732,
     "start" : 154338,
     "end" : 154586,
     "text" : "LinkedIn"
@@ -2857,7 +2857,7 @@
     "end" : 154970,
     "text" : "profile,"
   }, {
-    "confidence" : 0.99769,
+    "confidence" : 0.9977,
     "start" : 155042,
     "end" : 155202,
     "text" : "on"
@@ -2897,7 +2897,7 @@
     "end" : 157970,
     "text" : "discovery"
   }, {
-    "confidence" : 0.99117,
+    "confidence" : 0.99112,
     "start" : 158002,
     "end" : 158482,
     "text" : "call."
@@ -2922,7 +2922,7 @@
     "end" : 159706,
     "text" : "this"
   }, {
-    "confidence" : 0.99778,
+    "confidence" : 0.99777,
     "start" : 159730,
     "end" : 159842,
     "text" : "is"
@@ -2992,7 +2992,7 @@
     "end" : 163298,
     "text" : "an"
   }, {
-    "confidence" : 0.7981,
+    "confidence" : 0.79766,
     "start" : 163306,
     "end" : 163650,
     "text" : "ideal"
@@ -3067,7 +3067,7 @@
     "end" : 167930,
     "text" : "your"
   }, {
-    "confidence" : 0.92461,
+    "confidence" : 0.92462,
     "start" : 167962,
     "end" : 168290,
     "text" : "LinkedIn"
@@ -3092,7 +3092,7 @@
     "end" : 169282,
     "text" : "be"
   }, {
-    "confidence" : 0.66439,
+    "confidence" : 0.6644,
     "start" : 169298,
     "end" : 169538,
     "text" : "frank"
@@ -3107,12 +3107,12 @@
     "end" : 169906,
     "text" : "you,"
   }, {
-    "confidence" : 0.95027,
+    "confidence" : 0.95028,
     "start" : 169930,
     "end" : 170066,
     "text" : "I've"
   }, {
-    "confidence" : 0.99915,
+    "confidence" : 0.99914,
     "start" : 170090,
     "end" : 170226,
     "text" : "had"
@@ -3122,7 +3122,7 @@
     "end" : 170362,
     "text" : "more"
   }, {
-    "confidence" : 0.99195,
+    "confidence" : 0.99194,
     "start" : 170378,
     "end" : 170554,
     "text" : "than"
@@ -3137,7 +3137,7 @@
     "end" : 171530,
     "text" : "coaching"
   }, {
-    "confidence" : 0.51924,
+    "confidence" : 0.51884,
     "start" : 171562,
     "end" : 171946,
     "text" : "sessions"
@@ -3922,7 +3922,7 @@
     "end" : 214078,
     "text" : "within"
   }, {
-    "confidence" : 0.99893,
+    "confidence" : 0.99892,
     "start" : 214126,
     "end" : 214310,
     "text" : "your"
@@ -3972,7 +3972,7 @@
     "end" : 217406,
     "text" : "the"
   }, {
-    "confidence" : 0.78852,
+    "confidence" : 0.78853,
     "start" : 217430,
     "end" : 217686,
     "text" : "crazy"
@@ -4022,12 +4022,12 @@
     "end" : 219526,
     "text" : "already"
   }, {
-    "confidence" : 0.99828,
+    "confidence" : 0.99825,
     "start" : 219590,
     "end" : 219766,
     "text" : "have"
   }, {
-    "confidence" : 0.61517,
+    "confidence" : 0.61487,
     "start" : 219790,
     "end" : 220046,
     "text" : "ideal"
@@ -4042,7 +4042,7 @@
     "end" : 220918,
     "text" : "sitting"
   }, {
-    "confidence" : 0.99879,
+    "confidence" : 0.99878,
     "start" : 220966,
     "end" : 221126,
     "text" : "in"
@@ -4092,7 +4092,7 @@
     "end" : 223406,
     "text" : "You"
   }, {
-    "confidence" : 0.96537,
+    "confidence" : 0.9653,
     "start" : 223430,
     "end" : 223614,
     "text" : "probably"
@@ -4122,7 +4122,7 @@
     "end" : 224646,
     "text" : "that's"
   }, {
-    "confidence" : 0.95923,
+    "confidence" : 0.95861,
     "start" : 224670,
     "end" : 224782,
     "text" : "why"
@@ -7077,7 +7077,7 @@
     "end" : 383592,
     "text" : "a"
   }, {
-    "confidence" : 0.98787,
+    "confidence" : 0.98805,
     "start" : 383608,
     "end" : 383984,
     "text" : "client."
@@ -7087,7 +7087,7 @@
     "end" : 384304,
     "text" : "So,"
   }, {
-    "confidence" : 0.84515,
+    "confidence" : 0.84509,
     "start" : 384344,
     "end" : 384496,
     "text" : "yeah,"
@@ -7097,7 +7097,7 @@
     "end" : 384656,
     "text" : "I"
   }, {
-    "confidence" : 0.6716,
+    "confidence" : 0.67423,
     "start" : 384680,
     "end" : 385040,
     "text" : "definitely"
@@ -7137,7 +7137,7 @@
     "end" : 386384,
     "text" : "business"
   }, {
-    "confidence" : 0.68485,
+    "confidence" : 0.68483,
     "start" : 386464,
     "end" : 386944,
     "text" : "objectives"
@@ -7147,7 +7147,7 @@
     "end" : 387112,
     "text" : "and"
   }, {
-    "confidence" : 0.99678,
+    "confidence" : 0.99677,
     "start" : 387128,
     "end" : 387280,
     "text" : "even"
@@ -7192,7 +7192,7 @@
     "end" : 388456,
     "text" : "be"
   }, {
-    "confidence" : 0.99763,
+    "confidence" : 0.99761,
     "start" : 388480,
     "end" : 388688,
     "text" : "like"
@@ -7247,7 +7247,7 @@
     "end" : 391592,
     "text" : "again,"
   }, {
-    "confidence" : 0.89883,
+    "confidence" : 0.8974,
     "start" : 391648,
     "end" : 391816,
     "text" : "click"
@@ -7262,7 +7262,7 @@
     "end" : 392160,
     "text" : "link"
   }, {
-    "confidence" : 0.99898,
+    "confidence" : 0.99897,
     "start" : 392192,
     "end" : 392576,
     "text" : "below."
@@ -7282,12 +7282,12 @@
     "end" : 393184,
     "text" : "other"
   }, {
-    "confidence" : 0.9986,
+    "confidence" : 0.99858,
     "start" : 393224,
     "end" : 393376,
     "text" : "side."
   }, {
-    "confidence" : 0.96936,
+    "confidence" : 0.96943,
     "start" : 393400,
     "end" : 393552,
     "text" : "You're"
@@ -7337,7 +7337,7 @@
     "end" : 396200,
     "text" : "even"
   }, {
-    "confidence" : 0.8472,
+    "confidence" : 0.84524,
     "start" : 396232,
     "end" : 396440,
     "text" : "answer"
@@ -7382,7 +7382,7 @@
     "end" : 398056,
     "text" : "So,"
   }, {
-    "confidence" : 0.97573,
+    "confidence" : 0.97564,
     "start" : 398080,
     "end" : 398352,
     "text" : "yeah,"
@@ -7462,12 +7462,12 @@
     "end" : 401760,
     "text" : "side."
   }, {
-    "confidence" : 0.96609,
+    "confidence" : 0.96585,
     "start" : 401832,
     "end" : 401984,
     "text" : "Cheers."
   } ],
-  "confidence" : 0.947507332439678,
+  "confidence" : 0.947505455764075,
   "audio_duration" : 403.0,
   "punctuate" : true,
   "format_text" : true,
