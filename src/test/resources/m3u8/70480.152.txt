@@ -1,13 +1,13 @@
 {
-  "id" : "ef182e7a-6495-4b53-9a3b-9386983bc8a0",
+  "id" : "d935dac4-ceb5-42af-a6e6-7d9d65f4336a",
   "language_model" : "assemblyai_default",
   "acoustic_model" : "assemblyai_default",
   "status" : "completed",
   "language_code" : "en_us",
-  "audio_url" : "https://cdn.assemblyai.com/upload/1631a791-2f34-48d3-aacb-c6adeb9b7fc1",
+  "audio_url" : "https://cdn.assemblyai.com/upload/a84e9f17-658f-47d0-9ab4-183b6df68ecc",
   "text" : "Hey, man, this is really interesting. That's amazing, man. It's the first time ever that I post a video and that two people are directly reacting and reaching out to me without me doing anything, actually, except connecting with one and. Yeah. And asking about my program quite directly. Wow. Yeah. I think I understand now where all of this is going.",
   "words" : [ {
-    "confidence" : 0.84662,
+    "confidence" : 0.84568,
     "start" : 120,
     "end" : 208,
     "text" : "Hey,"
@@ -22,7 +22,7 @@
     "end" : 926,
     "text" : "this"
   }, {
-    "confidence" : 0.99829,
+    "confidence" : 0.99828,
     "start" : 950,
     "end" : 1086,
     "text" : "is"
@@ -37,17 +37,17 @@
     "end" : 1830,
     "text" : "interesting."
   }, {
-    "confidence" : 0.88614,
+    "confidence" : 0.88615,
     "start" : 1902,
     "end" : 2174,
     "text" : "That's"
   }, {
-    "confidence" : 0.99831,
+    "confidence" : 0.9983,
     "start" : 2214,
     "end" : 2510,
     "text" : "amazing,"
   }, {
-    "confidence" : 0.92327,
+    "confidence" : 0.92378,
     "start" : 2542,
     "end" : 2854,
     "text" : "man."
@@ -67,17 +67,17 @@
     "end" : 3646,
     "text" : "first"
   }, {
-    "confidence" : 0.99928,
+    "confidence" : 0.99929,
     "start" : 3710,
     "end" : 4078,
     "text" : "time"
   }, {
-    "confidence" : 0.9994,
+    "confidence" : 0.99941,
     "start" : 4166,
     "end" : 4558,
     "text" : "ever"
   }, {
-    "confidence" : 0.99701,
+    "confidence" : 0.99702,
     "start" : 4646,
     "end" : 4846,
     "text" : "that"
@@ -97,7 +97,7 @@
     "end" : 5342,
     "text" : "a"
   }, {
-    "confidence" : 0.99959,
+    "confidence" : 0.9996,
     "start" : 5358,
     "end" : 5774,
     "text" : "video"
@@ -107,7 +107,7 @@
     "end" : 6606,
     "text" : "and"
   }, {
-    "confidence" : 0.92299,
+    "confidence" : 0.92271,
     "start" : 6790,
     "end" : 7182,
     "text" : "that"
@@ -132,7 +132,7 @@
     "end" : 9046,
     "text" : "directly"
   }, {
-    "confidence" : 0.88319,
+    "confidence" : 0.88239,
     "start" : 9150,
     "end" : 9678,
     "text" : "reacting"
@@ -147,7 +147,7 @@
     "end" : 10206,
     "text" : "reaching"
   }, {
-    "confidence" : 0.99937,
+    "confidence" : 0.99938,
     "start" : 10230,
     "end" : 10366,
     "text" : "out"
@@ -187,17 +187,17 @@
     "end" : 13434,
     "text" : "actually,"
   }, {
-    "confidence" : 0.93645,
+    "confidence" : 0.93601,
     "start" : 13854,
     "end" : 14294,
     "text" : "except"
   }, {
-    "confidence" : 0.91527,
+    "confidence" : 0.91586,
     "start" : 14334,
     "end" : 14870,
     "text" : "connecting"
   }, {
-    "confidence" : 0.99894,
+    "confidence" : 0.99896,
     "start" : 14942,
     "end" : 15150,
     "text" : "with"
@@ -222,42 +222,42 @@
     "end" : 16326,
     "text" : "And"
   }, {
-    "confidence" : 0.99728,
+    "confidence" : 0.99726,
     "start" : 16350,
     "end" : 16630,
     "text" : "asking"
   }, {
-    "confidence" : 0.99746,
+    "confidence" : 0.99749,
     "start" : 16662,
     "end" : 16854,
     "text" : "about"
   }, {
-    "confidence" : 0.99651,
+    "confidence" : 0.9965,
     "start" : 16894,
     "end" : 17046,
     "text" : "my"
   }, {
-    "confidence" : 0.99277,
+    "confidence" : 0.99266,
     "start" : 17070,
     "end" : 17374,
     "text" : "program"
   }, {
-    "confidence" : 0.85724,
+    "confidence" : 0.8564,
     "start" : 17454,
     "end" : 17694,
     "text" : "quite"
   }, {
-    "confidence" : 0.9427,
+    "confidence" : 0.94273,
     "start" : 17734,
     "end" : 18366,
     "text" : "directly."
   }, {
-    "confidence" : 0.96599,
+    "confidence" : 0.96563,
     "start" : 18470,
     "end" : 19154,
     "text" : "Wow."
   }, {
-    "confidence" : 0.75036,
+    "confidence" : 0.74949,
     "start" : 20334,
     "end" : 20782,
     "text" : "Yeah."
@@ -302,7 +302,7 @@
     "end" : 25006,
     "text" : "of"
   }, {
-    "confidence" : 0.99806,
+    "confidence" : 0.99805,
     "start" : 25030,
     "end" : 25166,
     "text" : "this"
@@ -317,7 +317,7 @@
     "end" : 25454,
     "text" : "going."
   } ],
-  "confidence" : 0.960871129032258,
+  "confidence" : 0.960815322580645,
   "audio_duration" : 26.0,
   "punctuate" : true,
   "format_text" : true,

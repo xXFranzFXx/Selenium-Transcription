@@ -13,9 +13,12 @@ import util.FfmpegUtil;
 import util.FileUtil;
 import util.TranscriptUtil;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 
 public class M3u8Tests extends BaseTest {
     @BeforeClass
@@ -23,6 +26,26 @@ public class M3u8Tests extends BaseTest {
         System.setProperty("browser", "chrome-headless");
         FileUtil.clearDirectory("m3u8Dir");
     }
+    Executor executor = Executors.newFixedThreadPool(2);
+    CompletableFuture<Void> createMp3 (String url, String name) {
+        return CompletableFuture.supplyAsync(() -> {
+            try {
+               return FfmpegUtil.convertToMp3(url, name);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }, executor);
+    }
+    CompletableFuture<Void> transcribeMp3 () {
+        return CompletableFuture.supplyAsync(() -> {
+            try {
+              return  TranscriptUtil.transcribeM3u8();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
+    }
+    //CompletableFuture complete()
     @Test(description = "extract audio output from video stream and create audio transcription")
     public void convertM3u8() {
         final CompletableFuture<Void> convertAudio = new CompletableFuture<>();
@@ -51,5 +74,35 @@ public class M3u8Tests extends BaseTest {
         devTools.clearListeners();
         devTools.close();
     }
+    //CompletableFuture .thenRunAsync()
+    @Test(description = "extract audio output from video stream and create audio transcription")
+    public void convertM3u8CF() {
+        getDriver().get(System.getProperty("m3u8Player"));
+        DevTools devTools = ((HasDevTools) getDriver()).getDevTools();
+        devTools.createSession();
+        devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
+        devTools.addListener(Network.requestWillBeSent(), requestConsumer -> {
+            Request req = requestConsumer.getRequest();
+            String exclude = System.getProperty("exclude");
+            List<String> links = new ArrayList<>();
+            if (!req.getUrl().startsWith(exclude) && req.getUrl().endsWith(".m3u8")) {
+                links.add(requestConsumer.getRequestId().toString());
+            }
+            for (String i : links) {
+                try {
+                    System.out.println("Video stream file: " + i);
+                    createMp3(req.getUrl(), i).thenRunAsync(this::transcribeMp3, executor).get();
+                    Assert.assertTrue(FileUtil.checkTxtFiles("m3u8Dir"));
+                } catch (Exception e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        });
+        M3u8Page m3u8Page = new M3u8Page(getDriver());
+        m3u8Page.pause(2);
+        devTools.clearListeners();
+        devTools.close();
+    }
+
 }
 
