@@ -68,7 +68,7 @@ public class M3u8Tests extends BaseTest {
             }
         });
         M3u8Page m3u8Page = new M3u8Page(getDriver());
-        m3u8Page.pause(2);
+        m3u8Page.pause(5);
         devTools.clearListeners();
         devTools.close();
     }
@@ -97,7 +97,7 @@ public class M3u8Tests extends BaseTest {
             }
         });
         M3u8Page m3u8Page = new M3u8Page(getDriver());
-        m3u8Page.pause(2);
+        m3u8Page.pause(10);
         devTools.clearListeners();
         devTools.close();
     }
