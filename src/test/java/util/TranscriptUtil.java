@@ -101,6 +101,15 @@ public class TranscriptUtil {
         System.out.println(futureTranscript.get());
         return futureTranscript;
     }
+    CompletableFuture<Void> convert = audioLinks.thenAccept(list -> {
+        for (String l: list) {
+            try {
+                convertTranscriptToFileFromLink(l, "asyncTranscribeFromLinks");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    });
     public static Void transcribeM3u8() throws IOException {
         File[] audioFiles = FileUtil.getAudioFiles("m3u8Dir");
         for (File file : audioFiles) {
