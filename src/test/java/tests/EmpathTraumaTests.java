@@ -24,5 +24,4 @@ public class EmpathTraumaTests extends BaseTest {
         List<String> transcript = empathTraumaPage.visitIframeSource().clickTranscript().findTranscripts();
         Assert.assertEquals(transcript.size(), maxExcerpts);
     }
-
 }
