@@ -100,7 +100,6 @@ public class YoutubePageTests extends BaseTest {
                     resBody.completeExceptionally(e);
                 }
         });
-
         youtubePage = new YoutubePage(getDriver());
         youtubePage.clickCCBtn();
         devTools.clearListeners();
