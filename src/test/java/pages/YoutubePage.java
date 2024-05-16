@@ -153,5 +153,4 @@ public class YoutubePage extends BasePage{
         actions.pause(Duration.ofSeconds(2)).perform();
         return this;
     }
-
 }
