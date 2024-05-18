@@ -37,5 +37,4 @@ public class M3u8Page extends BasePage{
         actions.pause(Duration.ofSeconds(seconds)).perform();
         return this;
     }
-
 }
