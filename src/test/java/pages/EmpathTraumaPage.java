@@ -2,13 +2,10 @@ package pages;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static io.restassured.RestAssured.get;
-import static io.restassured.RestAssured.given;
 public class EmpathTraumaPage extends BasePage {
     @FindBy(css = "#transcript-list.TranscriptList_lazy_module_list__d5b2f860")
     private WebElement transcriptList;
