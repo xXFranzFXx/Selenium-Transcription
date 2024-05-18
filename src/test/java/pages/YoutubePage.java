@@ -1,6 +1,5 @@
 package pages;
 
-import org.checkerframework.checker.signature.qual.FqBinaryName;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
