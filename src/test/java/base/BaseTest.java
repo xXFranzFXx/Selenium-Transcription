@@ -47,10 +47,6 @@ public class BaseTest {
     public static WebDriver getDriver() {
         return threadDriver.get();
     }
-    public static void navigateToLogin(String baseURL) {
-        getDriver().get(baseURL);
-    }
-
     @BeforeMethod
     public static void setupBrowser() throws MalformedURLException {
         threadDriver.set(pickBrowser(System.getProperty("browser")));
