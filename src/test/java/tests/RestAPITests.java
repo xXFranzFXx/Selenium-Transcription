@@ -5,14 +5,10 @@ import io.restassured.response.Response;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import util.AssemblyAITranscriber;
 import util.TranscriptUtil;
 
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Path;
 import java.util.List;
-import java.util.Optional;
 
 import static io.restassured.RestAssured.given;
 public class RestAPITests extends BaseTest {
