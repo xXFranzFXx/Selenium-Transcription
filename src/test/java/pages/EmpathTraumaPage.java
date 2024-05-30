@@ -66,7 +66,6 @@ public class EmpathTraumaPage extends BasePage {
         System.out.println(transcriptInnerText);
         return transcriptInnerText;
     }
-
      public EmpathTraumaPage visitIframeSource() {
         String iframeSrc = getAttribute(iframe, "src");
         driver.switchTo().newWindow(WindowType.WINDOW);
