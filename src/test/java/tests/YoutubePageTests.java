@@ -32,7 +32,6 @@ public class YoutubePageTests extends BaseTest {
     public void clearFiles() throws IOException {
         FileUtil.clearDirectory("youtubeDir");
     }
-
     @Test(description = "Get transcript text from every audio excerpt and write to a file", dataProvider="YoutubeData", dataProviderClass = DataProviderUtil.class)
     public void clickTranscriptButton(String youtubeURL) throws IOException {
         getDriver().get(youtubeURL);
@@ -42,7 +41,6 @@ public class YoutubePageTests extends BaseTest {
         TranscriptUtil.convertTranscriptToFile(transcriptList, "youtube/youtubeTranscript.txt");
         Assert.assertEquals(youtubePage.createMap().keySet().size(), youtubePage.getTimeStamps());
     }
-
     @Test(description = "Get the closed captions from network response and write to file", dataProvider="YoutubeData", dataProviderClass = DataProviderUtil.class)
     public void writeClosedCaptionsToFile(String youtubeURL){
         getDriver().get(youtubeURL);
