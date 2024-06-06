@@ -32,6 +32,7 @@ import org.testng.annotations.*;
 import util.listeners.TestListener;
 
 import java.io.File;
+import java.net.URISyntaxException;
 import java.util.Optional;
 import java.net.MalformedURLException;
 import java.net.URI;
@@ -48,14 +49,14 @@ public class BaseTest {
         return threadDriver.get();
     }
     @BeforeMethod
-    public static void setupBrowser() throws MalformedURLException {
+    public static void setupBrowser() throws MalformedURLException, URISyntaxException {
         threadDriver.set(pickBrowser(System.getProperty("browser")));
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
         getDriver().manage().deleteAllCookies();
     }
 
-    public static  WebDriver pickBrowser(String browser) throws MalformedURLException {
+    public static  WebDriver pickBrowser(String browser) throws MalformedURLException, URISyntaxException {
         DesiredCapabilities caps = new DesiredCapabilities();
         String gridURL = System.getProperty("gridUrl");
         switch (browser) {
@@ -119,7 +120,7 @@ public class BaseTest {
                 return decorator2.decorate(driver);
         }
     }
-    public static WebDriver lambdaTest() throws MalformedURLException {
+    public static WebDriver lambdaTest() throws MalformedURLException, URISyntaxException {
         String username = System.getProperty("lambdaTestUser");
         String authKey = System.getProperty("lambdaTestKey");
         String hub = "@hub.lambdatest.com/wd/hub";
@@ -131,8 +132,8 @@ public class BaseTest {
         caps.setCapability("build", "TestNG with Java");
         caps.setCapability("name", BaseTest.class.getName());
         caps.setCapability("plugin", "java-testNG");
-        return new RemoteWebDriver(new URL("https://" + username + ":" + authKey + hub), caps);
-    }
+        URL url = new URI("https://" + username + ":" + authKey + hub).toURL();
+        return new RemoteWebDriver(url, caps);    }
     public static HashMap<String, Object> setDownloadDir() {
         HashMap<String, Object> chromePref = new HashMap<>();
         chromePref.put("download.default_directory", System.getProperty("java.io.tmpdir"));
