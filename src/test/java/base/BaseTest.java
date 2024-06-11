@@ -91,7 +91,7 @@ public class BaseTest {
                 EventFiringDecorator<WebDriver> decorator = new EventFiringDecorator<>(eventListener);
                 return decorator.decorate(driver);
           default:
-                WebDriverManager.chromedriver().driverVersion("123").setup();
+                WebDriverManager.chromedriver().driverVersion("124").setup();
                 ChromeDriverService service2 = new ChromeDriverService.Builder().usingAnyFreePort().build();
                 ChromeOptions options2 = new ChromeOptions();
                 options2.addArguments("--remote-allow-origins=*", "--disable-notifications", "--start-maximized", "--incognito");
