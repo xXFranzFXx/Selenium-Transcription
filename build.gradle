@@ -2,7 +2,7 @@ plugins {
     id 'groovy'
 }
 
-group = 'app.koel.qa'
+group = 'app.sileniumtranscription.qa'
 version = '1.0-SNAPSHOT'
 
 repositories {
