@@ -13,7 +13,7 @@ dependencies {
     testImplementation 'io.rest-assured:rest-assured:5.4.0'
     implementation 'org.apache.groovy:groovy:4.0.14'
     implementation 'org.testng:testng:7.6.1'
-    implementation 'org.seleniumhq.selenium:selenium-java:4.19.1'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.25.0'
     testImplementation 'io.github.bonigarcia:webdrivermanager:5.8.0'
     implementation 'org.apache.poi:poi-ooxml:5.2.3'
     testImplementation 'com.aventstack:extentreports:5.0.9'
