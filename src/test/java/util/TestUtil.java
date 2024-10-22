@@ -28,5 +28,4 @@ public class TestUtil extends BaseTest {
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
     }
-
 }
