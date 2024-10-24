@@ -20,7 +20,6 @@ public class ExtentManager {
             createInstance();
         return extent;
     }
-
     public static ExtentReports createInstance() {
         platform = getCurrentPlatform();
         String fileName = getReportFileLocation(platform);
