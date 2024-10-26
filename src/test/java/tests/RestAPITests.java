@@ -35,7 +35,7 @@ public class RestAPITests extends BaseTest {
     public void writeFileTextWitTimeStamps() throws IOException {
         TranscriptUtil.convertTranscriptToFileWithTimestamps(getTranscript());
     }
-//    @Test
+    @Test(enabled = false)
     public void transcribeFromLink(String link, String fileName) throws IOException {
       TranscriptUtil.convertTranscriptToFileFromLink(link, fileName);
     }
