@@ -24,11 +24,7 @@ public class M3u8Page extends BasePage{
         return driver.findElement(By.tagName("video")).getShadowRoot()
                 .findElements(By.cssSelector(".image-overlay-line .image-overlay-text"));
     }
-    //shadow root is closed, so this won't work
-    public List<String> topRowText() {
-        List<WebElement> subTitles = subtitleRows();
-        return  subTitles.stream().map(WebElement::getText).collect(Collectors.toList());
-    }
+   
     public M3u8Page clickPlay() {
         WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(playBtn.get(0)));
         findElement(btn).click();
