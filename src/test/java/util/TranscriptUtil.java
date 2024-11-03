@@ -80,7 +80,6 @@ public class TranscriptUtil {
         }
         return result;
     }
-
     public static CompletableFuture<List<String>> audioLinks = CompletableFuture.supplyAsync(() -> {
             try {
                 return readFileToList("audioLinks");
@@ -88,7 +87,6 @@ public class TranscriptUtil {
                 throw new RuntimeException(e);
             }
         });
-
     public static CompletableFuture<Void> asyncTranscribeLinks() throws ExecutionException, InterruptedException {
         CompletableFuture<Void> futureTranscript = new CompletableFuture<>();
             try {
