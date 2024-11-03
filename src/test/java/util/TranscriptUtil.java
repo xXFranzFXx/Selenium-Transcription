@@ -30,7 +30,7 @@ public class TranscriptUtil {
         while (matcher.find()) {
             allMatches.add(matcher.group(0));
         }
-        allMatches.remove(0);
+        allMatches.removeFirst();
         String finalString = String.join("", allMatches);
         return allMatches;
     }
