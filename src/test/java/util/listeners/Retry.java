@@ -6,9 +6,7 @@ import org.testng.ITestResult;
 
 import java.io.IOException;
 
-
 public class Retry implements IRetryAnalyzer {
-
 
     private int count  = 0;
     private static int maxTry = 1; //Run the failed test 2 times
@@ -34,6 +32,5 @@ public class Retry implements IRetryAnalyzer {
     public void extendReportsFailOperations(ITestResult iTestResult) throws IOException {
         TestListener.test.get().log(Status.FAIL, "Test Failed").addScreenCaptureFromPath("/reports/extent-reports/screenshots", iTestResult.getMethod().getMethodName() + ".png");
     }
-
 }
 
