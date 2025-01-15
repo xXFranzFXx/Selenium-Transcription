@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 import pages.EmpathTraumaPage;
 
 import java.util.List;
-
 public class EmpathTraumaTests extends BaseTest {
     EmpathTraumaPage empathTraumaPage;
     private final int maxExcerpts = 869;
