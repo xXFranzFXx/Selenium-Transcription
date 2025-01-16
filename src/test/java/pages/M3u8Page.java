@@ -8,7 +8,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.time.Duration;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class M3u8Page extends BasePage{
     @FindBy(css = "video[id^='wistia_simple_video' and type='video/m3u8']")
