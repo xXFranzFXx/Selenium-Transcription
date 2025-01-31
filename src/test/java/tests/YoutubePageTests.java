@@ -81,7 +81,6 @@ public class YoutubePageTests extends BaseTest {
                    requestId.complete(requestConsumer.getRequestId());
                 }
             });
-
             devTools.addListener(Network.responseReceived(), responseReceived -> {
                 try {
                     List<String> ccContent = new ArrayList<>();
