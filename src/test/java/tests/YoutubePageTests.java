@@ -73,7 +73,6 @@ public class YoutubePageTests extends BaseTest {
         DevTools devTools = ((HasDevTools) getDriver()).getDevTools();
         devTools.createSession();
         devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
-
             devTools.addListener(Network.requestWillBeSent(), requestConsumer -> {
                 Request req = requestConsumer.getRequest();
 
