@@ -75,7 +75,6 @@ public class YoutubePageTests extends BaseTest {
         devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
             devTools.addListener(Network.requestWillBeSent(), requestConsumer -> {
                 Request req = requestConsumer.getRequest();
-
                 if (req.getUrl().contains("timedtext")) {
                    requestId.complete(requestConsumer.getRequestId());
                 }
