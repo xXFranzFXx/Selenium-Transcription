@@ -105,7 +105,6 @@ public class YoutubePage extends BasePage{
         WebElement ccSetings = settingsMenu.get(2);
         return ccSetings.getText();
     }
-
     public Map<String, String> createMap() {
         return IntStream.range(0, getTimeStamps())
                 .boxed()
