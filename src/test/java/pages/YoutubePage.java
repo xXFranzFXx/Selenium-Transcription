@@ -130,7 +130,6 @@ public class YoutubePage extends BasePage{
         return findElement(transcriptLang).getText();
     }
     public YoutubePage clickCCBtn(){
-
         if (isSubscribeBtnVisible()) {
             actions.sendKeys(Keys.SPACE).pause(Duration.ofSeconds(7)).perform();
             WebElement skp = wait.pollingEvery(Duration.ofSeconds(7))
